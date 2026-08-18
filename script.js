@@ -39,90 +39,61 @@ window.addEventListener('load', () => {
 });
 
 
-// =================== HEADER SCROLL ===================
-const header = document.getElementById('header');
-const scrollTopBtn = document.getElementById('scroll-top');
-const logoImg = document.querySelector('.logo-img');
-window.addEventListener('scroll', () => {
-    const isScrolled = window.scrollY > 40;
-    if (header) {
-        header.classList.toggle('scrolled', isScrolled);
-    }
-    if (logoImg) {
-        logoImg.src = 'assets/pixon-logo.png';
-    }
-    if (scrollTopBtn) {
-        scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
-    }
-}, { passive: true });
-
-// =================== MOBILE MENU ===================
-const hamburger = document.querySelector('.hamburger');
-const mobileMenu = document.getElementById('mobile-menu');
-if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => {
-        const open = mobileMenu.classList.toggle('open');
-        hamburger.classList.toggle('active', open);
-        hamburger.setAttribute('aria-expanded', open);
-    });
-    
-    // Close button logic
+// =================== HEADER SCROLL / MOBILE MENU / SCROLL TO TOP ===================
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
     const closeBtn = document.getElementById('mobile-menu-close-btn');
-    if (closeBtn) {
+    const header = document.getElementById('header');
+
+    if (hamburger && mobileMenu) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.add('active');
+            mobileMenu.classList.add('open');
+            document.body.style.overflow = 'hidden';
+            hamburger.setAttribute('aria-expanded', 'true');
+        });
+    }
+
+    if (closeBtn && mobileMenu && hamburger) {
         closeBtn.addEventListener('click', () => {
-            mobileMenu.classList.remove('open');
             hamburger.classList.remove('active');
+            mobileMenu.classList.remove('open');
+            document.body.style.overflow = '';
             hamburger.setAttribute('aria-expanded', 'false');
         });
     }
-    
-    // Close on mobile link click
-    document.querySelectorAll('.mobile-nav-link, .mobile-menu-cta .btn').forEach(link => {
-        // Exclude dropdown toggles from closing the whole menu
-        if (link.classList.contains('mobile-dropdown-toggle')) return;
 
-        link.addEventListener('click', () => {
-            mobileMenu.classList.remove('open');
-            hamburger.classList.remove('active');
-            hamburger.setAttribute('aria-expanded', 'false');
-        });
-    });
-
-    // Mobile Dropdown Toggle
-    const mobileDropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    mobileDropdownToggles.forEach(toggle => {
+    // Mobile dropdown toggles
+    const dropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+    dropdownToggles.forEach(toggle => {
         toggle.addEventListener('click', (e) => {
-            const clickedChevron = e.target && typeof e.target.closest === 'function'
-                ? e.target.closest('.dropdown-chevron')
-                : null;
-            const label = toggle.textContent.replace(/\s+/g, ' ').trim();
-            const destination = label.startsWith('Services')
-                ? 'solutions.html'
-                : label.startsWith('Products')
-                    ? 'products.html'
-                    : null;
-            const isCurrentSectionPage = destination === currentPage;
-
-            if (destination && !clickedChevron && !isCurrentSectionPage) {
-                e.preventDefault();
-                mobileMenu.classList.remove('open');
-                hamburger.classList.remove('active');
-                hamburger.setAttribute('aria-expanded', 'false');
-                window.location.href = destination;
-                return;
-            }
-
             e.preventDefault();
-            const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-            toggle.setAttribute('aria-expanded', !isExpanded);
             const submenu = toggle.nextElementSibling;
             if (submenu && submenu.classList.contains('mobile-submenu')) {
+                const isOpen = submenu.classList.contains('open');
                 submenu.classList.toggle('open');
+                toggle.setAttribute('aria-expanded', !isOpen);
             }
         });
     });
-}
+
+    // Header scroll
+    if (header) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        }, { passive: true });
+        // Trigger once on load
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        }
+    }
+});
+// ==================================================================================
 
 // =================== SCROLL REVEAL ===================
 const revealEls = document.querySelectorAll('.reveal');
@@ -137,12 +108,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 revealEls.forEach(el => revealObserver.observe(el));
 
 // =================== SCROLL TO TOP ===================
-const scrollTopElement = document.getElementById('scroll-top');
-if (scrollTopElement) {
-    scrollTopElement.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-}
+// NOTE: Handled by components.js (button lives inside shared footer.html)
 
 // =================== TESTIMONIALS SLIDER ===================
 const track = document.getElementById('testimonialsTrack');
@@ -343,55 +309,217 @@ if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        const nameVal = document.getElementById('contact-name').value;
-        const emailVal = document.getElementById('contact-email').value;
+        // Clear existing errors
+        contactForm.querySelectorAll('.error-msg').forEach(el => el.remove());
+        contactForm.querySelectorAll('.form-input').forEach(el => el.classList.remove('error'));
+
+        let isValid = true;
+
+        const showError = (input, msg) => {
+            input.classList.add('error');
+            const formGroup = input.closest('.form-group');
+            // Only add one error message per form-group to avoid duplicates
+            if (formGroup && !formGroup.querySelector('.error-msg')) {
+                const errorSpan = document.createElement('span');
+                errorSpan.className = 'error-msg';
+                errorSpan.innerText = msg;
+                formGroup.appendChild(errorSpan);
+            }
+            isValid = false;
+        };
+
+        const nameInput = document.getElementById('contact-name');
+        const companyInput = document.getElementById('contact-company');
+        const emailInput = document.getElementById('contact-email');
+        const phoneInput = document.getElementById('contact-phone');
+        const locInput = document.getElementById('contact-location');
+        const messageInput = document.getElementById('contact-message');
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const phoneRegex = /^[0-9\s\-\+\(\)]{7,20}$/;
+
+        if (!nameInput.value.trim() || nameInput.value.trim().length < 2) {
+            showError(nameInput, 'Please enter a valid full name.');
+        }
+        if (!companyInput.value.trim()) {
+            showError(companyInput, 'Please enter your company name.');
+        }
+        if (!emailRegex.test(emailInput.value.trim())) {
+            showError(emailInput, 'Please enter a valid email address.');
+        }
+        if (!phoneRegex.test(phoneInput.value.trim())) {
+            showError(phoneInput, 'Please enter a valid mobile number.');
+        }
+        if (!locInput.value.trim()) {
+            showError(locInput, 'Please enter your location.');
+        }
+        if (catSelect && !catSelect.value) {
+            showError(catSelect, 'Please select a screen type.');
+        }
+        if (catSelect && catSelect.value === 'other' && otherInput && !otherInput.value.trim()) {
+            showError(otherInput, 'Please specify your screen type.');
+        }
+        if (!messageInput.value.trim() || messageInput.value.trim().length < 10) {
+            showError(messageInput, 'Please provide more details about your inquiry (min 10 chars).');
+        }
+
+        if (!isValid) return;
+
+        const nameVal = nameInput.value.trim();
+        const emailVal = emailInput.value.trim();
+        const companyVal = companyInput.value.trim();
+        const phoneVal = phoneInput.value.trim();
+        const locVal = locInput.value.trim();
+        const messageVal = messageInput.value.trim();
+        
+        const countryInput = document.getElementById('contact-country-code');
+        const countryVal = countryInput ? countryInput.value.trim() : '';
+        const fullPhone = countryVal + ' ' + phoneVal;
         
         let catVal = catSelect ? catSelect.options[catSelect.selectedIndex].text : '';
         if (catSelect && catSelect.value === 'other' && otherInput && otherInput.value.trim() !== '') {
             catVal = otherInput.value.trim();
         }
 
-        // Create custom notification block
-        const container = contactForm.parentNode;
+        const submitBtn = contactForm.querySelector('button[type="submit"]');
+        const originalBtnText = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<span>Submitting...</span>';
+        submitBtn.disabled = true;
 
-        // Check if there is an existing notification and remove it
-        const oldNotify = container.querySelector('.form-notification');
-        if (oldNotify) {
-            oldNotify.remove();
+        const formData = new FormData();
+        formData.append('name', nameVal);
+        formData.append('company', companyVal);
+        formData.append('email', emailVal);
+        formData.append('phone', fullPhone);
+        formData.append('country', locVal);
+        formData.append('service', catVal);
+        formData.append('message', messageVal);
+        formData.append('page', window.location.href);
+
+        if (uploadedFiles && uploadedFiles.length > 0) {
+            formData.append('attachment', uploadedFiles[0]);
         }
 
-        const notification = document.createElement('div');
-        notification.className = 'form-notification';
-        notification.innerHTML = `
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0">
-                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                <polyline points="22 4 12 14.01 9 11.01" />
-            </svg>
-            <span>Thank you, <strong>${nameVal}</strong>! Your request for <strong>${catVal}</strong> has been received. Our certified engineers will contact you at <strong>${emailVal}</strong> within 2 hours.</span>
-        `;
+        fetch('submit_lead.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
 
-        // Insert notification above the form title or inside container top
-        container.insertBefore(notification, container.firstChild);
+            const container = contactForm.parentNode;
+            const oldNotify = container.querySelector('.form-notification');
+            if (oldNotify) {
+                oldNotify.remove();
+            }
 
-        // Clear all fields and file previews
-        contactForm.reset();
-        if (otherInput) {
-            otherInput.style.display = 'none';
-            otherInput.removeAttribute('required');
-            otherInput.value = '';
-        }
-        if (cancelBtn) {
-            cancelBtn.style.display = 'none';
-        }
-        if (catSelect) {
-            catSelect.style.display = 'block';
-        }
-        uploadedFiles = [];
-        renderFilePreviews();
+            const notification = document.createElement('div');
+            notification.className = 'form-notification';
+            
+            if (data.success) {
+                window.location.href = 'thankyou.php?redirect=' + encodeURIComponent(window.location.pathname + window.location.search);
+            } else {
+                notification.style.background = 'rgba(239, 68, 68, 0.1)';
+                notification.style.border = '1px solid rgba(239, 68, 68, 0.2)';
+                notification.innerHTML = `
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0; color: #ef4444;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                    <span>Error: ${data.message}</span>
+                `;
+            }
 
-        // Smooth scroll to notification top
-        notification.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            container.insertBefore(notification, container.firstChild);
+            notification.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        })
+        .catch(error => {
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+            console.error('Error submitting form:', error);
+            showCustomErrorAlert('An error occurred while submitting the form. Please try again.');
+        });
     });
+
+    // Custom Country Select Logic
+    const customSelectWrapper = document.getElementById('custom-country-select-wrapper');
+    const selectTrigger = document.getElementById('country-select-trigger');
+    const selectDropdown = document.getElementById('country-select-dropdown');
+    const selectValueContainer = document.getElementById('country-select-value');
+    const hiddenInput = document.getElementById('contact-country-code');
+
+    if (customSelectWrapper && selectTrigger && selectDropdown && hiddenInput && typeof countryList !== 'undefined') {
+        // Populate dropdown
+        selectDropdown.innerHTML = '';
+        
+        // Define default country
+        const defaultCode = "+971";
+        
+        countryList.forEach(country => {
+            const isSelected = country.code === defaultCode;
+            const optionHTML = `
+                <div class="country-option ${isSelected ? 'selected' : ''}" data-value="${country.code}" data-flag="${country.flag}">
+                    <span class="country-check">✓</span>
+                    <span class="country-flag">${country.flag}</span>
+                    <span class="country-code" style="opacity: 0.8; font-size: 14px;">${country.code}</span>
+                </div>
+            `;
+            selectDropdown.insertAdjacentHTML('beforeend', optionHTML);
+        });
+
+        const options = selectDropdown.querySelectorAll('.country-option');
+
+        selectTrigger.addEventListener('click', (e) => {
+            e.stopPropagation();
+            customSelectWrapper.classList.toggle('open');
+            
+            // Scroll selected item into view
+            if (customSelectWrapper.classList.contains('open')) {
+                const selected = selectDropdown.querySelector('.country-option.selected');
+                if (selected) {
+                    // Small delay to ensure display:block is applied before scrolling
+                    setTimeout(() => {
+                        selected.scrollIntoView({ block: 'nearest' });
+                    }, 10);
+                }
+            }
+        });
+
+        options.forEach(option => {
+            option.addEventListener('click', (e) => {
+                e.stopPropagation();
+                // Remove selected class from all
+                options.forEach(opt => opt.classList.remove('selected'));
+                
+                // Add selected class to clicked
+                option.classList.add('selected');
+
+                // Update hidden input
+                const val = option.getAttribute('data-value');
+                const flag = option.getAttribute('data-flag');
+                hiddenInput.value = val;
+
+                // Update trigger text (just flag and code as before)
+                selectValueContainer.innerHTML = `
+                    <span class="country-flag">${flag}</span>
+                    <span class="country-code">${val}</span>
+                `;
+
+                // Close dropdown
+                customSelectWrapper.classList.remove('open');
+            });
+        });
+
+        // Close on click outside
+        document.addEventListener('click', (e) => {
+            if (!customSelectWrapper.contains(e.target)) {
+                customSelectWrapper.classList.remove('open');
+            }
+        });
+    }
 }
 
 // =================== FILE UPLOAD HANDLER ===================
@@ -449,14 +577,14 @@ if (fileInput && fileUploadArea && filePreviewContainer) {
 
             // Check size
             if (file.size > maxSize) {
-                alert(`"${file.name}" exceeds the 10 MB limit.`);
+                showCustomErrorAlert(`"${file.name}" exceeds the 10 MB limit.`);
                 return;
             }
 
             // Check extension
             const ext = '.' + file.name.split('.').pop().toLowerCase();
             if (!allowedTypes.includes(ext)) {
-                alert(`"${file.name}" is not an allowed file type.`);
+                showCustomErrorAlert(`"${file.name}" is not an allowed file type.`);
                 return;
             }
 
@@ -618,6 +746,17 @@ document.addEventListener("DOMContentLoaded", () => {
             const mapUrl = tab.getAttribute("data-map");
             const mapLink = tab.getAttribute("data-map-link");
 
+            // Hide details card if MEA HQ or Saudi Office is selected
+            const locationId = tab.getAttribute("data-location");
+            const activeCard = document.querySelector(".active-location-card");
+            if (activeCard) {
+                if (locationId === "mea-hq" || locationId === "saudi-office") {
+                    activeCard.style.display = "none";
+                } else {
+                    activeCard.style.display = "block";
+                }
+            }
+
             // Update text fields
             if (activeTitle) activeTitle.textContent = title;
             if (activeAddress) activeAddress.textContent = address;
@@ -627,7 +766,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Update primary phone call button
             if (phoneBtn) {
                 phoneBtn.href = `tel:${phone.replace(/\s+/g, '')}`;
-                if (phoneLabel) phoneLabel.textContent = `Call: ${phone}`;
+                if (phoneLabel) phoneLabel.textContent = phone;
             }
 
             // Update alternate phone button
@@ -635,7 +774,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (phoneAlt) {
                     phoneAltBtn.href = `tel:${phoneAlt.replace(/\s+/g, '')}`;
                     phoneAltBtn.style.display = "inline-flex";
-                    if (phoneAltLabel) phoneAltLabel.textContent = `Call Alt: ${phoneAlt}`;
+                    if (phoneAltLabel) phoneAltLabel.textContent = phoneAlt;
                 } else {
                     phoneAltBtn.style.display = "none";
                 }
@@ -725,3 +864,414 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+// =================== CONTACT MODAL FORM SUBMISSION ===================
+const contactModalForm = document.getElementById('contact-modal-form-submit');
+if (contactModalForm) {
+    const catSelectModal = document.getElementById('contact-modal-category');
+    const otherInputModal = document.getElementById('contact-modal-category-other');
+    const cancelBtnModal = document.getElementById('cancel-other-btn-modal');
+
+    if (catSelectModal && otherInputModal && cancelBtnModal) {
+        catSelectModal.addEventListener('change', () => {
+            if (catSelectModal.value === 'other') {
+                catSelectModal.style.display = 'none';
+                otherInputModal.style.display = 'block';
+                cancelBtnModal.style.display = 'block';
+                otherInputModal.setAttribute('required', '');
+                otherInputModal.focus();
+            }
+        });
+
+        cancelBtnModal.addEventListener('click', () => {
+            otherInputModal.style.display = 'none';
+            cancelBtnModal.style.display = 'none';
+            catSelectModal.style.display = 'block';
+            catSelectModal.value = '';
+            otherInputModal.removeAttribute('required');
+            otherInputModal.value = '';
+            catSelectModal.focus();
+        });
+    }
+
+    contactModalForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Clear existing errors
+        contactModalForm.querySelectorAll('.error-msg').forEach(el => el.remove());
+        contactModalForm.querySelectorAll('.form-input').forEach(el => el.classList.remove('error'));
+
+        let isValid = true;
+
+        const showError = (input, msg) => {
+            input.classList.add('error');
+            const formGroup = input.closest('.form-group');
+            if (formGroup && !formGroup.querySelector('.error-msg')) {
+                const errorSpan = document.createElement('span');
+                errorSpan.className = 'error-msg';
+                errorSpan.innerText = msg;
+                formGroup.appendChild(errorSpan);
+            }
+            isValid = false;
+        };
+
+        const nameInput = document.getElementById('contact-modal-name');
+        const companyInput = document.getElementById('contact-modal-company');
+        const emailInput = document.getElementById('contact-modal-email');
+        const phoneInput = document.getElementById('contact-modal-phone');
+        const locInput = document.getElementById('contact-modal-location');
+        const messageInput = document.getElementById('contact-modal-message');
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const phoneRegex = /^[0-9\s\-\+\(\)]{7,20}$/;
+
+        if (!nameInput.value.trim() || nameInput.value.trim().length < 2) {
+            showError(nameInput, 'Please enter a valid full name.');
+        }
+        if (!companyInput.value.trim()) {
+            showError(companyInput, 'Please enter your company name.');
+        }
+        if (!emailRegex.test(emailInput.value.trim())) {
+            showError(emailInput, 'Please enter a valid email address.');
+        }
+        if (!phoneRegex.test(phoneInput.value.trim())) {
+            showError(phoneInput, 'Please enter a valid mobile number.');
+        }
+        if (!locInput.value.trim()) {
+            showError(locInput, 'Please enter your location.');
+        }
+        if (catSelectModal && !catSelectModal.value) {
+            showError(catSelectModal, 'Please select a screen type.');
+        }
+        if (catSelectModal && catSelectModal.value === 'other' && otherInputModal && !otherInputModal.value.trim()) {
+            showError(otherInputModal, 'Please specify your screen type.');
+        }
+        if (!messageInput.value.trim() || messageInput.value.trim().length < 10) {
+            showError(messageInput, 'Please provide more details about your inquiry (min 10 chars).');
+        }
+
+        if (!isValid) return;
+
+        const nameVal = nameInput.value.trim();
+        const emailVal = emailInput.value.trim();
+        const companyVal = companyInput.value.trim();
+        const phoneVal = phoneInput.value.trim();
+        const locVal = locInput.value.trim();
+        const messageVal = messageInput.value.trim();
+        
+        const countryInputModal = document.getElementById('contact-modal-country-code');
+        const countryValModal = countryInputModal ? countryInputModal.value.trim() : '';
+        const fullPhone = countryValModal + ' ' + phoneVal;
+        
+        let catVal = catSelectModal ? catSelectModal.options[catSelectModal.selectedIndex].text : '';
+        if (catSelectModal && catSelectModal.value === 'other' && otherInputModal && otherInputModal.value.trim() !== '') {
+            catVal = otherInputModal.value.trim();
+        }
+
+        const submitBtn = contactModalForm.querySelector('button[type="submit"]');
+        const originalBtnText = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<span>Submitting...</span>';
+        submitBtn.disabled = true;
+
+        const formData = new FormData();
+        formData.append('name', nameVal);
+        formData.append('company', companyVal);
+        formData.append('email', emailVal);
+        formData.append('phone', fullPhone);
+        formData.append('country', locVal);
+        formData.append('service', catVal);
+        formData.append('message', messageVal);
+        formData.append('page', window.location.href);
+
+        if (uploadedFilesModal && uploadedFilesModal.length > 0) {
+            formData.append('attachment', uploadedFilesModal[0]);
+        }
+
+        fetch('submit_lead.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+
+            const container = contactModalForm.parentNode;
+            const oldNotify = container.querySelector('.form-notification');
+            if (oldNotify) {
+                oldNotify.remove();
+            }
+
+            const notification = document.createElement('div');
+            notification.className = 'form-notification';
+            
+            if (data.success) {
+                window.location.href = 'thankyou.php?redirect=' + encodeURIComponent(window.location.pathname + window.location.search);
+            } else {
+                notification.style.background = 'rgba(239, 68, 68, 0.1)';
+                notification.style.border = '1px solid rgba(239, 68, 68, 0.2)';
+                notification.innerHTML = `
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="flex-shrink:0; color: #ef4444;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                    <span>Error: ${data.message}</span>
+                `;
+            }
+
+            container.insertBefore(notification, container.firstChild);
+            notification.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        })
+        .catch(error => {
+            submitBtn.innerHTML = originalBtnText;
+            submitBtn.disabled = false;
+            console.error('Error submitting modal form:', error);
+            showCustomErrorAlert('An error occurred while submitting the form. Please try again.');
+        });
+    });
+
+    // Custom Country Select Logic Modal
+    const customSelectWrapperModal = document.getElementById('custom-country-select-wrapper-modal');
+    const selectTriggerModal = document.getElementById('country-select-trigger-modal');
+    const selectDropdownModal = document.getElementById('country-select-dropdown-modal');
+    const selectValueContainerModal = document.getElementById('country-select-value-modal');
+    const hiddenInputModal = document.getElementById('contact-modal-country-code');
+
+    if (customSelectWrapperModal && selectTriggerModal && selectDropdownModal && hiddenInputModal && typeof countryList !== 'undefined') {
+        selectDropdownModal.innerHTML = '';
+        const defaultCode = "+971";
+        
+        countryList.forEach(country => {
+            const isSelected = country.code === defaultCode;
+            const optionHTML = `
+                <div class="country-option ${isSelected ? 'selected' : ''}" data-value="${country.code}" data-flag="${country.flag}">
+                    <span class="country-check">✓</span>
+                    <span class="country-flag">${country.flag}</span>
+                    <span class="country-code" style="opacity: 0.8; font-size: 14px;">${country.code}</span>
+                </div>
+            `;
+            selectDropdownModal.insertAdjacentHTML('beforeend', optionHTML);
+        });
+
+        const optionsModal = selectDropdownModal.querySelectorAll('.country-option');
+
+        selectTriggerModal.addEventListener('click', (e) => {
+            e.stopPropagation();
+            customSelectWrapperModal.classList.toggle('open');
+            
+            if (customSelectWrapperModal.classList.contains('open')) {
+                const selected = selectDropdownModal.querySelector('.country-option.selected');
+                if (selected) {
+                    setTimeout(() => {
+                        selected.scrollIntoView({ block: 'nearest' });
+                    }, 10);
+                }
+            }
+        });
+
+        optionsModal.forEach(option => {
+            option.addEventListener('click', (e) => {
+                e.stopPropagation();
+                optionsModal.forEach(opt => opt.classList.remove('selected'));
+                option.classList.add('selected');
+
+                const val = option.getAttribute('data-value');
+                const flag = option.getAttribute('data-flag');
+                hiddenInputModal.value = val;
+
+                selectValueContainerModal.innerHTML = `
+                    <span class="country-flag">${flag}</span>
+                    <span class="country-code">${val}</span>
+                `;
+
+                customSelectWrapperModal.classList.remove('open');
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!customSelectWrapperModal.contains(e.target)) {
+                customSelectWrapperModal.classList.remove('open');
+            }
+        });
+    }
+}
+
+// =================== FILE UPLOAD HANDLER MODAL ===================
+let uploadedFilesModal = [];
+const fileInputModal = document.getElementById('contact-modal-files');
+const fileUploadAreaModal = document.getElementById('file-upload-modal-area');
+const filePreviewContainerModal = document.getElementById('file-preview-modal');
+
+if (fileInputModal && fileUploadAreaModal && filePreviewContainerModal) {
+    fileUploadAreaModal.addEventListener('click', () => {
+        fileInputModal.click();
+    });
+
+    fileInputModal.style.pointerEvents = 'none';
+
+    fileInputModal.addEventListener('change', (e) => {
+        handleFilesModal(e.target.files);
+        fileInputModal.value = ''; 
+    });
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+        fileUploadAreaModal.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            fileUploadAreaModal.classList.add('drag-over');
+        });
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+        fileUploadAreaModal.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            fileUploadAreaModal.classList.remove('drag-over');
+        });
+    });
+
+    fileUploadAreaModal.addEventListener('drop', (e) => {
+        const dt = e.dataTransfer;
+        if (dt && dt.files) {
+            handleFilesModal(dt.files);
+        }
+    });
+
+    function handleFilesModal(fileList) {
+        const maxSize = 10 * 1024 * 1024;
+        const allowedTypes = ['.pdf', '.doc', '.docx', '.jpg', '.jpeg', '.png'];
+
+        Array.from(fileList).forEach(file => {
+            if (uploadedFilesModal.some(f => f.name === file.name && f.size === file.size)) return;
+            if (file.size > maxSize) {
+                showCustomErrorAlert(`"${file.name}" exceeds the 10 MB limit.`);
+                return;
+            }
+            const ext = '.' + file.name.split('.').pop().toLowerCase();
+            if (!allowedTypes.includes(ext)) {
+                showCustomErrorAlert(`"${file.name}" is not an allowed file type.`);
+                return;
+            }
+            uploadedFilesModal.push(file);
+        });
+
+        renderFilePreviewsModal();
+    }
+
+    function renderFilePreviewsModal() {
+        filePreviewContainerModal.innerHTML = '';
+        uploadedFilesModal.forEach((file, index) => {
+            const ext = file.name.split('.').pop().toLowerCase();
+            const isImage = ['jpg', 'jpeg', 'png'].includes(ext);
+            const icon = isImage ? '🖼️' : '📄';
+            const size = formatFileSizeModal(file.size);
+
+            const item = document.createElement('div');
+            item.className = 'file-preview-item';
+            item.innerHTML = `
+                <div class="file-preview-icon">${icon}</div>
+                <div class="file-preview-info">
+                    <div class="file-preview-name">${file.name}</div>
+                    <div class="file-preview-size">${size}</div>
+                </div>
+                <button type="button" class="file-preview-remove" data-index="${index}" aria-label="Remove file">&times;</button>
+            `;
+            filePreviewContainerModal.appendChild(item);
+        });
+
+        filePreviewContainerModal.querySelectorAll('.file-preview-remove').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const idx = parseInt(e.currentTarget.getAttribute('data-index'));
+                uploadedFilesModal.splice(idx, 1);
+                renderFilePreviewsModal();
+            });
+        });
+    }
+
+    function formatFileSizeModal(bytes) {
+        if (bytes < 1024) return bytes + ' B';
+        if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+        return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+    }
+}
+
+// =================== CUSTOM SUCCESS ALERT ===================
+function showCustomSuccessAlert(message) {
+    const modalHTML = `
+        <div id="custom-success-modal" style="position: fixed; inset: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); z-index: 99999; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s ease;">
+            <div style="background: white; padding: 40px; border-radius: 20px; text-align: center; max-width: 400px; width: 90%; transform: scale(0.9); transition: transform 0.3s ease; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);">
+                <div style="width: 60px; height: 60px; border-radius: 50%; background: #dcfce7; color: #10b981; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <h3 style="margin: 0 0 10px; font-size: 22px; color: #111827; font-weight: 700;">Success!</h3>
+                <p style="color: #6b7280; font-size: 15px; margin-bottom: 24px; line-height: 1.5;">${message}</p>
+                <button id="custom-success-btn" style="background: #18315B; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; width: 100%; transition: background 0.2s;">
+                    Continue
+                </button>
+            </div>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
+    const modal = document.getElementById('custom-success-modal');
+    const inner = modal.querySelector('div');
+    const btn = document.getElementById('custom-success-btn');
+
+    // Trigger animation
+    setTimeout(() => {
+        modal.style.opacity = '1';
+        inner.style.transform = 'scale(1)';
+    }, 10);
+
+    btn.addEventListener('click', () => {
+        modal.style.opacity = '0';
+        inner.style.transform = 'scale(0.9)';
+        setTimeout(() => {
+            window.location.reload();
+        }, 300);
+    });
+}
+
+// =================== CUSTOM ERROR ALERT ===================
+function showCustomErrorAlert(message) {
+    const modalHTML = `
+        <div id="custom-error-modal" style="position: fixed; inset: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(5px); z-index: 99999; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s ease;">
+            <div style="background: white; padding: 40px; border-radius: 20px; text-align: center; max-width: 400px; width: 90%; transform: scale(0.9); transition: transform 0.3s ease; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);">
+                <div style="width: 60px; height: 60px; border-radius: 50%; background: #fee2e2; color: #ef4444; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </div>
+                <h3 style="margin: 0 0 10px; font-size: 22px; color: #111827; font-weight: 700;">Error</h3>
+                <p style="color: #6b7280; font-size: 15px; margin-bottom: 24px; line-height: 1.5;">${message}</p>
+                <button id="custom-error-btn" style="background: #18315B; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; width: 100%; transition: background 0.2s;">
+                    OK
+                </button>
+            </div>
+        </div>
+    `;
+
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
+    const modal = document.getElementById('custom-error-modal');
+    const inner = modal.querySelector('div');
+    const btn = document.getElementById('custom-error-btn');
+
+    setTimeout(() => {
+        modal.style.opacity = '1';
+        inner.style.transform = 'scale(1)';
+    }, 10);
+
+    btn.addEventListener('click', () => {
+        modal.style.opacity = '0';
+        inner.style.transform = 'scale(0.9)';
+        setTimeout(() => {
+            modal.remove();
+        }, 300);
+    });
+}

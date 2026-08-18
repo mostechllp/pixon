@@ -1,0 +1,132 @@
+2026-07-21 10:59:57
+POST variables: Array
+(
+    [name] => Test
+    [email] => test@example.com
+    [phone] => 123
+    [service] => Test
+    [message] => test message
+)
+
+FILES array: Array
+(
+    [attachment] => Array
+        (
+            [name] => test.pdf
+            [full_path] => test.pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\phpC4FB.tmp
+            [error] => 0
+            [size] => 16
+        )
+
+)
+
+Upload successful: uploads/leads/6a5f350d3c078_test.pdf
+2026-07-21 11:03:52
+POST variables: Array
+(
+    [name] => Jeevan Vishnu
+    [company] => sdfsfd
+    [email] => jeevanvishnu@gmail.com
+    [phone] => +971 5435345
+    [country] => sdfsdfsdfsdf
+    [service] => Seamless LCD Video Wall
+    [message] => sdfasdfsdfsdfsfsgfgdfdsffd
+    [page] => http://localhost:8000/projects.php
+)
+
+FILES array: Array
+(
+    [attachment] => Array
+        (
+            [name] => OLED Screen Catalogue-CEOLED 251025(1).pdf
+            [full_path] => OLED Screen Catalogue-CEOLED 251025(1).pdf
+            [type] => application/pdf
+            [tmp_name] => C:\xampp\tmp\php5AD5.tmp
+            [error] => 0
+            [size] => 7831375
+        )
+
+)
+
+Upload successful: uploads/leads/6a5f35f856e80_OLEDScreenCatalogue-CEOLED2510251.pdf
+2026-07-21 12:20:55
+POST variables: Array
+(
+    [name] => Jeevan Vishnu
+    [company] => sdfsfd
+    [email] => jeevanvishnu21@gmail.com
+    [phone] => +971 5435345
+    [country] => sdfsdfsdfsdf
+    [service] => Outdoor LED Screen / Billboard
+    [message] => sdfsdfsdfsfgdfgdfdgsdfgdfsdfgsdgdfgdf
+    [page] => http://localhost:8000/projects.php
+)
+
+FILES array: Array
+(
+)
+
+2026-07-21 13:28:43
+POST variables: Array
+(
+    [name] => hello
+    [company] => hello
+    [email] => hello@gmail.com
+    [phone] => +971 5465778
+    [country] => kerela
+    [service] => Outdoor LED Screen / Billboard
+    [message] => sdfsffsdfsfsffsfs
+    [page] => https://green-newt-817476.hostingersite.com/products.php
+)
+
+FILES array: Array
+(
+)
+
+2026-07-21 14:08:28
+POST variables: Array
+(
+    [name] => Anu
+    [company] => Infotain
+    [email] => anumostech@gmail.com
+    [phone] => +91 8987789878
+    [country] => India
+    [service] => I need to get a led screen
+    [message] => This is just for testing purpose
+    [page] => https://green-newt-817476.hostingersite.com/installation.php
+)
+
+FILES array: Array
+(
+    [attachment] => Array
+        (
+            [name] => WhatsApp Image 2026-07-14 at 7.46.15 AM.jpeg
+            [full_path] => WhatsApp Image 2026-07-14 at 7.46.15 AM.jpeg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/php4ZnVQZ
+            [error] => 0
+            [size] => 444110
+        )
+
+)
+
+Upload successful: uploads/leads/6a5f7d5c66d38_WhatsAppImage2026-07-14at7.46.15AM.jpeg
+2026-07-22 06:20:32
+POST variables: Array
+(
+    [name] => test
+    [company] => test
+    [email] => test@gmail.com
+    [phone] => +971 8767876712
+    [country] => dsa
+    [service] => dsadas
+    [message] => asaSDSADASDASD
+    [page] => https://green-newt-817476.hostingersite.com/services.php
+)
+
+FILES array: Array
+(
+)
+
