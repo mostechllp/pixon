@@ -8,7 +8,7 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Outdoor Customised LED Screen - PIXON TECHNOLOGIES</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -22,7 +22,7 @@
 <!-- ============================================================
              HERO SECTION - Product Banner
              ============================================================ -->
-<section aria-label="Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 <div class="hero-mesh"></div>
@@ -74,7 +74,7 @@
 <svg fill="none" height="40" stroke="var(--accent-cyan)" stroke-width="1.5" viewbox="0 0 24 24" width="40"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"></path></svg>
 </div>
 <h3 class="feature-title">Thermal Management</h3>
-<p class="feature-desc">Intelligent aluminum heat sinks and forced air keep components cool in +60°C climates.</p>
+<p class="feature-desc">Intelligent aluminum heat sinks and forced air keep components cool in +60C climates.</p>
 </div>
 <!-- Feature 4 -->
 <div class="feature-card reveal reveal-delay-3">
@@ -209,32 +209,32 @@
 <div class="bento-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">
-<img alt="Retail Store LED Display" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Apple IOS17 Launch Event - Hossam Moustafa.jpg"/>
+<img alt="Retail Store LED Display" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Apple IOS17 Launch Event - Hossam Moustafa.webp"/>
 
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Corporate Lobby Display" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Canada Science and Technology Museum.jpg"/>
+<img alt="Corporate Lobby Display" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Canada Science and Technology Museum.webp"/>
 
 </div>
 <!-- Gallery Image 3 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Shopping Mall Installation" src="assetss/Outdoor Products/Outdoor Customised LED Screen/CityCenterDC gets an artsy entry.jpg"/>
+<img alt="Shopping Mall Installation" src="assetss/Outdoor Products/Outdoor Customised LED Screen/CityCenterDC gets an artsy entry.webp"/>
 
 </div>
 <!-- Gallery Image 4 -->
 <div class="bento-item reveal reveal-delay-3">
-<img alt="Event Venue Display" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Commercial LED Display_ An Essential Advertising Tool.jpg"/>
+<img alt="Event Venue Display" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Commercial LED Display_ An Essential Advertising Tool.webp"/>
 
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-4">
-<img alt="Additional Installation View" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Outdoor LED screens voor Goossens Waalwijk.jpg"/>
+<img alt="Additional Installation View" src="assetss/Outdoor Products/Outdoor Customised LED Screen/Outdoor LED screens voor Goossens Waalwijk.webp"/>
 
 </div>
 <!-- Gallery Image 6 -->
 <div class="bento-item reveal reveal-delay-5">
-<img alt="Detailed View" src="assetss/Outdoor Products/Outdoor Customised LED Screen/The Ultimate Guide to P2 LED Walls_ Features, Benefits and Applications -.jpg"/>
+<img alt="Detailed View" src="assetss/Outdoor Products/Outdoor Customised LED Screen/The Ultimate Guide to P2 LED Walls_ Features, Benefits and Applications -.webp"/>
 
 </div>
 </div>

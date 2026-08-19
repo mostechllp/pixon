@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Project - PIXON TECHNOLOGIES</title>
-    <link rel="icon" href="../assets/fav-logo.jpg-removebg-preview.png" type="image/png">
+    <link rel="icon" href="../assets/fav-logo.jpg-removebg-preview.webp" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         /* (Same CSS as add_project.php) */
@@ -219,7 +219,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            <img src="../assets/pixon-bg.png" alt="PIXON TECHNOLOGIES" style="height: 40px; width: auto; transform: scale(3.5); transform-origin: left center;">
+            <img src="../assets/pixon-bg.webp" alt="PIXON TECHNOLOGIES" style="height: 40px; width: auto; transform: scale(3.5); transform-origin: left center;">
         </div>
         <div class="nav-links">
             <a href="dashboard.php">Leads</a>

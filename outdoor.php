@@ -48,7 +48,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta content="PIXON TECHNOLOGIES solutions, commercial AV Solutions, corporate boardrooms Middle East &amp; Africa, digital signage Dubai, command centers Riyadh" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Outdoor LED Screens for High-Impact Visual Displays | Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -66,7 +66,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 #hero, #hero * { border: none !important; }
 .section-label::before { display: none !important; }
 </style>
-<div class="hero-bg" style="background: url('assets/product-bg.jpg') center/cover no-repeat;">
+<div class="hero-bg" style="background: url('assets/product-bg.webp') center/cover no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%);"></div>
 </div>
 <div class="hero-content">
@@ -140,7 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Right: Visual -->
 <div class="about-visual-showcase reveal reveal-delay-2">
 <div class="about-showcase-frame" style="height: 100%; border-radius: 24px; overflow: hidden; border: 1px solid var(--glass-border);">
-<img alt="Outdoor LED Applications" src="assetss/services/outdoor led/Versatile_Outdoor_Display_Solutions.png" style="width: 100%; height: 100%; object-fit: cover;"/>
+<img alt="Outdoor LED Applications" src="assetss/services/outdoor led/Versatile_Outdoor_Display_Solutions.webp" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
 </div>
 </div>
@@ -254,7 +254,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Left: Visual -->
 <div class="about-visual-showcase reveal reveal-delay-2">
 <div class="about-showcase-frame" style="height: 100%; border-radius: 24px; overflow: hidden; border: 1px solid var(--glass-border);">
-<img alt="Outdoor LED Features" src="assetss/services/outdoor led/WhatsApp%20Image%202026-07-20%20at%205.57.03%20PM.jpeg" style="width: 100%; height: 100%; object-fit: cover;"/>
+<img alt="Outdoor LED Features" src="assetss/services/outdoor led/WhatsApp%20Image%202026-07-20%20at%205.57.03%20PM.webp" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
 </div>
 </div>

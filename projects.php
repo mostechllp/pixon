@@ -22,7 +22,6 @@ require_once 'admin/config/database.php';
       gtag('config', 'G-1DXF42V841');
     </script>
     <meta charset="utf-8" />
-    <base href="/" />
     <link rel="canonical" href="https://www.pixonglobal.com/projects" />
     <script type="application/ld+json">
     {
@@ -50,7 +49,7 @@ require_once 'admin/config/database.php';
         name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>Unlocking Project Success: Strategies for Every Manager</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
+    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
 
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />

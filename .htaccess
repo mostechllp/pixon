@@ -2,6 +2,17 @@ RewriteEngine On
 RewriteBase /
 
 # ----------------------------------------------------------------------
+# SERVE WEBP & PROPER MIME TYPES
+# ----------------------------------------------------------------------
+<IfModule mod_mime.c>
+    AddType image/webp .webp
+    AddType image/webp .WEBP
+    AddType image/svg+xml .svg .svgz
+    AddType image/png .png
+    AddType image/jpeg .jpg .jpeg
+</IfModule>
+
+# ----------------------------------------------------------------------
 # 0. PREVENT REDIRECT LOOPS ON INTERNAL SUB-REQUESTS
 # ----------------------------------------------------------------------
 RewriteCond %{ENV:REDIRECT_STATUS} !^$
@@ -83,3 +94,6 @@ RewriteRule ^(.+)\.php$ /$1 [R=301,L,NE]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+?)/?$ $1.php [L]
+
+# Custom 404 Error Document
+ErrorDocument 404 /404.php

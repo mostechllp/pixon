@@ -32,7 +32,7 @@
 <meta content="immersive projection, 3D projection mapping, interactive projection, experiential design, edge blending, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Immersive Projection Solutions for Engaging Visual Experiences</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -50,7 +50,7 @@
 #hero, #hero * { border: none !important; }
 .section-label::before { display: none !important; }
 </style>
-<div class="hero-bg" style="background: url('assets/product-bg.jpg') center/cover no-repeat;">
+<div class="hero-bg" style="background: url('assets/product-bg.webp') center/cover no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%);">
 </div>
 </div>
@@ -129,7 +129,7 @@
 <!-- Right: Visual -->
 <div class="about-visual-showcase reveal reveal-delay-2">
 <div class="about-showcase-frame" style="height: 100%; border-radius: 24px; overflow: hidden; border: 1px solid var(--glass-border);">
-<img alt="Immersive Projection Applications" src="assetss/immersive/immersive-360degree-projection-room-showcasing-vibrant-forest-landscape-where-visitors-experience-nature-through-surrounding-digital-visuals_72482-18851.png" style="width: 100%; height: 100%; object-fit: cover;"/>
+<img alt="Immersive Projection Applications" src="assetss/immersive/immersive-360degree-projection-room-showcasing-vibrant-forest-landscape-where-visitors-experience-nature-through-surrounding-digital-visuals_72482-18851.webp" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
 </div>
 </div>
@@ -225,7 +225,7 @@
 <!-- Left: Visual -->
 <div class="about-visual-showcase reveal reveal-delay-2">
 <div class="about-showcase-frame" style="height: 100%; border-radius: 24px; overflow: hidden; border: 1px solid var(--glass-border);">
-<img alt="Immersive Projection Technology" src="assetss/immersive/Immersive-Projection-26-1024x771.jpg" style="width: 100%; height: 100%; object-fit: cover;"/>
+<img alt="Immersive Projection Technology" src="assetss/immersive/Immersive-Projection-26-1024x771.webp" style="width: 100%; height: 100%; object-fit: cover;"/>
 </div>
 </div>
 </div>

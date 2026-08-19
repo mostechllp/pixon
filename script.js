@@ -1,3 +1,27 @@
+// =================== UNIVERSAL IMAGE WEBP FALLBACK ===================
+document.addEventListener('error', function (e) {
+    if (e.target && e.target.tagName === 'IMG') {
+        const img = e.target;
+        if (!img.dataset.fallbackTried && img.src && img.src.indexOf('.webp') !== -1) {
+            img.dataset.fallbackTried = '1';
+            const originalSrc = img.src;
+            const pngSrc = originalSrc.replace(/\.webp($|\?)/i, '.png$1');
+            const testImg = new Image();
+            testImg.onload = function () { img.src = pngSrc; };
+            testImg.onerror = function () {
+                const jpgSrc = originalSrc.replace(/\.webp($|\?)/i, '.jpg$1');
+                const testJpg = new Image();
+                testJpg.onload = function () { img.src = jpgSrc; };
+                testJpg.onerror = function () {
+                    img.src = originalSrc.replace(/\.webp($|\?)/i, '.jpeg$1');
+                };
+                testJpg.src = jpgSrc;
+            };
+            testImg.src = pngSrc;
+        }
+    }
+}, true);
+
 // =================== PAGE LOADER ===================
 window.addEventListener('load', () => {
     const pageLoader = document.getElementById('page-loader');

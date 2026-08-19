@@ -32,7 +32,7 @@
 <meta content="retail display solutions, digital signage for retail, shop window LED, interactive kiosks, in-store video walls, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Retail Display Solutions for Engaging Customer Experiences</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -504,7 +504,7 @@
 <main>
 <!-- Hero Section -->
 <section aria-label="Retail Display Solutions hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px;">
-<div class="hero-bg" style="background: url('assets/product-bg.jpg') center/cover no-repeat;">
+<div class="hero-bg" style="background: url('assets/product-bg.webp') center/cover no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%);"></div>
 </div>
 <div class="hero-content">
@@ -604,7 +604,7 @@
 <div class="showcase-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 1" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.01%20PM%20(1).jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 1" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.01%20PM%20(1).webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -613,7 +613,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 2" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.01%20PM.jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 2" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.01%20PM.webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -622,7 +622,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 3" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.02%20PM.jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 3" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.02%20PM.webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -631,7 +631,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 4" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.03%20PM%20(1).jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 4" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.03%20PM%20(1).webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -640,7 +640,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 5" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.03%20PM.jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 5" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.03%20PM.webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -649,7 +649,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 6" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.04%20PM.jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 6" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.04%20PM.webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -658,7 +658,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 7" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.05%20PM%20(1).jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 7" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.05%20PM%20(1).webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -667,7 +667,7 @@
 </div>
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 8" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.05%20PM.jpeg" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 8" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.05%20PM.webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
@@ -723,7 +723,7 @@
 <div class="container">
 <div class="adv-split">
 <div class="adv-image-stack reveal">
-<img alt="Smart Retail Environment In Action" src="assetss/Retails/imgi_22_6840f982781e5.jpg"/>
+<img alt="Smart Retail Environment In Action" src="assetss/Retails/imgi_22_6840f982781e5.webp"/>
 </div>
 <div class="adv-content reveal reveal-delay-2">
 <div class="section-label">Key Advantages</div>

@@ -814,7 +814,7 @@ button {
     content: '';
     position: absolute;
     inset: 0;
-    background: url('assets/imgi_130_amped-digital_lotte-duty-free.jpg') center/cover;
+    background: url('assets/imgi_130_amped-digital_lotte-duty-free.webp') center/cover;
     opacity: 0.15;
     z-index: 0;
 }

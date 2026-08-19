@@ -32,7 +32,7 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Custom Kinetic LED Screen &amp; Wall Displays - Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -210,7 +210,7 @@
 <!-- ============================================================
      HERO SECTION
      ============================================================ -->
-<section aria-label="Hero Section" id="hero" style="display:flex;flex-direction:column;justify-content:center;height:auto!important;min-height:60vh!important;padding-top:120px;padding-bottom:60px;position:relative;background-image:url('assets/product-bg.jpg');background-size:cover;background-position:center;background-repeat:no-repeat;">
+<section aria-label="Hero Section" id="hero" style="display:flex;flex-direction:column;justify-content:center;height:auto!important;min-height:60vh!important;padding-top:120px;padding-bottom:60px;position:relative;background-image:url('assets/product-bg.webp');background-size:cover;background-position:center;background-repeat:no-repeat;">
 <div style="position:absolute;inset:0;background:rgba(3,7,18,0.78);z-index:0;"></div>
 <div class="hero-bg" style="position:absolute;inset:0;z-index:1;">
 <div class="hero-mesh"></div>
@@ -354,27 +354,27 @@
 
 </div>
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Kinetic LED Market Application" src="assetss/innovative led screens/kinetic led screen/Market-and-application-of-kinetic-LED-screen-www.bibild.com-1.jpg"/>
+<img alt="Kinetic LED Market Application" src="assetss/innovative led screens/kinetic led screen/Market-and-application-of-kinetic-LED-screen-www.bibild.com-1.webp"/>
 
 </div>
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Kinetic LED Installation View" src="assetss/innovative led screens/kinetic led screen/imgi_47_202301131636063314.jpg"/>
+<img alt="Kinetic LED Installation View" src="assetss/innovative led screens/kinetic led screen/imgi_47_202301131636063314.webp"/>
 
 </div>
 <div class="bento-item reveal reveal-delay-3">
-<img alt="3D Kinetic LED Wall" src="assetss/innovative led screens/kinetic led screen/3D-Kinetic-LED-Wall.jpg"/>
+<img alt="3D Kinetic LED Wall" src="assetss/innovative led screens/kinetic led screen/3D-Kinetic-LED-Wall.webp"/>
 
 </div>
 <div class="bento-item reveal reveal-delay-4">
-<img alt="Kinetic LED Stage Backdrop" src="assetss/innovative led screens/kinetic led screen/imgi_48_2023011316355949.jpg"/>
+<img alt="Kinetic LED Stage Backdrop" src="assetss/innovative led screens/kinetic led screen/imgi_48_2023011316355949.webp"/>
 
 </div>
 <div class="bento-item reveal reveal-delay-5">
-<img alt="Kinetic LED Screen Updated" src="assetss/kinetic screen updated.jpeg"/>
+<img alt="Kinetic LED Screen Updated" src="assetss/kinetic screen updated.webp"/>
 
 </div>
 <div class="bento-item bento-center reveal">
-<img alt="Kinetic LED Screen Updated" src="assetss/kinetic screen updated .jpeg"/>
+<img alt="Kinetic LED Screen Updated" src="assetss/kinetic screen updated .webp"/>
 
 </div>
 </div>

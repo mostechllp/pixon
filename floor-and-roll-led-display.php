@@ -32,7 +32,7 @@
     <meta content="roll LED display, flexible LED screen, event display, retail LED, portable LED screen" name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>Durable LED Rolling Floor Displays for Advertising - Pixon</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
+    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
@@ -44,7 +44,7 @@
     <main>
         <!-- HERO SECTION -->
         <section aria-label="Hero Section" id="hero"
-            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
             <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
                 <div class="hero-mesh"></div>
@@ -212,22 +212,22 @@
                 </div>
                 <div class="bento-gallery">
                     <div class="bento-item reveal" style="background-color: #f8f9fa;">
-                        <img alt="Roll LED Display" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/ChatGPT Image Jul 22, 2026, 04_31_56 PM.png" style="object-fit: contain;" />
+                        <img alt="Roll LED Display" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/ChatGPT Image Jul 22, 2026, 04_31_56 PM.webp" style="object-fit: contain;" />
                     </div>
                     <div class="bento-item reveal reveal-delay-1">
-                        <img alt="Roll LED Installation" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/b538c3d9-018c-4f42-897e-dabb319c7fa7.jpg" />
+                        <img alt="Roll LED Installation" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/b538c3d9-018c-4f42-897e-dabb319c7fa7.webp" />
                     </div>
                     <div class="bento-item reveal reveal-delay-2">
-                        <img alt="Flexible Roll Display" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/b5e6ea6f-d0f3-4387-ba92-72446045dbed.jpg" />
+                        <img alt="Flexible Roll Display" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/b5e6ea6f-d0f3-4387-ba92-72446045dbed.webp" />
                     </div>
                     <div class="bento-item reveal reveal-delay-3">
-                        <img alt="Roll LED Showcase" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/c28cac99-490c-404b-828b-96fd0c8786be.jpg" />
+                        <img alt="Roll LED Showcase" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/c28cac99-490c-404b-828b-96fd0c8786be.webp" />
                     </div>
                     <div class="bento-item reveal reveal-delay-4">
-                        <img alt="Floor & Roll Installation" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/c9b80de4-59ae-4b51-aca2-4fde87ce44f3.jpg" />
+                        <img alt="Floor & Roll Installation" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/c9b80de4-59ae-4b51-aca2-4fde87ce44f3.webp" />
                     </div>
                     <div class="bento-item reveal reveal-delay-5">
-                        <img alt="Roll LED Details" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/ce1fc41d-977a-487d-844e-e2d6c7b79f2f.jpg" />
+                        <img alt="Roll LED Details" src="assetss/innovative led screens/Floor & Roll LED Display/Roll led display/ce1fc41d-977a-487d-844e-e2d6c7b79f2f.webp" />
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
                 </div>
             </div>
             <div class="reveal reveal-delay-2" style="position: relative; width: 100%;">
-                <img alt="Smart Interaction Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/smart-interaction.jpg" style="width: 100%; height: auto; display: block;" />
+                <img alt="Smart Interaction Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/smart-interaction.webp" style="width: 100%; height: auto; display: block;" />
                 <div style="position: absolute; top: 10%; left: 0; width: 55%; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 0 5%;">
                     <h3 style="color: #ffffff; font-size: clamp(24px, 3vw, 42px); font-weight: 600; margin-bottom: 15px;">Smart Interaction</h3>
                     <p style="color: rgba(255,255,255,0.9); line-height: 1.7; font-size: clamp(14px, 1.2vw, 18px); max-width: 90%;">
@@ -260,7 +260,7 @@
         <section class="section" style="background-color: #ffffff; padding: 80px 20px;">
             <div class="container" style="display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap; gap: 60px; max-width: 1400px; margin: 0 auto;">
                 <div class="reveal" style="flex: 1 1 700px; max-width: 850px;">
-                    <img alt="Floor LED Display Construction Details" src="assetss/innovative led screens/Floor & Roll LED Display/floor/ChatGPT Image Jul 22, 2026, 03_44_56 PM-Photoroom.png" style="width: 100%; height: auto; display: block;" />
+                    <img alt="Floor LED Display Construction Details" src="assetss/innovative led screens/Floor & Roll LED Display/floor/ChatGPT Image Jul 22, 2026, 03_44_56 PM-Photoroom.webp" style="width: 100%; height: auto; display: block;" />
                 </div>
                 <div class="reveal reveal-delay-2" style="flex: 1 1 350px; display: flex; flex-direction: column; gap: 24px; padding-left: 20px;">
                     <div style="display: flex; align-items: center; gap: 16px;">
@@ -294,7 +294,7 @@
         <!-- SECTION: HIGH PERFORMANCE LOAD BEARING -->
         <section class="section" style="background-color: #050505; padding: 0; position: relative;">
             <div class="reveal" style="width: 100%; position: relative;">
-                <img alt="High Performance Load Bearing Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/high-performance-load-bearing.jpg" style="width: 100%; height: auto; display: block;" />
+                <img alt="High Performance Load Bearing Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/high-performance-load-bearing.webp" style="width: 100%; height: auto; display: block;" />
                 
                 <div style="position: absolute; top: 15%; left: 0; width: 100%; text-align: center; padding: 0 5%;">
                     <h2 style="color: #ffffff; font-size: clamp(24px, 3vw, 36px); font-weight: 700; margin-bottom: 20px; letter-spacing: -0.5px;">High-Performance Load-Bearing</h2>
@@ -308,7 +308,7 @@
         <!-- SECTION: INTELLIGENT CONTROL -->
         <section class="section" style="background-color: #050505; padding: 0; position: relative;">
             <div class="reveal" style="width: 100%; position: relative;">
-                <img alt="Intelligent Control System Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/intelligent-control.jpg" style="width: 100%; height: auto; display: block;" />
+                <img alt="Intelligent Control System Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/intelligent-control.webp" style="width: 100%; height: auto; display: block;" />
                 
                 <div style="position: absolute; top: 15%; left: 0; width: 100%; text-align: center; padding: 0 5%;">
                     <h2 style="color: #000000 !important; font-size: clamp(24px, 3vw, 36px); font-weight: 700; margin-bottom: 20px; letter-spacing: -0.5px;">Intelligent Control</h2>
@@ -322,7 +322,7 @@
         <!-- SECTION: SIMPLE AND FAST INSTALLATION -->
         <section class="section" style="background-color: #050505; padding: 0; position: relative;">
             <div class="reveal" style="width: 100%; position: relative;">
-                <img alt="Simple and Fast Installation Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/simple-and-fast-installation.jpg" style="width: 100%; height: auto; display: block;" />
+                <img alt="Simple and Fast Installation Floor LED" src="assetss/innovative led screens/Floor & Roll LED Display/floor/simple-and-fast-installation.webp" style="width: 100%; height: auto; display: block;" />
                 
                 <div style="position: absolute; top: 15%; left: 0; width: 100%; text-align: center; padding: 0 5%;">
                     <h2 style="color: #000000 !important; font-size: clamp(24px, 3vw, 36px); font-weight: 700; margin-bottom: 20px; letter-spacing: -0.5px;">Simple and Fast Installation</h2>

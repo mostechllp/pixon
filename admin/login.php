@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login - PIXON TECHNOLOGIES</title>
-    <link rel="icon" href="../assets/fav-logo.jpg-removebg-preview.png" type="image/png">
+    <link rel="icon" href="../assets/fav-logo.jpg-removebg-preview.webp" type="image/png">
     <!-- Toastify JS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
@@ -287,7 +287,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <!-- Logo / Icon -->
         <div class="login-logo">
-            <img src="../assets/pixon-bg.png" alt="PIXON TECHNOLOGIES Logo">
+            <img src="../assets/pixon-bg.webp" alt="PIXON TECHNOLOGIES Logo">
         </div>
         
         <h2>Sign in with email</h2>

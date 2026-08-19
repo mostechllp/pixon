@@ -11,7 +11,7 @@
         name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>All Products - PIXON TECHNOLOGIES</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
+    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -48,7 +48,7 @@
     <?php include 'header.php'; ?>
     <main>
         <section aria-label="Indoor LED Screens hero section" id="hero"
-            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
             <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
                 <div class="hero-mesh"></div>

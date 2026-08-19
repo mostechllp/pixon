@@ -32,7 +32,7 @@
 <meta content="customized LED screens, bespoke LED displays, flexible LED panels, architectural LED integration, curved LED screens, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Customized LED Screens for Unique Visual Experiences | Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -50,7 +50,7 @@
 #hero, #hero * { border: none !important; }
 .section-label::before { display: none !important; }
 </style>
-<div class="hero-bg" style="background: url('assets/product-bg.jpg') center/cover no-repeat;">
+<div class="hero-bg" style="background: url('assets/product-bg.webp') center/cover no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%);">
 </div>
 </div>
@@ -129,7 +129,7 @@
 <!-- Right: Visual -->
 <div class="about-visual-showcase reveal reveal-delay-2">
 <div class="about-showcase-frame" style="height: 100%; border-radius: 24px; overflow: hidden; border: 1px solid var(--glass-border); display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.02); padding: 30px;">
-<img alt="Customized LED Screens Applications" src="assetss/cutomized/未标题-1-324146.png" style="max-width: 100%; max-height: 100%; object-fit: contain;"/>
+<img alt="Customized LED Screens Applications" src="assetss/cutomized/未标题-1-324146.webp" style="max-width: 100%; max-height: 100%; object-fit: contain;"/>
 </div>
 </div>
 </div>
@@ -222,7 +222,7 @@
 <!-- Left: Visual -->
 <div class="about-visual-showcase reveal reveal-delay-2">
 <div class="about-showcase-frame" style="height: 100%; border-radius: 24px; overflow: hidden; border: 1px solid var(--glass-border); display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.02); padding: 30px;">
-<img alt="Customized LED Features" src="assetss/cutomized/imgi_15_易拉罐430_0004_美国展会1-740435.png" style="max-width: 100%; max-height: 100%; object-fit: contain;"/>
+<img alt="Customized LED Features" src="assetss/cutomized/imgi_15_易拉罐430_0004_美国展会1-740435.webp" style="max-width: 100%; max-height: 100%; object-fit: contain;"/>
 </div>
 </div>
 </div>
@@ -237,7 +237,7 @@
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 15px;">
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Creative Tree Display" src="assetss/cutomized/imgi_11_1688637909005328928.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Creative Tree Display" src="assetss/cutomized/imgi_11_1688637909005328928.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Creative
                                 Interactive Board</h3>
@@ -246,7 +246,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Rotating LED Display" src="assetss/cutomized/imgi_12_旋转屏430_0002_旋转屏03-506097.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Rotating LED Display" src="assetss/cutomized/imgi_12_旋转屏430_0002_旋转屏03-506097.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Rotating
                                 Led Display</h3>
@@ -255,7 +255,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Cube LED Display" src="assetss/cutomized/imgi_13_立方体430_0000_立方体01-420052.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Cube LED Display" src="assetss/cutomized/imgi_13_立方体430_0000_立方体01-420052.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Cube LED
                                 Display</h3>
@@ -264,7 +264,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Special Shaped LED Display" src="assetss/cutomized/imgi_18_1724120511570639199.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Special Shaped LED Display" src="assetss/cutomized/imgi_18_1724120511570639199.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Shelf LED
                                 Display</h3>
@@ -273,7 +273,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Immersive Experience Display" src="assetss/cutomized/imgi_20_1724116069725785698.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Immersive Experience Display" src="assetss/cutomized/imgi_20_1724116069725785698.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Poster
                                 LED Display</h3>
@@ -282,7 +282,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Diamond LED Display" src="assetss/cutomized/imgi_21_钻石屏430_0003_QQ图片20161124135128-675592.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Diamond LED Display" src="assetss/cutomized/imgi_21_钻石屏430_0003_QQ图片20161124135128-675592.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Diamond
                                 LED Display</h3>
@@ -291,7 +291,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Telescopic Sphere Display" src="assetss/cutomized/imgi_7_伸缩球430_0000_伸缩球-(8)-531401.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Telescopic Sphere Display" src="assetss/cutomized/imgi_7_伸缩球430_0000_伸缩球-(8)-531401.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Sphere
                                 Stretch Ball Led Display</h3>
@@ -300,7 +300,7 @@
 </div>
 </div>
 <div class="custom-model-card" style="background-color: #ffffff; border: 1px solid rgba(0,0,0,0.05); padding: 40px 20px 25px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0,0,0,0.04);">
-<img alt="Triangle / Custom Display" src="assetss/cutomized/imgi_8_1688696624335939696.png" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
+<img alt="Triangle / Custom Display" src="assetss/cutomized/imgi_8_1688696624335939696.webp" style="max-height: 220px; max-width: 100%; object-fit: contain; margin-bottom: 30px;"/>
 <div>
 <h3 style="color: #111827; font-size: 16px; font-weight: 800; margin-bottom: 8px;">Indoor &amp;
                                 Outdoor Led Sphere</h3>

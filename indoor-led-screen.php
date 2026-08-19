@@ -32,7 +32,7 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Indoor LED Screen for Vibrant &amp; High-Quality Visual Displays</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -46,7 +46,7 @@
 <!-- ============================================================
              HERO SECTION - Product Banner
              ============================================================ -->
-<section aria-label="Indoor LED Screen Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Indoor LED Screen Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 <div class="hero-mesh"></div>
@@ -233,32 +233,32 @@
 <div class="bento-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">
-<img alt="Indoor LED Reference 1" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.15 PM.jpeg"/>
+<img alt="Indoor LED Reference 1" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.15 PM.webp"/>
 
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Indoor LED Reference 2" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.16 PM (1).jpeg"/>
+<img alt="Indoor LED Reference 2" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.16 PM (1).webp"/>
 
 </div>
 <!-- Gallery Image 3 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Indoor LED Reference 3" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.16 PM.jpeg"/>
+<img alt="Indoor LED Reference 3" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.16 PM.webp"/>
 
 </div>
 <!-- Gallery Image 4 -->
 <div class="bento-item reveal reveal-delay-3">
-<img alt="Indoor LED Reference 4" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.17 PM (1).jpeg"/>
+<img alt="Indoor LED Reference 4" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.17 PM (1).webp"/>
 
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-4">
-<img alt="Indoor LED Reference 5" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.17 PM (2).jpeg"/>
+<img alt="Indoor LED Reference 5" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.17 PM (2).webp"/>
 
 </div>
 <!-- Gallery Image 6 -->
 <div class="bento-item reveal reveal-delay-5">
-<img alt="Indoor LED Reference 6" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.17 PM.jpeg"/>
+<img alt="Indoor LED Reference 6" src="assetss/indoor products/indoor led/WhatsApp Image 2026-07-20 at 5.17.17 PM.webp"/>
 
 </div>
 </div>

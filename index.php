@@ -20,7 +20,6 @@
     gtag('config', 'G-1DXF42V841');
   </script>
   <meta charset="utf-8" />
-  <base href="/" />
   <link rel="canonical" href="https://www.pixonglobal.com/" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="google-site-verification" content="VEnfiFGWSLn_FEkppFRdk3APHzhlh6IqBdAKGGfYptQ" />
@@ -35,18 +34,18 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
   <meta property="og:url" content="https://www.pixonglobal.com/" />
-  <meta property="og:image" content="https://www.pixonglobal.com/assets/pixon-logo.png" />
+  <meta property="og:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
   <meta property="og:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
   <meta name="twitter:site" content="@https://www.pixonglobal.com/" />
   <meta name="twitter:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
-  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.png" />
+  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
   <meta name="twitter:image:alt" content="Pixon Technologies LLC" />
   <meta content="#18315B" name="theme-color" />
   <!-- Favicon -->
-  <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
-  <link href="assets/fav-logo.jpg-removebg-preview.png" rel="apple-touch-icon" />
+  <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
+  <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="apple-touch-icon" />
   <title>LED Screen &amp; AV Solutions Company - Pixon Global Technologies</title>
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -131,7 +130,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Pixon Technologies LLC",
-    "image": "https://www.pixonglobal.com/assets/pixon-logo.png",
+    "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
     "@id": "",
     "url": "https://www.pixonglobal.com/",
     "telephone": "+971 58 106 5959",
@@ -212,24 +211,24 @@
           <div class="marquee-wrap">
             <div class="marquee-track" role="list">
               <div class="marquee-group">
-                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police" src="assets/logo-dubai-police.png" /></div>
-                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2" src="assets/partner2.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 3" src="assets/partner3.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 4" src="assets/partner4.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 5" src="assets/partner5.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 6" src="assets/partner6.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 7" src="assets/partner7.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 8" src="assets/partner8.png" /></div>
+                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police" src="assets/logo-dubai-police.webp" /></div>
+                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2" src="assets/partner2.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 3" src="assets/partner3.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 4" src="assets/partner4.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 5" src="assets/partner5.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 6" src="assets/partner6.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 7" src="assets/partner7.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 8" src="assets/partner8.webp" /></div>
               </div>
               <div class="marquee-group" aria-hidden="true">
-                <div class="brand-item brand-item-dubai" role="listitem"><img alt="" src="assets/logo-dubai-police.png" /></div>
-                <div class="brand-item brand-item-partner2" role="listitem"><img alt="" src="assets/partner2.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="" src="assets/partner3.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="" src="assets/partner4.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="" src="assets/partner5.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="" src="assets/partner6.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="" src="assets/partner7.png" /></div>
-                <div class="brand-item" role="listitem"><img alt="" src="assets/partner8.png" /></div>
+                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police Logo" src="assets/logo-dubai-police.webp" /></div>
+                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2 Logo" src="assets/partner2.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 3 Logo" src="assets/partner3.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 4 Logo" src="assets/partner4.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 5 Logo" src="assets/partner5.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 6 Logo" src="assets/partner6.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 7 Logo" src="assets/partner7.webp" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 8 Logo" src="assets/partner8.webp" /></div>
               </div>
             </div>
           </div>
@@ -246,7 +245,7 @@
             <div class="about-visual-showcase reveal" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Display Calibration Laboratory Preview" class="about-showcase-img"
-                  src="assetss/home/indoor_ledscreen.jpg" style="height: 100%; object-fit: cover;" />
+                  src="assetss/home/indoor_ledscreen.webp" style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"></div>
                 <!-- <div class="about-float-badge badge-top parallax-card" data-speed="1.0" style="top: 16px; left: 16px;">
                 <span class="pulse-dot-orange"></span> Calibration HQ
@@ -320,7 +319,7 @@
             </article>
             <article class="service-card reveal reveal-delay-1">
               <div class="service-img-wrapper">
-                <img alt="Outdoor LED Screens" class="service-img" src="assetss/home/outdoor_led_screen.jpg" />
+                <img alt="Outdoor LED Screens" class="service-img" src="assetss/home/outdoor_led_screen.webp" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -343,7 +342,7 @@
             <article class="service-card reveal reveal-delay-2">
               <div class="service-img-wrapper">
                 <img alt="Innovative &amp; Custom Displays" class="service-img"
-                  src="assetss/home/innovative &amp; Custom Displays.jpg" />
+                  src="assetss/home/innovative &amp; Custom Displays.webp" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -364,7 +363,7 @@
             </article>
             <article class="service-card reveal reveal-delay-1">
               <div class="service-img-wrapper">
-                <img alt="LCD &amp; Kiosks" class="service-img" src="assetss/home/LCD &amp; Kiosks.jpg" />
+                <img alt="LCD &amp; Kiosks" class="service-img" src="assetss/home/LCD &amp; Kiosks.webp" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -386,7 +385,7 @@
             <article class="service-card reveal reveal-delay-2">
               <div class="service-img-wrapper">
                 <img alt="Corporate &amp; Government AV" class="service-img"
-                  src="assetss/home/corporate-av-solutions-1.jpg" />
+                  src="assetss/home/corporate-av-solutions-1.webp" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -407,7 +406,7 @@
             </article>
             <article class="service-card reveal reveal-delay-3">
               <div class="service-img-wrapper">
-                <img alt="Commercial &amp; Public AV" class="service-img" src="assetss/home/public_av1 (1).jpg" />
+                <img alt="Commercial &amp; Public AV" class="service-img" src="assetss/home/public_av1 (1).webp" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -493,7 +492,7 @@
             <div class="about-visual-showcase reveal reveal-delay-2" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Premium Indoor OLED Display Array" class="about-showcase-img"
-                  src="assetss/home/corporate-av-solutions-2.jpg" style="height: 100%; object-fit: cover;" />
+                  src="assetss/home/corporate-av-solutions-2.webp" style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
                 </div>
@@ -517,7 +516,7 @@
             <div class="about-visual-showcase reveal" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Display Solutions Engineering Preview" class="about-showcase-img"
-                  src="assetss/home/Unmatched_Expertise_Reliable_Support.jpg"
+                  src="assetss/home/Unmatched_Expertise_Reliable_Support.webp"
                   style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
@@ -645,7 +644,7 @@
             <div class="about-visual-showcase reveal reveal-delay-2" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Grand Mall Digital Video Wall" class="about-showcase-img"
-                  src="assetss/home/Transforming_Spaces_Through_Visual_Innovation.png"
+                  src="assetss/home/Transforming_Spaces_Through_Visual_Innovation.webp"
                   style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">

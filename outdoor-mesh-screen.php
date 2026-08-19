@@ -32,7 +32,7 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Durable Outdoor Advertising LED Mesh Screens - Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -46,7 +46,7 @@
 <!-- ============================================================
              HERO SECTION - Product Banner
              ============================================================ -->
-<section aria-label="Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 <div class="hero-mesh"></div>
@@ -233,47 +233,47 @@
 <div class="bento-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">
-<img alt="Outdoor Mesh Screen Display" src="assetss/Outdoor Products/Mesh Transparent Screen/Outdoor Mesh Screen1.jpeg"/>
+<img alt="Outdoor Mesh Screen Display" src="assetss/Outdoor Products/Mesh Transparent Screen/Outdoor Mesh Screen1.webp"/>
 
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Outdoor Mesh Screen Display" src="assetss/Outdoor Products/Mesh Transparent Screen/Outdoor Mesh Screen3.jpeg"/>
+<img alt="Outdoor Mesh Screen Display" src="assetss/Outdoor Products/Mesh Transparent Screen/Outdoor Mesh Screen3.webp"/>
 
 </div>
 <!-- Gallery Image 3 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Outdoor Mesh Screen Display" src="assetss/Outdoor Products/Mesh Transparent Screen/Outdoor Mesh Screen2.jpeg"/>
+<img alt="Outdoor Mesh Screen Display" src="assetss/Outdoor Products/Mesh Transparent Screen/Outdoor Mesh Screen2.webp"/>
 
 </div>
 <!-- Gallery Image 4 -->
 <div class="bento-item reveal">
-<img alt="Mesh Transparent Screen Display 1" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-1.jpeg"/>
+<img alt="Mesh Transparent Screen Display 1" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-1.webp"/>
 
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Mesh Transparent Display" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-2.jpeg"/>
+<img alt="Mesh Transparent Display" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-2.webp"/>
 
 </div>
 <!-- Gallery Image 6 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Rolling LED Main" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-3.jpeg"/>
+<img alt="Rolling LED Main" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-3.webp"/>
 
 </div>
 <!-- Gallery Image 7 -->
 <div class="bento-item reveal">
-<img alt="Mesh Transparent Screen Display 4" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-4.jpeg"/>
+<img alt="Mesh Transparent Screen Display 4" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-4.webp"/>
 
 </div>
 <!-- Gallery Image 8 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Mesh Transparent Screen Display 5" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-5.jpeg"/>
+<img alt="Mesh Transparent Screen Display 5" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-5.webp"/>
 
 </div>
 <!-- Gallery Image 9 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Mesh Transparent Screen Display 6" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-6.jpeg"/>
+<img alt="Mesh Transparent Screen Display 6" src="assetss/Outdoor Products/Mesh Transparent Screen/mesh-6.webp"/>
 
 </div>
 </div>

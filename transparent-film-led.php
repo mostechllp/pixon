@@ -33,7 +33,7 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Flexible Transparant LED Filim Glass Displays - Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -74,7 +74,7 @@
              HERO SECTION - Product Banner
              ============================================================ -->
         <section aria-label="Hero Section" id="hero"
-            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
             <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
                 <div class="hero-mesh"></div>
@@ -345,27 +345,27 @@
 <div class="bento-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">
-<img alt="Commercial Spaces Film Screen" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.10%20PM%20(1).jpeg"/>
+<img alt="Commercial Spaces Film Screen" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.10%20PM%20(1).webp"/>
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Transparent LED Display Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.10%20PM.jpeg"/>
+<img alt="Transparent LED Display Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.10%20PM.webp"/>
 </div>
 <!-- Gallery Image 3 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Flagship Store Transparent Display Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.11%20PM%20(1).jpeg"/>
+<img alt="Flagship Store Transparent Display Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.11%20PM%20(1).webp"/>
 </div>
 <!-- Gallery Image 4 -->
 <div class="bento-item reveal reveal-delay-3">
-<img alt="Stage Visual Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.11%20PM%20(2).jpeg"/>
+<img alt="Stage Visual Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.11%20PM%20(2).webp"/>
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-4">
-<img alt="Commercial Display Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.11%20PM.jpeg"/>
+<img alt="Commercial Display Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.11%20PM.webp"/>
 </div>
 <!-- Gallery Image 6 -->
 <div class="bento-item reveal reveal-delay-5">
-<img alt="Transparent Window Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.12%20PM.jpeg"/>
+<img alt="Transparent Window Case" src="assetss/innovative led screens/Transparent Film LED Screen/WhatsApp%20Image%202026-07-20%20at%206.03.12%20PM.webp"/>
 </div>
 </div>
 </div>

@@ -32,7 +32,7 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Kiosk LED Poster Displays Plug-and-Play Digital Signage - Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -46,7 +46,7 @@
 <!-- ============================================================
              HERO SECTION - Product Banner
              ============================================================ -->
-<section aria-label="Indoor LED Screens hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assetss/lcd and kiosk/main_image1.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Indoor LED Screens hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assetss/lcd and kiosk/main_image1.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 <div class="hero-mesh"></div>
@@ -233,27 +233,27 @@
 <div class="bento-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">
-<img alt="Retail Store LED Display" src="assetss/lcd and kiosk/grid/imgi_14_LED-Poster-Display.png"/>
+<img alt="Retail Store LED Display" src="assetss/lcd and kiosk/grid/imgi_14_LED-Poster-Display.webp"/>
 
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Corporate Lobby Display" src="assetss/lcd and kiosk/grid/imgi_182_POSTER-MAIN-8.jpg"/>
+<img alt="Corporate Lobby Display" src="assetss/lcd and kiosk/grid/imgi_182_POSTER-MAIN-8.webp"/>
 
 </div>
 <!-- Gallery Image 3 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Shopping Mall Installation" src="assetss/lcd and kiosk/grid/imgi_44_POSTER-MAIN-3.jpg"/>
+<img alt="Shopping Mall Installation" src="assetss/lcd and kiosk/grid/imgi_44_POSTER-MAIN-3.webp"/>
 
 </div>
 <!-- Gallery Image 4 -->
 <div class="bento-item reveal reveal-delay-3">
-<img alt="Event Venue Display" src="assetss/lcd and kiosk/grid/imgi_45_POSTER-MAIN-4.jpg"/>
+<img alt="Event Venue Display" src="assetss/lcd and kiosk/grid/imgi_45_POSTER-MAIN-4.webp"/>
 
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-4">
-<img alt="Additional Installation View" src="assetss/lcd and kiosk/grid/imgi_75_20200426052901920.jpg"/>
+<img alt="Additional Installation View" src="assetss/lcd and kiosk/grid/imgi_75_20200426052901920.webp"/>
 
 </div>
 <!-- Gallery Image 6 -->

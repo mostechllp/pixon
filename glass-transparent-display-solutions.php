@@ -37,7 +37,7 @@
         name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>Durable Transparant Outdoor LED Screens for Advertising - Pixon</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
+    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -164,7 +164,7 @@
          SECTION 1: HERO
          ============================================================ -->
     <section class="hero-section"
-        style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('assets/product-bg.jpg'); background-size: cover; background-position: center; padding: 120px 0; color: white; text-align: center;">
+        style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('assets/product-bg.webp'); background-size: cover; background-position: center; padding: 120px 0; color: white; text-align: center;">
         <div class="container">
             <h1 class="hero-title" style="font-size: clamp(32px, 4.5vw, 52px); margin-bottom: 16px;">Glass Transparent
                 Display Solutions</h1>
@@ -270,16 +270,16 @@
                         <button onclick="npgPrev()" aria-label="Previous image" style="position: absolute; left: -40px; top: 50%; transform: translateY(-50%); width: 40px; height: 50px; background: #0A1C58; color: #00f0ff; border: 1px solid rgba(0, 240, 255, 0.2); border-right: none; border-radius: 4px 0 0 4px; display: flex; justify-content: center; align-items: center; cursor: pointer; font-size: 1.2rem; z-index: 10;">&#10094;</button>
                         
                         <div style="width: 100%; overflow: hidden; border-radius: 8px;">
-                            <img id="npg-img" alt="NexPoster Glass" src="assetss/innovative led screens/Glass Transparent Display Solutions/NPG01.jpg" style="width: 100%; object-fit: contain; max-height: 500px; display: block; transition: opacity 0.3s ease; background: #ffffff;" />
+                            <img id="npg-img" alt="NexPoster Glass" src="assetss/innovative led screens/Glass Transparent Display Solutions/NPG01.webp" style="width: 100%; object-fit: contain; max-height: 500px; display: block; transition: opacity 0.3s ease; background: #ffffff;" />
                         </div>
 
                         <button onclick="npgNext()" aria-label="Next image" style="position: absolute; right: -40px; top: 50%; transform: translateY(-50%); width: 40px; height: 50px; background: #0A1C58; color: #00f0ff; border: 1px solid rgba(0, 240, 255, 0.2); border-left: none; border-radius: 0 4px 4px 0; display: flex; justify-content: center; align-items: center; cursor: pointer; font-size: 1.2rem; z-index: 10;">&#10095;</button>
                         
                         <script>
                             const npgImages = [
-                                "assetss/innovative led screens/Glass Transparent Display Solutions/NPG01.jpg",
-                                "assetss/innovative led screens/Glass Transparent Display Solutions/NPG02.jpg",
-                                "assetss/innovative led screens/Glass Transparent Display Solutions/NPG03.jpg"
+                                "assetss/innovative led screens/Glass Transparent Display Solutions/NPG01.webp",
+                                "assetss/innovative led screens/Glass Transparent Display Solutions/NPG02.webp",
+                                "assetss/innovative led screens/Glass Transparent Display Solutions/NPG03.webp"
                             ];
                             let npgIndex = 0;
                             function npgNext() {
@@ -373,7 +373,7 @@
         <div class="container">
             <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px;">
                 <div class="reveal" style="flex: 1 1 400px; display: flex; justify-content: center;">
-                    <img src="assetss/innovative led screens/Glass Transparent Display Solutions/glass-2.jpeg" alt="High Transparency" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); object-fit: cover;" />
+                    <img src="assetss/innovative led screens/Glass Transparent Display Solutions/glass-2.webp" alt="High Transparency" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); object-fit: cover;" />
                 </div>
                 <div class="reveal reveal-delay-1" style="flex: 1 1 500px;">
                     <h2 class="section-title" style="margin-top: 10px; margin-bottom: 15px; font-size: 2.2rem; color: #ffffff;">
@@ -394,7 +394,7 @@
         <div class="container">
             <div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; align-items: center; gap: 50px;">
                 <div class="reveal" style="flex: 1 1 400px; display: flex; justify-content: center;">
-                    <img src="assetss/innovative led screens/Glass Transparent Display Solutions/npg-06.jpg" alt="Durability" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); object-fit: cover;" />
+                    <img src="assetss/innovative led screens/Glass Transparent Display Solutions/npg-06.webp" alt="Durability" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); object-fit: cover;" />
                 </div>
                 <div class="reveal reveal-delay-1" style="flex: 1 1 500px;">
                     <h2 class="section-title" style="margin-top: 10px; margin-bottom: 15px; font-size: 2.2rem; color: #0F172A;">
@@ -415,7 +415,7 @@
         <div class="container">
             <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px;">
                 <div class="reveal" style="flex: 1 1 400px; display: flex; justify-content: center;">
-                    <img src="assetss/innovative led screens/Glass Transparent Display Solutions/npg-07.jpg" alt="8.28mm slim" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); object-fit: cover;" />
+                    <img src="assetss/innovative led screens/Glass Transparent Display Solutions/npg-07.webp" alt="8.28mm slim" style="width: 100%; max-width: 400px; border-radius: 12px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); object-fit: cover;" />
                 </div>
                 <div class="reveal reveal-delay-1" style="flex: 1 1 500px;">
                     <h2 class="section-title" style="margin-top: 10px; margin-bottom: 15px; font-size: 2.2rem; color: #ffffff;">
@@ -444,7 +444,7 @@
                 <!-- 1 -->
                 <div class="app-item">
                     <div class="app-icon-box">
-                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1093.png" alt="Building Facade" />
+                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1093.webp" alt="Building Facade" />
                     </div>
                     <div class="app-title">Building Facade</div>
                 </div>
@@ -452,7 +452,7 @@
                 <!-- 2 -->
                 <div class="app-item">
                     <div class="app-icon-box">
-                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1094.png" alt="Retail Window" />
+                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1094.webp" alt="Retail Window" />
                     </div>
                     <div class="app-title">Retail Window</div>
                 </div>
@@ -460,7 +460,7 @@
                 <!-- 3 -->
                 <div class="app-item">
                     <div class="app-icon-box">
-                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1095.png" alt="Commercial Hub" />
+                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1095.webp" alt="Commercial Hub" />
                     </div>
                     <div class="app-title">Commercial Hub</div>
                 </div>
@@ -468,7 +468,7 @@
                 <!-- 4 -->
                 <div class="app-item">
                     <div class="app-icon-box">
-                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1096.png" alt="Landscape Lighting" />
+                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1096.webp" alt="Landscape Lighting" />
                     </div>
                     <div class="app-title">Landscape Lighting</div>
                 </div>
@@ -476,7 +476,7 @@
                 <!-- 5 -->
                 <div class="app-item">
                     <div class="app-icon-box">
-                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1097.png" alt="Advertisement Media" />
+                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1097.webp" alt="Advertisement Media" />
                     </div>
                     <div class="app-title">Advertisement Media</div>
                 </div>
@@ -500,7 +500,7 @@
                 <!-- 8 -->
                 <div class="app-item">
                     <div class="app-icon-box">
-                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1099.png" alt="Irregular Creativity" />
+                        <img src="assetss/innovative led screens/Glass Transparent Display Solutions/icons/icon-scheme1099.webp" alt="Irregular Creativity" />
                     </div>
                     <div class="app-title">Irregular Creativity</div>
                 </div>
@@ -526,33 +526,33 @@
                 
                 <!-- Row 1 -->
                 <div class="bento-item reveal">
-                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/1-230620095932948.jpg" />
+                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/1-230620095932948.webp" />
                     
                 </div>
 
                 <div class="bento-item reveal reveal-delay-1">
-                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/1-23062015114R37.jpg" />
+                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/1-23062015114R37.webp" />
                     
                 </div>
 
                 <div class="bento-item reveal reveal-delay-2">
-                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/1-230620152206309.jpg" />
+                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/1-230620152206309.webp" />
                     
                 </div>
 
                 <!-- Row 2 -->
                 <div class="bento-item reveal reveal-delay-3">
-                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/3-25022GHGN21.png" />
+                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/3-25022GHGN21.webp" />
                     
                 </div>
 
                 <div class="bento-item reveal reveal-delay-4">
-                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/Gemini_Generated_Image_xnxjh2xnxjh2xnxj.png" />
+                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/Gemini_Generated_Image_xnxjh2xnxjh2xnxj.webp" />
                     
                 </div>
 
                 <div class="bento-item reveal reveal-delay-5">
-                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/Gemini_Generated_Image_f4o6d5f4o6d5f4o6.png" />
+                    <img alt="Transparent Film LED" src="assetss/innovative led screens/Glass Transparent Display Solutions/Gemini_Generated_Image_f4o6d5f4o6d5f4o6.webp" />
                     
                 </div>
             </div>

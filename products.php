@@ -19,7 +19,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-1DXF42V841');
 </script>
 <meta charset="utf-8"/>
-<base href="/"/>
 <link rel="canonical" href="https://www.pixonglobal.com/products" />
 <script type="application/ld+json">
 {
@@ -43,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta content="PIXON TECHNOLOGIES products, commercial LED screens, outdoor billboards Middle East &amp; Africa, digital kiosks Riyadh, kinetic displays Middle East &amp; Africa" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Unlock Your Potential with Our Innovative Product Range</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -347,7 +346,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </style>
 <main>
 <!-- ======================== PRODUCTS HERO ======================== -->
-<section aria-label="Products hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Products hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 <div class="hero-mesh"></div>
@@ -383,7 +382,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="showcase-row reveal">
 <div class="showcase-visual">
 <div class="showcase-img-frame">
-<img alt="PIXON TECHNOLOGIES Premium Indoor OLED Display" class="showcase-img" src="assetss/products home page/Smart Indoor LED.jpeg"/>
+<img alt="PIXON TECHNOLOGIES Premium Indoor OLED Display" class="showcase-img" src="assetss/products home page/Smart Indoor LED.webp"/>
 <div class="about-visual-overlay"></div>
 </div>
 </div>
@@ -420,7 +419,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="showcase-row reverse reveal">
 <div class="showcase-visual">
 <div class="showcase-img-frame">
-<img alt="PIXON TECHNOLOGIES Outdoor LED Mesh Screen Facade" class="showcase-img" src="assetss/products home page/Gemini_Generated_Image_x5x3i2x5x3i2x5x3.png"/>
+<img alt="PIXON TECHNOLOGIES Outdoor LED Mesh Screen Facade" class="showcase-img" src="assetss/products home page/Gemini_Generated_Image_x5x3i2x5x3i2x5x3.webp"/>
 <div class="about-visual-overlay"></div>
 </div>
 </div>
@@ -457,7 +456,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="showcase-row reveal">
 <div class="showcase-visual">
 <div class="showcase-img-frame">
-<img alt="PIXON TECHNOLOGIES Interactive Smart Conference Display" class="showcase-img" src="assetss/products home page/Choosing The Right Technology For Multi-Touch Video Wall.jpg"/>
+<img alt="PIXON TECHNOLOGIES Interactive Smart Conference Display" class="showcase-img" src="assetss/products home page/Choosing The Right Technology For Multi-Touch Video Wall.webp"/>
 <div class="about-visual-overlay"></div>
 </div>
 </div>
@@ -494,7 +493,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="showcase-row reverse reveal">
 <div class="showcase-visual">
 <div class="showcase-img-frame">
-<img alt="PIXON TECHNOLOGIES Standalone Vertical Digital LCD Kiosk" class="showcase-img" src="assetss/products home page/Touch Screen Interactive Kiosk _ Shop Digital Signage.jpg"/>
+<img alt="PIXON TECHNOLOGIES Standalone Vertical Digital LCD Kiosk" class="showcase-img" src="assetss/products home page/Touch Screen Interactive Kiosk _ Shop Digital Signage.webp"/>
 <div class="about-visual-overlay"></div>
 </div>
 </div>

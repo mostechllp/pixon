@@ -25,7 +25,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta content="PIXON TECHNOLOGIES solutions, commercial AV Solutions, corporate boardrooms Middle East &amp; Africa, digital signage Dubai, command centers Riyadh" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Display Solutions - PIXON TECHNOLOGIES | Corporate &amp; Commercial AV Systems</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -37,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php include 'header.php'; ?>
 <main>
 <!-- ======================== SOLUTIONS HERO ======================== -->
-<section aria-label="Solutions hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Solutions hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 </div>
@@ -126,7 +126,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="showcase-display-area">
 <!-- Item 1: Smart Conference Room -->
 <div class="showcase-display-item active" id="showcase-1">
-<img alt="PIXON TECHNOLOGIES Smart Conference Room Display Setup" class="showcase-bg-img" src="assetss/services/services home page/smar_conferrence.jpg"/>
+<img alt="PIXON TECHNOLOGIES Smart Conference Room Display Setup" class="showcase-bg-img" src="assetss/services/services home page/smar_conferrence.webp"/>
 <div class="showcase-glass-card">
 <h3 class="showcase-title">Smart Conference Room <br/><span class="hero-title-accent">Systems</span></h3>
 <p class="showcase-desc">
@@ -142,7 +142,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <!-- Item 2: Retail Digital Display Systems -->
 <div class="showcase-display-item" id="showcase-2">
-<img alt="PIXON TECHNOLOGIES Retail Digital Signage Poster" class="showcase-bg-img" src="assetss/services/services home page/Best Television for Digital Signage.jpg"/>
+<img alt="PIXON TECHNOLOGIES Retail Digital Signage Poster" class="showcase-bg-img" src="assetss/services/services home page/Best Television for Digital Signage.webp"/>
 <div class="showcase-glass-card">
 <h3 class="showcase-title">Retail Digital Signage &amp; <br/><span class="hero-title-accent">Window Arrays</span></h3>
 <p class="showcase-desc">
@@ -158,7 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <!-- Item 3: Interactive Learning Screens -->
 <div class="showcase-display-item" id="showcase-3">
-<img alt="PIXON TECHNOLOGIES Custom Spherical and Specialized Display" class="showcase-bg-img" src="assetss/services/services home page/iteractie_classroom.jpg"/>
+<img alt="PIXON TECHNOLOGIES Custom Spherical and Specialized Display" class="showcase-bg-img" src="assetss/services/services home page/iteractie_classroom.webp"/>
 <div class="showcase-glass-card">
 <h3 class="showcase-title">Interactive Classrooms &amp; <br/><span class="hero-title-accent">Auditoriums</span></h3>
 <p class="showcase-desc">
@@ -190,7 +190,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 <!-- Item 5: Commercial Video Wall Systems -->
 <div class="showcase-display-item" id="showcase-5">
-<img alt="PIXON TECHNOLOGIES Giant Commercial LED Video Wall" class="showcase-bg-img" src="assetss/services/services home page/commercial_led_walls.jpg"/>
+<img alt="PIXON TECHNOLOGIES Giant Commercial LED Video Wall" class="showcase-bg-img" src="assetss/services/services home page/commercial_led_walls.webp"/>
 <div class="showcase-glass-card">
 <h3 class="showcase-title">Commercial LED <br/><span class="hero-title-accent">Video Wall Systems</span></h3>
 <p class="showcase-desc">

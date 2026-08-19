@@ -5,7 +5,7 @@
 <!-- Brand -->
 <div class="footer-brand">
 <a aria-label="PIXON TECHNOLOGIES Home" class="footer-logo-link" href="/">
-<img alt="PIXON TECHNOLOGIES Logo" class="footer-logo-img" src="/assets/pixon-logo.png"/>
+<img alt="PIXON TECHNOLOGIES Logo" class="footer-logo-img" src="/assets/pixon-logo.webp"/>
 </a>
 <p class="footer-tagline">Supplying, designing, installing, and servicing commercial indoor/outdoor LED
     screens, digital displays, and complete professional audio-visual system integrations across the Middle East

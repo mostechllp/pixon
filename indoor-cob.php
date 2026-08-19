@@ -32,7 +32,7 @@
 <meta content="Indoor COB, Chip-On-Board, micro-pitch technology, high-resolution display, COB LED screen, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Advanced Indoor LED COB Displays for Advertising - Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -46,7 +46,7 @@
 <!-- ============================================================
              HERO SECTION - Product Banner
              ============================================================ -->
-<section aria-label="Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section aria-label="Hero Section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%); z-index: 0;"></div>
 <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
 </div>
@@ -226,7 +226,7 @@
     <div style="display: flex; flex-wrap: wrap; width: 100%;">
         <!-- Left Side: Image Area -->
         <div class="module-left" style="flex: 1 1 50%; min-width: 300px; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 40px;">
-            <img src="assetss/Indoor COB (Chip-On-Board/画板-1-副本.jpg" alt="Module Design" style="width: 100%; max-width: 720px; height: auto; object-fit: cover; object-position: left center;">
+            <img src="assetss/Indoor COB (Chip-On-Board/画板-1-副本.webp" alt="Module Design" style="width: 100%; max-width: 720px; height: auto; object-fit: cover; object-position: left center;">
         </div>
 
         <!-- Right Side: Text Area (White Background) -->
@@ -258,32 +258,32 @@
 <div class="bento-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">
-<img alt="Command Center Display" src="assetss/Indoor COB (Chip-On-Board/cob-1.jpeg"/>
+<img alt="Command Center Display" src="assetss/Indoor COB (Chip-On-Board/cob-1.webp"/>
 
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Corporate Lobby Display" src="assetss/Indoor COB (Chip-On-Board/cob-2.jpeg"/>
+<img alt="Corporate Lobby Display" src="assetss/Indoor COB (Chip-On-Board/cob-2.webp"/>
 
 </div>
 <!-- Gallery Image 3 -->
 <div class="bento-item reveal reveal-delay-2">
-<img alt="Large Scale Installation" src="assetss/Indoor COB (Chip-On-Board/cob-3.jpeg"/>
+<img alt="Large Scale Installation" src="assetss/Indoor COB (Chip-On-Board/cob-3.webp"/>
 
 </div>
 <!-- Gallery Image 4 -->
 <div class="bento-item reveal reveal-delay-3">
-<img alt="XS Cabinet Detail" src="assetss/Indoor COB (Chip-On-Board/cob-4.jpeg"/>
+<img alt="XS Cabinet Detail" src="assetss/Indoor COB (Chip-On-Board/cob-4.webp"/>
 
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-4">
-<img alt="M-Series Module Display" src="assetss/Indoor COB (Chip-On-Board/cob-1.2.png"/>
+<img alt="M-Series Module Display" src="assetss/Indoor COB (Chip-On-Board/cob-1.2.webp"/>
 
 </div>
 <!-- Gallery Image 6 -->
 <div class="bento-item reveal reveal-delay-5">
-<img alt="QF Series Detail" src="assetss/Indoor COB (Chip-On-Board/cob-2.1.png"/>
+<img alt="QF Series Detail" src="assetss/Indoor COB (Chip-On-Board/cob-2.1.webp"/>
 
 </div>
 </div>

@@ -14,7 +14,7 @@
         name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>Spherical LED Screen - PIXON TECHNOLOGIES</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
+    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -32,7 +32,7 @@
              HERO SECTION - Product Banner
              ============================================================ -->
         <section aria-label="Hero Section" id="hero"
-            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assets/product-bg.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div style="position: absolute; inset: 0; background: rgba(3, 7, 18, 0.72); z-index: 0;"></div>
             <div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
                 <div class="hero-mesh"></div>
@@ -311,7 +311,7 @@
                     <!-- Gallery Image 1 -->
                     <div class="bento-item reveal">
                         <img alt="Retail Store LED Display"
-                            src="assetss/innovative led screens/spherical led screen/68108f067fa52.jpg" />
+                            src="assetss/innovative led screens/spherical led screen/68108f067fa52.webp" />
                         
                     </div>
                     <!-- Gallery Image 2 -->
@@ -323,25 +323,25 @@
                     <!-- Gallery Image 3 -->
                     <div class="bento-item reveal reveal-delay-2">
                         <img alt="Shopping Mall Installation"
-                            src="assetss/innovative led screens/spherical led screen/LED-Sphere-3.jpg" />
+                            src="assetss/innovative led screens/spherical led screen/LED-Sphere-3.webp" />
                         
                     </div>
                     <!-- Gallery Image 4 -->
                     <div class="bento-item reveal reveal-delay-3">
                         <img alt="Event Venue Display"
-                            src="assetss/innovative led screens/spherical led screen/LED-Sphere-4.jpg" />
+                            src="assetss/innovative led screens/spherical led screen/LED-Sphere-4.webp" />
                         
                     </div>
                     <!-- Gallery Image 5 -->
                     <div class="bento-item reveal reveal-delay-4">
                         <img alt="Additional Installation View"
-                            src="assetss/innovative led screens/spherical led screen/LED-Sphere-5-Trapezoid-shape-PCB-design-ensures-seamless-jointinghigh-uniformity.jpg" />
+                            src="assetss/innovative led screens/spherical led screen/LED-Sphere-5-Trapezoid-shape-PCB-design-ensures-seamless-jointinghigh-uniformity.webp" />
                         
                     </div>
                     <!-- Gallery Image 6 -->
                     <div class="bento-item reveal reveal-delay-5">
                         <img alt="Detailed View"
-                            src="assetss/innovative led screens/spherical led screen/images (1).jpg" />
+                            src="assetss/innovative led screens/spherical led screen/images (1).webp" />
                         
                     </div>
                 </div>

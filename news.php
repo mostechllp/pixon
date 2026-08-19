@@ -13,7 +13,7 @@
 <meta content="https://PIXON TECHNOLOGIES.com/news.html" property="og:url"/>
 <meta content="#18315B" name="theme-color"/>
 <title>Newsroom ? PIXON TECHNOLOGIES | LED &amp; AV Industry Dispatches</title>
-<link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
+<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -65,12 +65,12 @@
 <div class="section-label reveal">Featured Journals</div>
 <h2 class="section-title reveal reveal-delay-1" id="featured-heading">Editorial Showcases</h2>
 </header>
-<!-- Showcase 1: The Future of Smart Display Technology (using assets/imgi_73_government-government.jpg) -->
+<!-- Showcase 1: The Future of Smart Display Technology (using assets/imgi_73_government-government.webp) -->
 <div class="editorial-showcase-row reveal" style="margin-bottom: 100px;">
 <div class="showcase-content">
 <div class="hero-badge" style="margin-bottom: 16px; background: rgba(0, 102, 255, 0.1); border-color: rgba(0, 102, 255, 0.2);">
 <span class="hero-badge-dot" style="background: var(--blue-accent);"></span>
-                            Smart Displays • 6 min read
+                            Smart Displays  6 min read
                         </div>
 <h3 class="section-title" style="font-size: clamp(24px, 3.5vw, 36px); text-align: left; margin-bottom: 20px;">
                             The Future of Smart Display Technology &amp; IoT Integration
@@ -89,16 +89,16 @@
 <div class="showcase-visual" style="position: relative;">
 <div class="tv-glow-ambient" style="background: var(--blue-accent); opacity: 0.15;"></div>
 <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--glass-border); box-shadow: var(--shadow-md);">
-<img alt="Smart Display IoT Living Space Integration" class="hover-zoom" src="assets/imgi_74_broadcasting-broadcasting.jpg" style="width: 100%; transition: transform 0.8s ease;"/>
+<img alt="Smart Display IoT Living Space Integration" class="hover-zoom" src="assets/imgi_74_broadcasting-broadcasting.webp" style="width: 100%; transition: transform 0.8s ease;"/>
 </div>
 </div>
 </div>
-<!-- Showcase 2: Commercial Digital Signage Trends (using assets/imgi_75_education-education.jpg) -->
+<!-- Showcase 2: Commercial Digital Signage Trends (using assets/imgi_75_education-education.webp) -->
 <div class="editorial-showcase-row reverse reveal" style="margin-bottom: 100px;">
 <div class="showcase-content">
 <div class="hero-badge" style="margin-bottom: 16px; background: rgba(0, 82, 255, 0.1); border-color: rgba(0, 82, 255, 0.2);">
 <span class="hero-badge-dot" style="background: var(--orange);"></span>
-                            Commercial Screens • 8 min read
+                            Commercial Screens  8 min read
                         </div>
 <h3 class="section-title" style="font-size: clamp(24px, 3.5vw, 36px); text-align: left; margin-bottom: 20px;">
                             Commercial Digital Signage &amp; High-Contrast Outdoor Display Systems
@@ -117,16 +117,16 @@
 <div class="showcase-visual" style="position: relative;">
 <div class="tv-glow-ambient" style="background: var(--orange); opacity: 0.15;"></div>
 <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--glass-border); box-shadow: var(--shadow-md);">
-<img alt="Commercial Digital Signage Display Systems" class="hover-zoom" src="assets/imgi_77_sports-sports.jpg" style="width: 100%; transition: transform 0.8s ease;"/>
+<img alt="Commercial Digital Signage Display Systems" class="hover-zoom" src="assets/imgi_77_sports-sports.webp" style="width: 100%; transition: transform 0.8s ease;"/>
 </div>
 </div>
 </div>
-<!-- Showcase 3: Commercial LED Sub-Pixel Maintenance Evolution (using assets/imgi_78_religious-sites-religious-sites.jpg) -->
+<!-- Showcase 3: Commercial LED Sub-Pixel Maintenance Evolution (using assets/imgi_78_religious-sites-religious-sites.webp) -->
 <div class="editorial-showcase-row reveal" style="margin-bottom: 40px;">
 <div class="showcase-content">
 <div class="hero-badge" style="margin-bottom: 16px; background: rgba(0, 240, 255, 0.1); border-color: rgba(0, 240, 255, 0.2);">
 <span class="hero-badge-dot" style="background: var(--yellow);"></span>
-                            Display Maintenance • 7 min read
+                            Display Maintenance  7 min read
                         </div>
 <h3 class="section-title" style="font-size: clamp(24px, 3.5vw, 36px); text-align: left; margin-bottom: 20px;">
                             The Precision Art of Fine-Pitch LED Calibration &amp; Pixel Maintenance
@@ -145,7 +145,7 @@
 <div class="showcase-visual" style="position: relative;">
 <div class="tv-glow-ambient" style="background: var(--yellow); opacity: 0.15;"></div>
 <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--glass-border); box-shadow: var(--shadow-md);">
-<img alt="Certified Electronics Engineer Micro-Soldering display" class="hover-zoom" src="assets/imgi_82_uofillinoisrendering_2026.jpg" style="width: 100%; transition: transform 0.8s ease;"/>
+<img alt="Certified Electronics Engineer Micro-Soldering display" class="hover-zoom" src="assets/imgi_82_uofillinoisrendering_2026.webp" style="width: 100%; transition: transform 0.8s ease;"/>
 </div>
 </div>
 </div>
@@ -163,7 +163,7 @@
 <!-- Card 1 -->
 <article class="news-card reveal">
 <div class="news-img">
-<img alt="Quantum Dots Calibration" src="assets/imgi_88_haughton-hs_prescott-field.jpg"/>
+<img alt="Quantum Dots Calibration" src="assets/imgi_88_haughton-hs_prescott-field.webp"/>
 <div class="news-img-cat">Technology</div>
 </div>
 <div class="news-body">
@@ -176,7 +176,7 @@
 <!-- Card 2 -->
 <article class="news-card reveal reveal-delay-1">
 <div class="news-img" style="background: linear-gradient(135deg, #091a3c, #020713);">
-<img alt="Immersive Smart Office displays" src="assets/imgi_94_orange-barrel-media_urban-billboard.jpg"/>
+<img alt="Immersive Smart Office displays" src="assets/imgi_94_orange-barrel-media_urban-billboard.webp"/>
 <div class="news-img-cat" style="background: var(--blue-accent);">Innovation</div>
 </div>
 <div class="news-body">
@@ -189,7 +189,7 @@
 <!-- Card 3 -->
 <article class="news-card reveal reveal-delay-2">
 <div class="news-img" style="background: linear-gradient(135deg, #1f1105, #030712);">
-<img alt="Fine-Pitch LED Calibration" src="assets/imgi_130_amped-digital_lotte-duty-free.jpg"/>
+<img alt="Fine-Pitch LED Calibration" src="assets/imgi_130_amped-digital_lotte-duty-free.webp"/>
 <div class="news-img-cat" style="background: var(--orange);">Education</div>
 </div>
 <div class="news-body">
@@ -202,7 +202,7 @@
 <!-- Card 4 -->
 <article class="news-card reveal">
 <div class="news-img" style="background: linear-gradient(135deg, #092e1e, #030712);">
-<img alt="Dubai Command Center lab" src="assets/imgi_76_rental-amp-staging-RS.jpg"/>
+<img alt="Dubai Command Center lab" src="assets/imgi_76_rental-amp-staging-RS.webp"/>
 <div class="news-img-cat" style="background: #10B981;">Company</div>
 </div>
 <div class="news-body">
@@ -215,7 +215,7 @@
 <!-- Card 5 -->
 <article class="news-card reveal reveal-delay-1">
 <div class="news-img" style="background: linear-gradient(135deg, #1b092e, #030712);">
-<img alt="Retail Signage Kiosks" src="assets/imgi_100_plum-senior-high-indoor-video-board.jpg"/>
+<img alt="Retail Signage Kiosks" src="assets/imgi_100_plum-senior-high-indoor-video-board.webp"/>
 <div class="news-img-cat" style="background: #8B5CF6;">Industry</div>
 </div>
 <div class="news-body">
@@ -228,7 +228,7 @@
 <!-- Card 6 -->
 <article class="news-card reveal reveal-delay-2">
 <div class="news-img" style="background: linear-gradient(135deg, #2e091a, #030712);">
-<img alt="Outdoor LED Display Panels" src="assets/imgi_106_mtd-dairy-queen_madison-sd.jpg"/>
+<img alt="Outdoor LED Display Panels" src="assets/imgi_106_mtd-dairy-queen_madison-sd.webp"/>
 <div class="news-img-cat" style="background: #EC4899;">Tips</div>
 </div>
 <div class="news-body">
@@ -253,7 +253,7 @@
 <!-- Video Card 1 -->
 <article class="news-card reveal" style="padding: 0; overflow: hidden; border: 1px solid var(--glass-border);">
 <div style="position: relative; aspect-ratio: 16/9; background: #0c1223; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-<img alt="PIXON TECHNOLOGIES Calibration Stream" src="assets/imgi_112_bk-schuster_indoor-lcd-display.jpg" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.6);"/>
+<img alt="PIXON TECHNOLOGIES Calibration Stream" src="assets/imgi_112_bk-schuster_indoor-lcd-display.webp" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.6);"/>
 <!-- Floating Play Button -->
 <div class="tv-glow-ambient" style="background: var(--blue-accent); opacity: 0.2;"></div>
 <a aria-label="Play Calibration Video" class="hover-zoom" href="contact.php" style="position: absolute; width: 64px; height: 64px; border-radius: 50%; background: var(--orange); display: flex; align-items: center; justify-content: center; color: var(--navy); box-shadow: 0 0 20px rgba(255,107,0,0.5); transition: 0.3s;">
@@ -270,7 +270,7 @@
 <!-- Video Card 2 -->
 <article class="news-card reveal reveal-delay-1" style="padding: 0; overflow: hidden; border: 1px solid var(--glass-border);">
 <div style="position: relative; aspect-ratio: 16/9; background: #0c1223; display: flex; align-items: center; justify-content: center; overflow: hidden;">
-<img alt="Interactive Display Installation Video" src="assets/imgi_11_guinness-world-record-for-qatar-expo-illuminated-by-absen-led-screens-Guinness-world.jpg" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.6);"/>
+<img alt="Interactive Display Installation Video" src="assets/imgi_11_guinness-world-record-for-qatar-expo-illuminated-by-absen-led-screens-Guinness-world.webp" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.6);"/>
 <!-- Floating Play Button -->
 <div class="tv-glow-ambient" style="background: var(--blue-accent); opacity: 0.2;"></div>
 <a aria-label="Play Installation Video" class="hover-zoom" href="contact.php" style="position: absolute; width: 64px; height: 64px; border-radius: 50%; background: var(--blue-accent); display: flex; align-items: center; justify-content: center; color: var(--white); box-shadow: 0 0 20px rgba(0,102,255,0.5); transition: 0.3s;">
