@@ -3,11 +3,35 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/"/>
+<link rel="canonical" href="https://www.pixonglobal.com/products/indoor-cob" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.pixonglobal.com/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Products",
+    "item": "https://www.pixonglobal.com/products"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Indoor COB (Chip-On-Board)",
+    "item": "https://www.pixonglobal.com/products/indoor-cob"
+  }]
+}
+</script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Premium Indoor COB (Chip-On-Board) displays from PIXON TECHNOLOGIES. Next-generation micro-pitch technology for deep blacks, high contrast, and extreme durability." name="description"/>
+<meta content="Advanced indoor LED COB displays for advertising, delivering sharp visuals, seamless viewing, and reliable performance for retail, events, and commercial spaces." name="description"/>
 <meta content="Indoor COB, Chip-On-Board, micro-pitch technology, high-resolution display, COB LED screen, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Indoor COB (Chip-On-Board) - PIXON TECHNOLOGIES</title>
+<title>Advanced Indoor LED COB Displays for Advertising - Pixon</title>
 <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>

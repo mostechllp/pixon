@@ -1,14 +1,85 @@
 RewriteEngine On
+RewriteBase /
+
+# ----------------------------------------------------------------------
+# 0. PREVENT REDIRECT LOOPS ON INTERNAL SUB-REQUESTS
+# ----------------------------------------------------------------------
+RewriteCond %{ENV:REDIRECT_STATUS} !^$
+RewriteRule ^ - [L]
+
+# ----------------------------------------------------------------------
+# 1. 301 PERMANENT REDIRECTS: OLD URLS -> NEW CLEAN EXACT URLS (SEO)
+# ----------------------------------------------------------------------
+
+# Services 301 Redirects (matches both /name, /name/, and /name.php)
+RewriteRule ^installation(?:\.php)?/?$ /services/installation-and-configuration [R=301,L,NC]
+RewriteRule ^indoor(?:\.php)?/?$ /services/indoor-led-screens [R=301,L,NC]
+RewriteRule ^outdoor(?:\.php)?/?$ /services/outdoor-led-screens [R=301,L,NC]
+RewriteRule ^rental(?:\.php)?/?$ /services/rental-led-screens [R=301,L,NC]
+RewriteRule ^av-solutions(?:\.php)?/?$ /services/av-solutions [R=301,L,NC]
+RewriteRule ^retail-display(?:\.php)?/?$ /services/retail-display-solutions [R=301,L,NC]
+RewriteRule ^customized-led-screens(?:\.php)?/?$ /services/customized-led-screens [R=301,L,NC]
+RewriteRule ^immersive-projection(?:\.php)?/?$ /services/immersive-projection [R=301,L,NC]
+RewriteRule ^content-creation(?:\.php)?/?$ /services/content-creation [R=301,L,NC]
+
+# Products 301 Redirects (matches both /name, /name/, and /name.php)
+RewriteRule ^indoor-led-screen(?:\.php)?/?$ /products/indoor-led-screen [R=301,L,NC]
+RewriteRule ^oled-series(?:\.php)?/?$ /products/oled-series [R=301,L,NC]
+RewriteRule ^indoor-cob(?:\.php)?/?$ /products/indoor-cob [R=301,L,NC]
+RewriteRule ^outdoor-led-screen(?:\.php)?/?$ /products/outdoor-led-screen [R=301,L,NC]
+RewriteRule ^outdoor-mesh-screen(?:\.php)?/?$ /products/outdoor-mesh-screen [R=301,L,NC]
+RewriteRule ^smart-classroom-led(?:\.php)?/?$ /products/smart-classroom-led [R=301,L,NC]
+RewriteRule ^interactive-conference-led(?:\.php)?/?$ /products/interactive-conference-led [R=301,L,NC]
+RewriteRule ^kinetic-led-screen(?:\.php)?/?$ /products/kinetic-led-screen [R=301,L,NC]
+RewriteRule ^glass-transparent-display-solutions(?:\.php)?/?$ /products/transparent-display [R=301,L,NC]
+RewriteRule ^transparent-film-led(?:\.php)?/?$ /products/transparent-film-led [R=301,L,NC]
+RewriteRule ^customized-led-products(?:\.php)?/?$ /products/customized-led-screens [R=301,L,NC]
+RewriteRule ^floor-and-roll-led-display(?:\.php)?/?$ /products/floor-and-roll-led-display [R=301,L,NC]
+RewriteRule ^kiosk-poster(?:\.php)?/?$ /products/kiosk-poster [R=301,L,NC]
+
+# ----------------------------------------------------------------------
+# 2. INTERNAL REWRITES: MAP NEW EXACT URLS TO UNDERLYING PHP FILES
+# ----------------------------------------------------------------------
+
+# Services Internal Routing
+RewriteRule ^services/installation-and-configuration/?$ installation.php [L,NC]
+RewriteRule ^services/indoor-led-screens/?$ indoor.php [L,NC]
+RewriteRule ^services/outdoor-led-screens/?$ outdoor.php [L,NC]
+RewriteRule ^services/rental-led-screens/?$ rental.php [L,NC]
+RewriteRule ^services/av-solutions/?$ av-solutions.php [L,NC]
+RewriteRule ^services/retail-display-solutions/?$ retail-display.php [L,NC]
+RewriteRule ^services/customized-led-screens/?$ customized-led-screens.php [L,NC]
+RewriteRule ^services/immersive-projection/?$ immersive-projection.php [L,NC]
+RewriteRule ^services/content-creation/?$ content-creation.php [L,NC]
+
+# Products Internal Routing
+RewriteRule ^products/indoor-led-screen/?$ indoor-led-screen.php [L,NC]
+RewriteRule ^products/oled-series/?$ oled-series.php [L,NC]
+RewriteRule ^products/indoor-cob/?$ indoor-cob.php [L,NC]
+RewriteRule ^products/outdoor-led-screen/?$ outdoor-led-screen.php [L,NC]
+RewriteRule ^products/outdoor-mesh-screen/?$ outdoor-mesh-screen.php [L,NC]
+RewriteRule ^products/smart-classroom-led/?$ smart-classroom-led.php [L,NC]
+RewriteRule ^products/interactive-conference-led/?$ interactive-conference-led.php [L,NC]
+RewriteRule ^products/kinetic-led-screen/?$ kinetic-led-screen.php [L,NC]
+RewriteRule ^products/transparent-display/?$ glass-transparent-display-solutions.php [L,NC]
+RewriteRule ^products/transparent-film-led/?$ transparent-film-led.php [L,NC]
+RewriteRule ^products/customized-led-screens/?$ customized-led-products.php [L,NC]
+RewriteRule ^products/floor-and-roll-led-display/?$ floor-and-roll-led-display.php [L,NC]
+RewriteRule ^products/kiosk-poster/?$ kiosk-poster.php [L,NC]
+
+# ----------------------------------------------------------------------
+# 3. GENERAL CLEAN URLS & EXTENSION REMOVAL
+# ----------------------------------------------------------------------
 
 # Redirect index.php to /
 RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
 RewriteRule ^index\.php$ / [R=301,L]
 
-# Remove .php extension
+# Remove .php extension for general top-level pages (about, contact, services, products, projects, etc.)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^(.+)\.php$ /$1 [R=301,L,NE]
 
-# Internally add .php
+# Internally add .php if file exists
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+?)/?$ $1.php [L]

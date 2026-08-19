@@ -1,13 +1,37 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/"/>
+<link rel="canonical" href="https://pixonglobal.com/services/customized-led-screens" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.pixonglobal.com/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Services",
+    "item": "https://www.pixonglobal.com/services"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Customized LED Screens",
+    "item": "https://pixonglobal.com/services/customized-led-screens"
+  }]
+}
+</script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Customized LED Screens — PIXON TECHNOLOGIES offers bespoke LED solutions tailored to your unique architectural requirements, from curved walls to complex geometric shapes." name="description"/>
+<meta content="Customized LED screens for unique visual experiences, delivering high-impact displays for events, exhibitions, retail spaces, and engaging brand environments." name="description"/>
 <meta content="customized LED screens, bespoke LED displays, flexible LED panels, architectural LED integration, curved LED screens, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Customized LED Screens - PIXON TECHNOLOGIES</title>
+<title>Customized LED Screens for Unique Visual Experiences | Pixon</title>
 <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>

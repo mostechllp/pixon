@@ -3,26 +3,51 @@
 <html lang="en">
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NPW8N7BC');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1DXF42V841');
+  </script>
   <meta charset="utf-8" />
+  <base href="/" />
+  <link rel="canonical" href="https://www.pixonglobal.com/" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="google-site-verification" content="VEnfiFGWSLn_FEkppFRdk3APHzhlh6IqBdAKGGfYptQ" />
   <meta
-    content="PIXON TECHNOLOGIES — A leading LED Screen &amp; AV (Audio-Visual) Solutions Company in the Middle East &amp; Africa. Supplying, designing, installing, and servicing commercial indoor/outdoor LED screens."
+    content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems."
     name="description" />
   <meta
     content="PIXON TECHNOLOGIES, LED screen Middle East &amp; Africa, AV Solutions Dubai, outdoor LED screen Riyadh, digital signage Middle East &amp; Africa, kinetic displays"
     name="keywords" />
-  <meta content="PIXON TECHNOLOGIES" name="author" />
-  <meta content="PIXON TECHNOLOGIES — LED Screen &amp; AV Solutions " property="og:title" />
-  <meta
-    content="Supplying, designing, installing, and servicing commercial LED screens and professional audio-visual system integrations across the Middle East &amp; Africa."
-    property="og:description" />
-  <meta content="website" property="og:type" />
-  <meta content="https://pixontechnologies.global" property="og:url" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
+  <meta property="og:url" content="https://www.pixonglobal.com/" />
+  <meta property="og:image" content="https://www.pixonglobal.com/assets/pixon-logo.png" />
+  <meta property="og:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
+  <meta name="twitter:site" content="@https://www.pixonglobal.com/" />
+  <meta name="twitter:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
+  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.png" />
+  <meta name="twitter:image:alt" content="Pixon Technologies LLC" />
   <meta content="#18315B" name="theme-color" />
   <!-- Favicon -->
   <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
   <link href="assets/fav-logo.jpg-removebg-preview.png" rel="apple-touch-icon" />
-  <title>PIXON TECHNOLOGIES - LED Screen &amp; AV Solutions Company</title>
+  <title>LED Screen &amp; AV Solutions Company - Pixon Global Technologies</title>
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
   <link
@@ -84,6 +109,41 @@
       height : 75px;
     }
   </style>
+
+  <!-- Structured Data: WebSite Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "Pixon Technologies LLC",
+    "url": "https://www.pixonglobal.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Pixon Technologies LLC",
+    "image": "https://www.pixonglobal.com/assets/pixon-logo.png",
+    "@id": "",
+    "url": "https://www.pixonglobal.com/",
+    "telephone": "+971 58 106 5959",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1st Floor, Al Awadhi Building, Deira",
+      "addressLocality": "Dubai",
+      "postalCode": "",
+      "addressCountry": "AE"
+    }  
+  }
+  </script>
 </head>
 
 <body class="watermarked-page">
@@ -213,7 +273,7 @@
                   installing mission-critical command centers and executive boardrooms, we redefine visual
                   experiences.
                 </p>
-                <a class="btn btn-primary" href="about.php">
+                <a class="btn btn-primary" href="/about">
                   Learn More About Us
                   <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2.5"
                     viewbox="0 0 24 24" width="16">
@@ -251,7 +311,7 @@
                 <h3 class="service-name">Indoor LED Screens</h3>
                 <p class="service-desc">Providing standard SMD, high-contrast Chip-on-Board (COB) LED displays, and
                   advanced OLED solutions calibrated to perfection.</p>
-                <a class="service-arrow" href="products.php" style="text-decoration:none; color:inherit;">Learn more
+                <a aria-label="Learn more about Indoor LED Screens" class="service-arrow" href="/products/indoor-led-screen" style="text-decoration:none; color:inherit;">Learn more <span class="sr-only">about Indoor LED Screens</span>
                   <svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
                     <line x1="5" x2="19" y1="12" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -273,7 +333,7 @@
                 <h3 class="service-name">Outdoor LED Screens</h3>
                 <p class="service-desc">Weatherproof, high-brightness commercial displays, advertising
                   billboards, and Mesh Transparent Screens designed for maximum Middle East &amp; Africa durability.</p>
-                <a class="service-arrow" href="products.php" style="text-decoration:none; color:inherit;">Learn more
+                <a aria-label="Learn more about Outdoor LED Screens" class="service-arrow" href="/products/outdoor-led-screen" style="text-decoration:none; color:inherit;">Learn more <span class="sr-only">about Outdoor LED Screens</span>
                   <svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
                     <line x1="5" x2="19" y1="12" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -295,7 +355,7 @@
                 <h3 class="service-name">Innovative &amp; Custom Displays</h3>
                 <p class="service-desc">Kinetic LED screens (moving displays), spherical LED screens,
                   transparent glass/film screens, and custom architectural integrations.</p>
-                <a class="service-arrow" href="products.php" style="text-decoration:none; color:inherit;">Learn more
+                <a aria-label="Learn more about Innovative and Custom Displays" class="service-arrow" href="/products/customized-led-screens" style="text-decoration:none; color:inherit;">Learn more <span class="sr-only">about Innovative and Custom Displays</span>
                   <svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
                     <line x1="5" x2="19" y1="12" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -316,7 +376,7 @@
                 <h3 class="service-name">LCD &amp; Kiosks</h3>
                 <p class="service-desc">Dynamic vertical interactive kiosks, poster screens, and
                   large-format seamless video walls optimized for high-impact retail engagement.</p>
-                <a class="service-arrow" href="products.php" style="text-decoration:none; color:inherit;">Learn more
+                <a aria-label="Learn more about LCD and Kiosks" class="service-arrow" href="/products/kiosk-poster" style="text-decoration:none; color:inherit;">Learn more <span class="sr-only">about LCD and Kiosks</span>
                   <svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
                     <line x1="5" x2="19" y1="12" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -338,7 +398,7 @@
                 <h3 class="service-name">Corporate &amp; Government AV</h3>
                 <p class="service-desc">Command center mission-critical displays, executive boardrooms,
                   unified video conferencing, and wireless screen sharing integrations.</p>
-                <a class="service-arrow" href="products.php" style="text-decoration:none; color:inherit;">Learn more
+                <a aria-label="Learn more about Corporate and Government AV" class="service-arrow" href="/services/av-solutions" style="text-decoration:none; color:inherit;">Learn more <span class="sr-only">about Corporate and Government AV</span>
                   <svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
                     <line x1="5" x2="19" y1="12" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -360,7 +420,7 @@
                 <h3 class="service-name">Commercial &amp; Public AV</h3>
                 <p class="service-desc">Immersive projection spaces, retail audio solutions, smart classroom
                   systems, XR studios, and public address (PA) system integrations.</p>
-                <a class="service-arrow" href="products.php" style="text-decoration:none; color:inherit;">Learn more
+                <a aria-label="Learn more about Commercial and Public AV" class="service-arrow" href="/services/retail-display-solutions" style="text-decoration:none; color:inherit;">Learn more <span class="sr-only">about Commercial and Public AV</span>
                   <svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14">
                     <line x1="5" x2="19" y1="12" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -703,7 +763,7 @@
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Experienced Technical Team</h4>
+              <h3 class="service-name-compact">Experienced Technical Team</h3>
               <p class="service-desc-compact">200+ certified engineers with deep Middle East &amp; Africa deployment
                 expertise.</p>
             </div>
@@ -715,7 +775,7 @@
                   <path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"></path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Customized Solutions</h4>
+              <h3 class="service-name-compact">Customized Solutions</h3>
               <p class="service-desc-compact">Every project is tailor-built to fit your exact architectural and brand
                 requirements.</p>
             </div>
@@ -727,7 +787,7 @@
                   <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Competitive Pricing</h4>
+              <h3 class="service-name-compact">Competitive Pricing</h3>
               <p class="service-desc-compact">Premium-quality hardware and turnkey services without premium pricing.</p>
             </div>
             <!-- 4 -->
@@ -737,7 +797,7 @@
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Quality Products</h4>
+              <h3 class="service-name-compact">Quality Products</h3>
               <p class="service-desc-compact">1,200+ rigorously sourced products from globally certified LED and AV
                 manufacturers.</p>
             </div>
@@ -750,7 +810,7 @@
                   <line x1="10" x2="14" y1="12" y2="12"></line>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Professional Installation</h4>
+              <h3 class="service-name-compact">Professional Installation</h3>
               <p class="service-desc-compact">Full turnkey installation with precision calibration and system
                 commissioning.</p>
             </div>
@@ -763,7 +823,7 @@
                   </path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Fast Response Support</h4>
+              <h3 class="service-name-compact">Fast Response Support</h3>
               <p class="service-desc-compact">Dedicated 24/7 helpdesk with on-site dispatch teams across the region.</p>
             </div>
             <!-- 7 -->
@@ -773,7 +833,7 @@
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">After Sales Service</h4>
+              <h3 class="service-name-compact">After Sales Service</h3>
               <p class="service-desc-compact">Comprehensive warranty management, preventive maintenance, and spare parts
                 supply.</p>
             </div>
@@ -787,7 +847,7 @@
                   </path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Strong MEA Execution</h4>
+              <h3 class="service-name-compact">Strong MEA Execution</h3>
               <p class="service-desc-compact">Active operations across UAE, Saudi Arabia, Egypt, Kenya and 15+ more
                 countries.</p>
             </div>
@@ -801,7 +861,7 @@
                   </path>
                 </svg>
               </div>
-              <h4 class="service-name-compact">Innovative Technology</h4>
+              <h3 class="service-name-compact">Innovative Technology</h3>
               <p class="service-desc-compact">Continuously expanding our portfolio with the latest LED display
                 technologies.</p>
             </div>
@@ -816,7 +876,7 @@
                   <line x1="12" x2="12" y1="22.08" y2="12"></line>
                 </svg>
               </div>
-              <h4 class="service-name-compact">End-to-End Solutions</h4>
+              <h3 class="service-name-compact">End-to-End Solutions</h3>
               <p class="service-desc-compact">From initial consultation and design to installation and ongoing technical
                 support.</p>
             </div>

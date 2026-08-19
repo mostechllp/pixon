@@ -2,12 +2,47 @@
 
 <html lang="en">
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NPW8N7BC');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1DXF42V841');
+</script>
 <meta charset="utf-8"/>
+<base href="/"/>
+<link rel="canonical" href="https://www.pixonglobal.com/about" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.pixonglobal.com/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "About",
+    "item": "https://www.pixonglobal.com/about"
+  }]
+}
+</script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="About PIXON TECHNOLOGIES - Learn about Middle East &amp; Africa's leading commercial indoor/outdoor LED screen &amp; AV Solutions company." name="description"/>
+<meta content="Learn about Pixon, LED display and visual solutions experts delivering innovative LED screens, immersive experiences, AV solutions and digital displays." name="description"/>
 <meta content="About PIXON TECHNOLOGIES, LED screen specialists, AV integration Middle East &amp; Africa, display engineers Middle East &amp; Africa" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>About Us - PIXON TECHNOLOGIES - LED Screen &amp; AV Solutions</title>
+<title>About Pixon | LED Display &amp; Visual Solutions Experts</title>
 <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>

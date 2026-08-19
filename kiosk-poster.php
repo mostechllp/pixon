@@ -3,11 +3,35 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/"/>
+<link rel="canonical" href="https://www.pixonglobal.com/products/kiosk-poster" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.pixonglobal.com/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Products",
+    "item": "https://www.pixonglobal.com/products"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Kiosk & Poster Screen",
+    "item": "https://www.pixonglobal.com/products/kiosk-poster"
+  }]
+}
+</script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Premium indoor LED screens from PIXON TECHNOLOGIES. High-resolution displays for retail, corporate offices, malls, and events." name="description"/>
+<meta content="Kiosk LED poster displays by Pixon offer plug-and-play digital signage with vibrant visuals, easy setup, and flexible advertising solutions for retail spaces." name="description"/>
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Kiosk &amp; Poster Screen - PIXON TECHNOLOGIES</title>
+<title>Kiosk LED Poster Displays Plug-and-Play Digital Signage - Pixon</title>
 <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>

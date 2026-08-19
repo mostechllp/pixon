@@ -3,12 +3,47 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NPW8N7BC');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1DXF42V841');
+    </script>
     <meta charset="utf-8" />
+    <base href="/" />
+    <link rel="canonical" href="https://www.pixonglobal.com/contact" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pixonglobal.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Contact",
+        "item": "https://www.pixonglobal.com/contact"
+      }]
+    }
+    </script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Contact PIXON TECHNOLOGIES — Get a custom quote for premium commercial LED screens, video walls, digital kiosks, and pro audio-visual integrations across the Middle East &amp; Africa." name="description" />
+    <meta content="Contact Pixon Global for expert LED displays, AV solutions, immersive technology and visual experiences. Get in touch with our team for tailored solutions." name="description" />
     <meta content="Contact PIXON TECHNOLOGIES, LED screen quote Dubai, pro AV Riyadh, digital signage Middle East &amp; Africa" name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
-    <title>Contact Us - PIXON TECHNOLOGIES | LED Screen &amp; AV Solutions</title>
+    <title>Get in Touch with Pixon Global: Your Guide to Connection</title>
     <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -381,7 +416,7 @@
                         <div class="map-loader">
                             <div class="map-spinner"></div>
                         </div>
-                        <iframe aria-label="Interactive Google Map Explorer" frameborder="0" height="100%" id="contact-map-iframe" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9545094429404!2d55.30704877538429!3d25.27211567766284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE5LjYiTiA1NcKwMTgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1784725951450!5m2!1sen!2sin" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                        <iframe aria-label="Interactive Google Map Explorer" title="Google Maps Location - Pixon Technologies" frameborder="0" height="100%" id="contact-map-iframe" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9545094429404!2d55.30704877538429!3d25.27211567766284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE5LjYiTiA1NcKwMTgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1784725951450!5m2!1sen!2sin" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
                         </iframe>
                     </div>
                 </div>

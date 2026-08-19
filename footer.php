@@ -4,8 +4,8 @@
 <div class="footer-grid">
 <!-- Brand -->
 <div class="footer-brand">
-<a aria-label="PIXON TECHNOLOGIES Home" class="footer-logo-link" href="index.php">
-<img alt="PIXON TECHNOLOGIES Logo" class="footer-logo-img" src="assets/pixon-logo.png"/>
+<a aria-label="PIXON TECHNOLOGIES Home" class="footer-logo-link" href="/">
+<img alt="PIXON TECHNOLOGIES Logo" class="footer-logo-img" src="/assets/pixon-logo.png"/>
 </a>
 <p class="footer-tagline">Supplying, designing, installing, and servicing commercial indoor/outdoor LED
     screens, digital displays, and complete professional audio-visual system integrations across the Middle East
@@ -42,27 +42,27 @@
 <div>
 <div class="footer-col-title">Quick Links</div>
 <nav aria-label="Quick links" class="footer-links">
-<a class="footer-link" href="index.php">Home</a>
-<a class="footer-link" href="about.php">About Us</a>
-<a class="footer-link" href="services.php">Services</a>
-<a class="footer-link" href="products.php">Products</a>
-<a class="footer-link" href="projects.php">Projects</a>
-<a class="footer-link" href="contact.php">Contact</a>
+<a class="footer-link" href="/">Home</a>
+<a class="footer-link" href="/about">About Us</a>
+<a class="footer-link" href="/services">Services</a>
+<a class="footer-link" href="/products">Products</a>
+<a class="footer-link" href="/projects">Projects</a>
+<a class="footer-link" href="/contact">Contact</a>
 </nav>
 </div>
 <!-- Services -->
 <div>
 <div class="footer-col-title">Services</div>
 <nav aria-label="Services links" class="footer-links">
-<a class="footer-link" href="installation.php">Installation &amp; Configuration</a>
-<a class="footer-link" href="indoor.php">Indoor LED Screen</a>
-<a class="footer-link" href="outdoor.php">Outdoor LED Screen</a>
-<a class="footer-link" href="rental.php">Rental LED Screen</a>
-<a class="footer-link" href="av-solutions.php">AV Solutions</a>
-<a class="footer-link" href="retail-display.php">Retail Display Solution</a>
-<a class="footer-link" href="customized-led-screens.php">Customized LED Screens</a>
-<a class="footer-link" href="immersive-projection.php">Immersive Projection</a>
-<a class="footer-link" href="content-creation.php">Content Creation</a>
+<a class="footer-link" href="/services/installation-and-configuration">Installation &amp; Configuration</a>
+<a class="footer-link" href="/services/indoor-led-screens">Indoor LED Screen</a>
+<a class="footer-link" href="/services/outdoor-led-screens">Outdoor LED Screen</a>
+<a class="footer-link" href="/services/rental-led-screens">Rental LED Screen</a>
+<a class="footer-link" href="/services/av-solutions">AV Solutions</a>
+<a class="footer-link" href="/services/retail-display-solutions">Retail Display Solution</a>
+<a class="footer-link" href="/services/customized-led-screens">Customized LED Screens</a>
+<a class="footer-link" href="/services/immersive-projection">Immersive Projection</a>
+<a class="footer-link" href="/services/content-creation">Content Creation</a>
 </nav>
 </div>
 <!-- Contact Us -->
@@ -92,7 +92,8 @@ info@pixonglobal.com
 <div style="width: 100%; height: 120px; border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-top: 15px;">
 <iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no"
     src="https://maps.google.com/maps?q=25.2721157,55.3096237&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-    style="display: block; width: 100%; border: none;" width="100%">
+    style="display: block; width: 100%; border: none;" width="100%"
+    title="Google Maps Location - Pixon Technologies">
 </iframe>
 </div>
 </div>

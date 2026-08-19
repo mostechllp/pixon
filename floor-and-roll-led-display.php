@@ -3,11 +3,35 @@
 
 <head>
     <meta charset="utf-8" />
+    <base href="/" />
+    <link rel="canonical" href="https://www.pixonglobal.com/products/floor-and-roll-led-display" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pixonglobal.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.pixonglobal.com/products"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Floor and Roll LED Display",
+        "item": "https://www.pixonglobal.com/products/floor-and-roll-led-display"
+      }]
+    }
+    </script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Premium Roll LED screens from PIXON TECHNOLOGIES. High-resolution flexible roll LED solutions for events, retail, and exhibitions." name="description" />
+    <meta content="Durable LED rolling floor displays for advertising by Pixon, designed for dynamic visuals, flexible use, and high-impact digital advertising in commercial spaces." name="description" />
     <meta content="roll LED display, flexible LED screen, event display, retail LED, portable LED screen" name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
-    <title>Roll LED Display - PIXON TECHNOLOGIES</title>
+    <title>Durable LED Rolling Floor Displays for Advertising - Pixon</title>
     <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />

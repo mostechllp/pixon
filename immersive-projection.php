@@ -3,11 +3,35 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/"/>
+<link rel="canonical" href="https://www.pixonglobal.com/services/immersive-projection" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.pixonglobal.com/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Services",
+    "item": "https://www.pixonglobal.com/services"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Immersive Projection Solutions",
+    "item": "https://www.pixonglobal.com/services/immersive-projection"
+  }]
+}
+</script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Immersive Projection Solutions — PIXON TECHNOLOGIES utilizes state-of-the-art 3D projection mapping and interactive technologies to transform ordinary spaces into extraordinary visual environments." name="description"/>
+<meta content="Explore immersive projection solutions that transform spaces with engaging visuals, interactive experiences, and innovative technology for events and brands." name="description"/>
 <meta content="immersive projection, 3D projection mapping, interactive projection, experiential design, edge blending, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Immersive Projection Solutions - PIXON TECHNOLOGIES</title>
+<title>Immersive Projection Solutions for Engaging Visual Experiences</title>
 <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>

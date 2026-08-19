@@ -4,15 +4,39 @@
 
 <head>
     <meta charset="utf-8" />
+    <base href="/" />
+    <link rel="canonical" href="https://www.pixonglobal.com/products/transparent-display" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.pixonglobal.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.pixonglobal.com/products"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Glass Transparent Display Solutions",
+        "item": "https://www.pixonglobal.com/products/transparent-display"
+      }]
+    }
+    </script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-        content="Premium indoor LED screens from PIXON TECHNOLOGIES. High-resolution displays for retail, corporate offices, malls, and events."
+        content="Durable and transparent outdoor LED screens for advertising by Pixon, designed to enhance visibility, engage audiences, and deliver impactful digital displays."
         name="description" />
     <meta
         content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED"
         name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
-    <title>Glass Transparent Display Solutions - PIXON TECHNOLOGIES</title>
+    <title>Durable Transparant Outdoor LED Screens for Advertising - Pixon</title>
     <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />

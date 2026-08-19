@@ -3,11 +3,35 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/"/>
+<link rel="canonical" href="https://pixonglobal.com/services/retail-display-solutions" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://www.pixonglobal.com/"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Services",
+    "item": "https://www.pixonglobal.com/services"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Retail Display Solutions",
+    "item": "https://pixonglobal.com/services/retail-display-solutions"
+  }]
+}
+</script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Retail Display Solutions — Explore PIXON TECHNOLOGIES's high-impact digital signage, interactive displays, and window LED screens designed to captivate shoppers and boost retail engagement." name="description"/>
+<meta content="Pixon retail display solutions deliver engaging customer experiences with vibrant visuals, smart technology and impactful digital displays for modern retail spaces." name="description"/>
 <meta content="retail display solutions, digital signage for retail, shop window LED, interactive kiosks, in-store video walls, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Retail Display Solutions - PIXON TECHNOLOGIES</title>
+<title>Retail Display Solutions for Engaging Customer Experiences</title>
 <link href="assets/fav-logo.jpg-removebg-preview.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>

@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="Premium indoor LED screens from PIXON TECHNOLOGIES. High-resolution displays for retail, corporate offices, malls, and events." name="description"/>
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
