@@ -32,24 +32,26 @@
 <meta content="customized LED screens, bespoke LED displays, flexible LED panels, architectural LED integration, curved LED screens, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Customized LED Screens for Unique Visual Experiences | Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
+<link href="assets/favicon.png" rel="icon" type="image/png" />
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="style.css?v=2" rel="stylesheet"/>
+<link href="style.css?v=3" rel="stylesheet"/>
 
 
+
+  <style>
+/* Remove any blue lines or dashes if present */
+#hero, #hero * { border: none !important; }
+.section-label::before { display: none !important; }
+  </style>
 </head>
 <body>
 <?php include 'header.php'; ?>
 <main>
 <!-- Hero Section -->
 <section aria-label="Customized LED Screens hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 45vh !important; padding-top: 90px; padding-bottom: 30px; border: none !important; margin-bottom: 0 !important;">
-<style>
-/* Remove any blue lines or dashes if present */
-#hero, #hero * { border: none !important; }
-.section-label::before { display: none !important; }
-</style>
+
 <div class="hero-bg" style="background: url('assets/product-bg.webp') center/cover no-repeat;">
 <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%);">
 </div>

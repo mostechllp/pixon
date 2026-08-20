@@ -763,7 +763,12 @@ document.addEventListener("DOMContentLoaded", () => {
             // Get branch attributes
             const title = tab.getAttribute("data-title");
             const address = tab.getAttribute("data-address");
-            const email = tab.getAttribute("data-email");
+            const emailUser = tab.getAttribute("data-email-user");
+            const emailDomain = tab.getAttribute("data-email-domain");
+            let email = tab.getAttribute("data-email");
+            if (emailUser && emailDomain) {
+                email = `${emailUser}@${emailDomain}`;
+            }
             const hours = tab.getAttribute("data-hours");
             const phone = tab.getAttribute("data-phone");
             const phoneAlt = tab.getAttribute("data-phone-alt");
@@ -784,7 +789,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // Update text fields
             if (activeTitle) activeTitle.textContent = title;
             if (activeAddress) activeAddress.textContent = address;
-            if (activeEmail) activeEmail.textContent = email;
+            if (activeEmail) {
+                if (email) {
+                    activeEmail.innerHTML = `<a href="mailto:${email}" style="color: inherit; text-decoration: none;">${email}</a>`;
+                } else {
+                    activeEmail.textContent = "";
+                }
+            }
             if (activeHours) activeHours.textContent = hours;
 
             // Update primary phone call button

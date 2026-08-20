@@ -32,13 +32,101 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Custom OLED Clear Advertising Display Screens - Pixon</title>
-<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
+<link href="assets/favicon.png" rel="icon" type="image/png" />
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="style.css?v=2" rel="stylesheet"/>
+<link href="style.css?v=3" rel="stylesheet"/>
 
 
+
+  <style>
+.app-scenario-wrapper {
+        overflow-x: auto;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .app-scenario-table {
+        width: 100%;
+        min-width: 900px;
+        border-collapse: separate;
+        border-spacing: 16px;
+    }
+    .app-scenario-table th, 
+    .app-scenario-table td {
+        vertical-align: top;
+        text-align: center;
+        padding: 24px;
+        border-radius: 16px;
+    }
+    .app-scenario-table .col-header {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding-bottom: 8px;
+    }
+    .app-scenario-table .icon-cell {
+        padding-top: 0;
+        padding-bottom: 16px;
+    }
+    .app-scenario-table .icon-wrapper {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        height: 72px;
+        border-radius: 20px;
+        background: rgba(0, 188, 212, 0.1);
+        color: var(--accent-cyan);
+    }
+    .app-scenario-table .icon-wrapper svg {
+        width: 36px;
+        height: 36px;
+        stroke: currentColor;
+    }
+    .app-scenario-table .row-header {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.1rem;
+        vertical-align: middle;
+        text-align: center;
+        width: 160px;
+    }
+    .app-scenario-table td.content-cell {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        transition: transform 0.3s ease, background 0.3s ease;
+    }
+    .app-scenario-table td.content-cell:hover {
+        background: rgba(255, 255, 255, 0.08);
+        transform: translateY(-2px);
+    }
+    .app-scenario-table td p {
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: 12px;
+        line-height: 1.5;
+    }
+    .app-scenario-table td p:last-child {
+        margin-bottom: 0;
+    }
+    .app-scenario-table .highlight-text {
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+
+    /* Fix for OLED screenshot images aspect ratio */
+    .oled-gallery .bento-item {
+        background-color: #ffffff;
+    }
+    .oled-gallery .bento-item img {
+        object-fit: cover;
+    }
+  </style>
 </head>
 <body>
 <?php include 'header.php'; ?>
@@ -153,84 +241,7 @@
 <h2 class="section-title">Perfect For <span class="hero-title-accent">Every Industry</span></h2>
 <p class="section-sub">Versatile applications across multiple sectors and environments</p>
 </div>
-<style>
-    .app-scenario-wrapper {
-        overflow-x: auto;
-        margin-top: 40px;
-        padding-bottom: 20px;
-        -webkit-overflow-scrolling: touch;
-    }
-    .app-scenario-table {
-        width: 100%;
-        min-width: 900px;
-        border-collapse: separate;
-        border-spacing: 16px;
-    }
-    .app-scenario-table th, 
-    .app-scenario-table td {
-        vertical-align: top;
-        text-align: center;
-        padding: 24px;
-        border-radius: 16px;
-    }
-    .app-scenario-table .col-header {
-        font-size: 1.15rem;
-        font-weight: 600;
-        color: #ffffff;
-        padding-bottom: 8px;
-    }
-    .app-scenario-table .icon-cell {
-        padding-top: 0;
-        padding-bottom: 16px;
-    }
-    .app-scenario-table .icon-wrapper {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 72px;
-        height: 72px;
-        border-radius: 20px;
-        background: rgba(0, 188, 212, 0.1);
-        color: var(--accent-cyan);
-    }
-    .app-scenario-table .icon-wrapper svg {
-        width: 36px;
-        height: 36px;
-        stroke: currentColor;
-    }
-    .app-scenario-table .row-header {
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        color: #fff;
-        font-weight: 600;
-        font-size: 1.1rem;
-        vertical-align: middle;
-        text-align: center;
-        width: 160px;
-    }
-    .app-scenario-table td.content-cell {
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        transition: transform 0.3s ease, background 0.3s ease;
-    }
-    .app-scenario-table td.content-cell:hover {
-        background: rgba(255, 255, 255, 0.08);
-        transform: translateY(-2px);
-    }
-    .app-scenario-table td p {
-        font-size: 0.95rem;
-        color: rgba(255, 255, 255, 0.75);
-        margin-bottom: 12px;
-        line-height: 1.5;
-    }
-    .app-scenario-table td p:last-child {
-        margin-bottom: 0;
-    }
-    .app-scenario-table .highlight-text {
-        font-weight: 600;
-        color: #ffffff;
-    }
-</style>
+
 
 <div class="app-scenario-wrapper reveal">
     <table class="app-scenario-table">
@@ -383,15 +394,7 @@
 <div class="section-label">Reference Images</div>
 <h2 class="section-title">OLED Series <span class="hero-title-accent">References</span></h2>
 </div>
-<style>
-    /* Fix for OLED screenshot images aspect ratio */
-    .oled-gallery .bento-item {
-        background-color: #ffffff;
-    }
-    .oled-gallery .bento-item img {
-        object-fit: cover;
-    }
-</style>
+
 <div class="bento-gallery oled-gallery">
 <!-- Gallery Image 1 -->
 <div class="bento-item reveal">

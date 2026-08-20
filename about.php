@@ -42,44 +42,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta content="About PIXON TECHNOLOGIES, LED screen specialists, AV integration Middle East &amp; Africa, display engineers Middle East &amp; Africa" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>About Pixon | LED Display &amp; Visual Solutions Experts</title>
-<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
+<link href="assets/favicon.png" rel="icon" type="image/png" />
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="style.css?v=2" rel="stylesheet"/>
+<link href="style.css?v=3" rel="stylesheet"/>
 
 
-</head>
-<body class="watermarked-page">
-<?php include 'header.php'; ?>
-<main>
-<!-- ======================== ABOUT HERO ======================== -->
-<section aria-label="About hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assetss/about us/about-hero.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%); z-index: 0;"></div>
-<div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
-</div>
-<div class="hero-content" style="position: relative; z-index: 2;">
-<div class="container">
-<div class="animate-fade-in-up" style="max-width: 850px; margin: 0 auto; text-align: center;">
-<h1 class="hero-title" style="font-size: clamp(32px, 4.5vw, 52px); margin-bottom: 16px;">
-                            About <br/><span class="hero-title-accent">Pixon Technologies</span>
-</h1>
-<p class="hero-sub" style="margin-bottom: 36px; max-width: 720px; margin-left: auto; margin-right: auto;">
-                            The Middle East &amp; Africa's Leading LED Screen &amp; AV Solutions Provider. Supplying, designing, installing, and servicing commercial display solutions with expert engineering and precision calibration.
-                        </p>
-</div>
-</div>
-</div>
-</section>
-<!-- ======================== FULL ABOUT DETAILS ======================== -->
-<section class="section light-section" id="about" style="padding-top: 60px; padding-bottom: 80px;">
-<div aria-hidden="true" class="about-bg-glow">
-<div class="about-orb orb-blue"></div>
-<div class="about-orb orb-orange"></div>
-</div>
-<div class="container">
-<!-- Split Layout Design - Redesigned -->
-<style>
+
+  <style>
 /* New About Section Styles */
 .new-about-layout {
     display: grid;
@@ -319,7 +290,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     background-color: #F8FAFC !important;
 }
 .about-subtitle { display: none; }
-</style>
+  </style>
+</head>
+<body class="watermarked-page">
+<?php include 'header.php'; ?>
+<main>
+<!-- ======================== ABOUT HERO ======================== -->
+<section aria-label="About hero section" id="hero" style="display: flex; flex-direction: column; justify-content: center; height: auto !important; min-height: 55vh !important; padding-top: 120px; padding-bottom: 40px; position: relative; background-image: url('assetss/about us/about-hero.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,20,0.75) 0%, rgba(10,10,20,0.85) 100%); z-index: 0;"></div>
+<div class="hero-bg" style="position: absolute; inset: 0; z-index: 1;">
+</div>
+<div class="hero-content" style="position: relative; z-index: 2;">
+<div class="container">
+<div class="animate-fade-in-up" style="max-width: 850px; margin: 0 auto; text-align: center;">
+<h1 class="hero-title" style="font-size: clamp(32px, 4.5vw, 52px); margin-bottom: 16px;">
+                            About <br/><span class="hero-title-accent">Pixon Technologies</span>
+</h1>
+<p class="hero-sub" style="margin-bottom: 36px; max-width: 720px; margin-left: auto; margin-right: auto;">
+                            The Middle East &amp; Africa's Leading LED Screen &amp; AV Solutions Provider. Supplying, designing, installing, and servicing commercial display solutions with expert engineering and precision calibration.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================== FULL ABOUT DETAILS ======================== -->
+<section class="section light-section" id="about" style="padding-top: 60px; padding-bottom: 80px;">
+<div aria-hidden="true" class="about-bg-glow">
+<div class="about-orb orb-blue"></div>
+<div class="about-orb orb-orange"></div>
+</div>
+<div class="container">
+<!-- Split Layout Design - Redesigned -->
+
 
 <div class="new-about-layout">
     <!-- Left: Image Showcase -->

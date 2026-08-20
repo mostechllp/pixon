@@ -1,5 +1,5 @@
 <!-- ======================== FOOTER ======================== -->
-<footer role="contentinfo">
+<footer>
 <div class="container">
 <div class="footer-grid">
 <!-- Brand -->
@@ -10,7 +10,7 @@
 <p class="footer-tagline">Supplying, designing, installing, and servicing commercial indoor/outdoor LED
     screens, digital displays, and complete professional audio-visual system integrations across the Middle East
     &amp; Africa.</p>
-<div aria-label="Social media links" class="footer-socials">
+<nav aria-label="Social media links" class="footer-socials">
 <a aria-label="LinkedIn" class="social-btn" href="https://www.linkedin.com/company/pixonglobal/" target="_blank">
 <svg fill="currentColor" height="18" viewBox="0 0 16 16" width="18" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
@@ -36,7 +36,7 @@
 <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.10.0.0.5.22 1.402l.01.104.023.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.28.354-5.53.348-6.287.359H7.888a22 22 0 0 1-.415-.006l-.044-.003-.069-.005-.069-.005-.069-.005a22 22 0 0 1-.415-.006h-.001C3.888 15.333.319 15.254.029 15.022A2.01 2.01 0 0 1 .329 13.6c-.11-.418-.185-.986-.235-1.558L.086 11.94l-.008-.104A31 31 0 0 1 0 8.614v-.192c.002-.184.01-.985.081-1.958l.008-.104.009-.104c.05-.572.124-1.14.235-1.558A2.01 2.01 0 0 1 1.74 3.334c1.12-.302 5.385-.332 6.22-.335zM6.4 5.209v5.582l5.2-2.791z"></path>
 </svg>
 </a>
-</div>
+</nav>
 </div>
 <!-- Quick Links -->
 <div>
@@ -69,12 +69,12 @@
 <div>
 <div class="footer-col-title">Contact Us</div>
 <div style="color: rgba(255, 255, 255, 0.7); font-size: 0.95rem; margin-bottom: 12px; display: flex; flex-direction: column; gap: 10px;">
-<a class="footer-contact-link" href="mailto:info@pixonglobal.com">
+<a class="footer-contact-link protected-email" data-user="info" data-domain="pixonglobal.com" href="/contact" aria-label="Contact Email">
 <svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="16">
 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
 <polyline points="22,6 12,13 2,6"></polyline>
 </svg>
-info@pixonglobal.com
+<span class="email-display">info[at]pixonglobal.com</span>
 </a>
 <a class="footer-contact-link" href="tel:+971581065959">
 <svg fill="none" height="16" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="16">
@@ -90,10 +90,10 @@ info@pixonglobal.com
 </a>
 </div>
 <div style="width: 100%; height: 120px; border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-top: 15px;">
-<iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" scrolling="no"
+<iframe
     src="https://maps.google.com/maps?q=25.2721157,55.3096237&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-    style="display: block; width: 100%; border: none;" width="100%"
-    title="Google Maps Location - Pixon Technologies">
+    style="display: block; width: 100%; height: 100%; border: none;"
+    title="Google Maps Location - Pixon Technologies" loading="lazy">
 </iframe>
 </div>
 </div>
@@ -273,6 +273,43 @@ info@pixonglobal.com
 
       /* Hide default footer whatsapp on homepage to avoid conflict */
       .whatsapp-float { display: none !important; }
+
+      .contact-modal {
+        display: none; 
+        position: fixed; 
+        z-index: 10000; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgba(3, 7, 18, 0.85); 
+        backdrop-filter: blur(8px);
+      }
+      .contact-modal-content {
+        background: linear-gradient(135deg, #0b1a60 0%, #040a32 100%);
+        border-radius: 16px;
+        margin: 5vh auto;
+        width: 90%;
+        max-width: 650px;
+        position: relative;
+      }
+      .close-modal {
+        color: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 2;
+        transition: color 0.2s;
+      }
+      .close-modal:hover,
+      .close-modal:focus {
+        color: #fff;
+        text-decoration: none;
+      }
     </style>
     
     <div class="fab-menu" id="fabMenu">
@@ -305,7 +342,7 @@ info@pixonglobal.com
           <a href="tel:+971581065959" class="fab-btn fab-phone-ex" aria-label="Phone">
             <svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           </a>
-          <a href="mailto:info@pixonglobal.com" class="fab-btn fab-email-ex" aria-label="Email">
+          <a href="/contact" class="fab-btn fab-email-ex protected-email" data-user="info" data-domain="pixonglobal.com" aria-label="Email">
             <svg fill="none" height="24" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
           </a>
         </div>
@@ -319,13 +356,10 @@ info@pixonglobal.com
           </svg>
         </a>
       </div>
-    </div>        </svg>
-        </a>
-      </div>
     </div>
 
     <!-- Contact Form Modal -->
-    <div id="contactModal" class="contact-modal">
+    <div id="contactModal" class="contact-modal" style="display: none;">
       <div class="contact-modal-content">
         <span class="close-modal">&times;</span>
         <div class="glass-form-card">
@@ -353,7 +387,7 @@ info@pixonglobal.com
                 <label for="contact-modal-phone">Mobile Number</label>
                 <div style="display: flex; gap: 8px;">
                   <div class="custom-country-select" id="custom-country-select-wrapper-modal">
-                    <input type="hidden" id="contact-modal-country-code" value="+971" required="">
+                    <input type="hidden" id="contact-modal-country-code" value="+971">
                     <div class="form-input country-select-trigger" id="country-select-trigger-modal">
                       <div class="country-select-value" id="country-select-value-modal">
                         <span class="country-flag">🇦🇪</span>
@@ -431,45 +465,6 @@ info@pixonglobal.com
       </div>
     </div>
     
-    <style>
-      .contact-modal {
-        display: none; 
-        position: fixed; 
-        z-index: 10000; 
-        left: 0;
-        top: 0;
-        width: 100%; 
-        height: 100%; 
-        overflow: auto; 
-        background-color: rgba(3, 7, 18, 0.85); 
-        backdrop-filter: blur(8px);
-      }
-      .contact-modal-content {
-        background: linear-gradient(135deg, #0b1a60 0%, #040a32 100%);
-        border-radius: 16px;
-        margin: 5vh auto;
-        width: 90%;
-        max-width: 650px;
-        position: relative;
-      }
-      .close-modal {
-        color: rgba(255, 255, 255, 0.6);
-        position: absolute;
-        right: 20px;
-        top: 15px;
-        font-size: 28px;
-        font-weight: bold;
-        cursor: pointer;
-        z-index: 2;
-        transition: color 0.2s;
-      }
-      .close-modal:hover,
-      .close-modal:focus {
-        color: #fff;
-        text-decoration: none;
-      }
-    </style>
-    
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         var modal = document.getElementById("contactModal");
@@ -536,5 +531,20 @@ info@pixonglobal.com
             modal.style.display = "none";
           }
         }
+
+        // Anti-Scraping / Email Privacy Protection: Dynamically decode emails for real users
+        var protectedEmails = document.querySelectorAll('.protected-email');
+        protectedEmails.forEach(function(el) {
+          var u = el.getAttribute('data-user');
+          var d = el.getAttribute('data-domain');
+          if (u && d) {
+            var fullAddr = u + '@' + d;
+            el.href = 'mailto:' + fullAddr;
+            var displayEl = el.querySelector('.email-display');
+            if (displayEl) {
+              displayEl.textContent = fullAddr;
+            }
+          }
+        });
       });
     </script>

@@ -37,7 +37,7 @@
         name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>Durable Transparant Outdoor LED Screens for Advertising - Pixon</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
+    <link href="assets/favicon.png" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link

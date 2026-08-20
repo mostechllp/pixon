@@ -8,11 +8,11 @@
 <meta content="indoor LED screen, high-resolution display, retail LED, corporate display, event screen, shopping mall LED" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
 <title>Outdoor Flexible LED - PIXON TECHNOLOGIES</title>
-<link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png"/>
+<link href="assets/favicon.png" rel="icon" type="image/png" />
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
-<link href="style.css?v=2" rel="stylesheet"/>
+<link href="style.css?v=3" rel="stylesheet"/>
 
 
 </head>
@@ -214,7 +214,7 @@
 </div>
 <!-- Gallery Image 2 -->
 <div class="bento-item reveal reveal-delay-1">
-<img alt="Corporate Lobby Display" src="assetss/Outdoor Products/Outdoor Flexible LED/Daniel Canogar Studio's Archinect profile.webp"/>
+<img alt="Corporate Lobby Display" src="assetss/Outdoor Products/Outdoor Flexible LED/Daniel Canogar Studios Archinect profile.webp"/>
 
 </div>
 <!-- Gallery Image 3 -->
@@ -229,7 +229,7 @@
 </div>
 <!-- Gallery Image 5 -->
 <div class="bento-item reveal reveal-delay-4">
-<img alt="Additional Installation View" src="assetss/Outdoor Products/Outdoor Flexible LED/Paneles LED enrollables para espacios nicos.jpg"/>
+<img alt="Additional Installation View" src="assetss/Outdoor Products/Outdoor Flexible LED/Paneles LED enrollables para espacios unicos.webp"/>
 
 </div>
 <!-- Gallery Image 6 -->

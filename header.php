@@ -60,13 +60,13 @@ function mobileNavClass($page, $target, $group = [])
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- ======================== HEADER ======================== -->
-<header id="header" role="banner">
+<header id="header">
     <div class="container">
         <div class="header-inner">
             <a aria-label="PIXON TECHNOLOGIES Home" class="logo" href="/">
                 <img alt="PIXON TECHNOLOGIES Logo" class="logo-img" src="/assets/pixon-logo.webp" />
             </a>
-            <nav aria-label="Main navigation" role="navigation">
+            <nav aria-label="Main navigation">
                 <a class="<?= navClass($currentPage, 'index.php') ?>" href="/">Home</a>
                 <a class="<?= navClass($currentPage, 'about.php') ?>" href="/about">About Us</a>
                 <div class="nav-item-dropdown">
@@ -199,7 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 </header>
 <!-- ======================== MOBILE MENU ======================== -->
-<nav aria-label="Mobile navigation" id="mobile-menu" role="navigation">
+<nav aria-label="Mobile navigation" id="mobile-menu">
     <div class="mobile-menu-header">
         <span class="mobile-menu-title">Menu</span>
         <button class="mobile-menu-close" aria-label="Close menu" id="mobile-menu-close-btn">

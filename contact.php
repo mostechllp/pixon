@@ -43,7 +43,7 @@
     <meta content="Contact PIXON TECHNOLOGIES, LED screen quote Dubai, pro AV Riyadh, digital signage Middle East &amp; Africa" name="keywords" />
     <meta content="PIXON TECHNOLOGIES" name="author" />
     <title>Get in Touch with Pixon Global: Your Guide to Connection</title>
-    <link href="assets/fav-logo.jpg-removebg-preview.webp" rel="icon" type="image/png" />
+    <link href="assets/favicon.png" rel="icon" type="image/png" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
@@ -212,7 +212,7 @@
                         </div>
                         <div class="location-tabs-list">
                             <!-- Tab 3: Deira Showroom -->
-                            <button aria-label="PIXON TECHNOLOGIES LLC, Deira Dubai" class="location-tab active" data-address="#05 1st Floor, Al Awadhi Building, Deira, Dubai - UAE, PB No. 381108" data-email="info@pixonglobal.com" data-hours="Mon – Sat : 9 AM to 7 PM" data-location="deira-showroom" data-map="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9545094429404!2d55.30704877538429!3d25.27211567766284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE5LjYiTiA1NcKwMTgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1784725951450!5m2!1sen!2sin" data-map-link="https://maps.app.goo.gl/dmgcARco6xaCeZCp9" data-phone="+971 43992851" data-phone-alt="+971 58 106 5959" data-title="PIXON TECHNOLOGIES LLC">
+                            <button aria-label="PIXON TECHNOLOGIES LLC, Deira Dubai" class="location-tab active" data-address="#05 1st Floor, Al Awadhi Building, Deira, Dubai - UAE, PB No. 381108" data-email-user="info" data-email-domain="pixonglobal.com" data-hours="Mon – Sat : 9 AM to 7 PM" data-location="deira-showroom" data-map="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9545094429404!2d55.30704877538429!3d25.27211567766284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE5LjYiTiA1NcKwMTgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1784725951450!5m2!1sen!2sin" data-map-link="https://maps.app.goo.gl/dmgcARco6xaCeZCp9" data-phone="+971 43992851" data-phone-alt="+971 58 106 5959" data-title="PIXON TECHNOLOGIES LLC">
                                 <div class="location-tab-info">
                                     <div class="location-tab-icon">
                                         <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18">
@@ -257,7 +257,7 @@
                                     </div>
                                     <div class="active-loc-detail-content">
                                         <span>Email</span>
-                                        <p id="active-loc-email">info@pixonglobal.com</p>
+                                        <p id="active-loc-email" class="protected-email-text" data-user="info" data-domain="pixonglobal.com">info[at]pixonglobal.com</p>
                                     </div>
                                 </div>
                                 <!-- Hours -->
@@ -328,7 +328,7 @@
                                         <label for="contact-phone">Mobile Number</label>
                                         <div class="phone-input-row">
                                             <div class="custom-country-select" id="custom-country-select-wrapper">
-                                                <input type="hidden" id="contact-country-code" value="+971" required="">
+                                                <input type="hidden" id="contact-country-code" value="+971">
                                                 <div class="form-input country-select-trigger" id="country-select-trigger">
                                                     <div class="country-select-value" id="country-select-value">
                                                         <span class="country-flag">🇦🇪</span>
@@ -415,7 +415,7 @@
                         <div class="map-loader">
                             <div class="map-spinner"></div>
                         </div>
-                        <iframe aria-label="Interactive Google Map Explorer" title="Google Maps Location - Pixon Technologies" frameborder="0" height="100%" id="contact-map-iframe" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9545094429404!2d55.30704877538429!3d25.27211567766284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE5LjYiTiA1NcKwMTgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1784725951450!5m2!1sen!2sin" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                        <iframe aria-label="Interactive Google Map Explorer" title="Google Maps Location - Pixon Technologies" id="contact-map-iframe" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9545094429404!2d55.30704877538429!3d25.27211567766284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE5LjYiTiA1NcKwMTgnMzQuNyJF!5e0!3m2!1sen!2sin!4v1784725951450!5m2!1sen!2sin" style="display: block; width: 100%; height: 100%; border: none;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
                         </iframe>
                     </div>
                 </div>
