@@ -2,22 +2,48 @@
 
 <html lang="en">
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NPW8N7BC');</script>
-<!-- End Google Tag Manager -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google Tag Manager & Analytics (Optimized Deferred Loading) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1DXF42V841');
+    dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
 
-  gtag('config', 'G-1DXF42V841');
-</script>
+    (function() {
+      var loaded = false;
+      function initAnalytics() {
+        if (loaded) return;
+        loaded = true;
+        ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+          window.removeEventListener(evt, initAnalytics, { passive: true });
+        });
+        var s1 = document.createElement('script');
+        s1.async = true;
+        s1.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-NPW8N7BC';
+        document.head.appendChild(s1);
+
+        var s2 = document.createElement('script');
+        s2.async = true;
+        s2.src = 'https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841';
+        document.head.appendChild(s2);
+      }
+      ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+        window.addEventListener(evt, initAnalytics, { passive: true, once: true });
+      });
+      if ('requestIdleCallback' in window) {
+        window.addEventListener('load', function() {
+          requestIdleCallback(function() {
+            setTimeout(initAnalytics, 1500);
+          }, { timeout: 3500 });
+        });
+      } else {
+        window.addEventListener('load', function() {
+          setTimeout(initAnalytics, 2500);
+        });
+      }
+    })();
+  </script>
 <meta charset="utf-8"/>
 <base href="/"/>
 <link rel="canonical" href="https://pixonglobal.com/services/outdoor-led-screens" />

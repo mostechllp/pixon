@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="header-inner">
             <a aria-label="PIXON TECHNOLOGIES Home" class="logo" href="/">
-                <img alt="PIXON TECHNOLOGIES Logo" class="logo-img" src="/assets/pixon-logo.webp" />
+                <img alt="PIXON TECHNOLOGIES Logo" class="logo-img" src="/assets/pixon-logo.webp" width="242" height="72" fetchpriority="high" decoding="async" />
             </a>
             <nav aria-label="Main navigation">
                 <a class="<?= navClass($currentPage, 'index.php') ?>" href="/">Home</a>

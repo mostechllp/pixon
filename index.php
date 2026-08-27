@@ -8,21 +8,47 @@ $og_base_url = $og_protocol . $og_host;
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NPW8N7BC');</script>
-  <!-- End Google Tag Manager -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841"></script>
+    <!-- Google Tag Manager & Analytics (Optimized Deferred Loading) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-1DXF42V841');
+    dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+
+    (function() {
+      var loaded = false;
+      function initAnalytics() {
+        if (loaded) return;
+        loaded = true;
+        ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+          window.removeEventListener(evt, initAnalytics, { passive: true });
+        });
+        var s1 = document.createElement('script');
+        s1.async = true;
+        s1.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-NPW8N7BC';
+        document.head.appendChild(s1);
+
+        var s2 = document.createElement('script');
+        s2.async = true;
+        s2.src = 'https://www.googletagmanager.com/gtag/js?id=G-1DXF42V841';
+        document.head.appendChild(s2);
+      }
+      ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+        window.addEventListener(evt, initAnalytics, { passive: true, once: true });
+      });
+      if ('requestIdleCallback' in window) {
+        window.addEventListener('load', function() {
+          requestIdleCallback(function() {
+            setTimeout(initAnalytics, 1500);
+          }, { timeout: 3500 });
+        });
+      } else {
+        window.addEventListener('load', function() {
+          setTimeout(initAnalytics, 2500);
+        });
+      }
+    })();
   </script>
   <meta charset="utf-8" />
   <link rel="canonical" href="<?php echo $og_base_url; ?>/" />
@@ -492,7 +518,7 @@ $og_base_url = $og_protocol . $og_host;
     <section aria-label="Hero section" id="hero">
       <!-- Full-screen video background -->
       <div class="hero-bg">
-        <video aria-hidden="true" autoplay="" id="hero-bg-video" loop="" muted="" playsinline="" preload="auto">
+        <video aria-hidden="true" autoplay="" id="hero-bg-video" loop="" muted="" playsinline="" preload="metadata" poster="assets/ogcard.webp">
           <source src="assets/home-banner-video.mp4" type="video/mp4" />
         </video>
         <!-- Cinematic vignette: dark edges, clear centre so video shows through -->
@@ -550,24 +576,24 @@ $og_base_url = $og_protocol . $og_host;
           <div class="marquee-wrap">
             <div class="marquee-track" role="list">
               <div class="marquee-group">
-                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police" src="assets/logo-dubai-police.webp" /></div>
-                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2" src="assets/partner2.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 3" src="assets/partner3.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 4" src="assets/partner4.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 5" src="assets/partner5.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 6" src="assets/partner6.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 7" src="assets/partner7.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 8" src="assets/partner8.webp" /></div>
+                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police" src="assets/logo-dubai-police.webp" width="185" height="64" loading="lazy" decoding="async" /></div>
+                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2" src="assets/partner2.webp" width="235" height="120" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 3" src="assets/partner3.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 4" src="assets/partner4.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 5" src="assets/partner5.webp" width="82" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 6" src="assets/partner6.webp" width="95" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 7" src="assets/partner7.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 8" src="assets/partner8.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
               </div>
               <div class="marquee-group" aria-hidden="true">
-                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police Logo" src="assets/logo-dubai-police.webp" /></div>
-                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2 Logo" src="assets/partner2.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 3 Logo" src="assets/partner3.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 4 Logo" src="assets/partner4.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 5 Logo" src="assets/partner5.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 6 Logo" src="assets/partner6.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 7 Logo" src="assets/partner7.webp" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 8 Logo" src="assets/partner8.webp" /></div>
+                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police Logo" src="assets/logo-dubai-police.webp" width="185" height="64" loading="lazy" decoding="async" /></div>
+                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2 Logo" src="assets/partner2.webp" width="235" height="120" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 3 Logo" src="assets/partner3.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 4 Logo" src="assets/partner4.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 5 Logo" src="assets/partner5.webp" width="82" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 6 Logo" src="assets/partner6.webp" width="95" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 7 Logo" src="assets/partner7.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 8 Logo" src="assets/partner8.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
               </div>
             </div>
           </div>
@@ -584,7 +610,7 @@ $og_base_url = $og_protocol . $og_host;
             <div class="about-visual-showcase reveal" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Display Calibration Laboratory Preview" class="about-showcase-img"
-                  src="assetss/home/indoor_ledscreen.webp" style="height: 100%; object-fit: cover;" />
+                  src="assetss/home/indoor_ledscreen.webp" width="700" height="700" loading="lazy" decoding="async" style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"></div>
                 <!-- <div class="about-float-badge badge-top parallax-card" data-speed="1.0" style="top: 16px; left: 16px;">
                 <span class="pulse-dot-orange"></span> Calibration HQ
@@ -636,7 +662,7 @@ $og_base_url = $og_protocol . $og_host;
           <div class="services-grid">
             <article class="service-card reveal">
               <div class="service-img-wrapper">
-                <img alt="Indoor LED Screens" class="service-img" src="assetss/home/indoor_led_screen.webp" />
+                <img alt="Indoor LED Screens" class="service-img" src="assetss/home/indoor_led_screen.webp" width="800" height="500" loading="lazy" decoding="async" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -658,7 +684,7 @@ $og_base_url = $og_protocol . $og_host;
             </article>
             <article class="service-card reveal reveal-delay-1">
               <div class="service-img-wrapper">
-                <img alt="Outdoor LED Screens" class="service-img" src="assetss/home/outdoor_led_screen.webp" />
+                <img alt="Outdoor LED Screens" class="service-img" src="assetss/home/outdoor_led_screen.webp" width="700" height="700" loading="lazy" decoding="async" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -681,7 +707,7 @@ $og_base_url = $og_protocol . $og_host;
             <article class="service-card reveal reveal-delay-2">
               <div class="service-img-wrapper">
                 <img alt="Innovative &amp; Custom Displays" class="service-img"
-                  src="assetss/home/innovative-custom-displays.webp" />
+                  src="assetss/home/innovative-custom-displays.webp" width="700" height="700" loading="lazy" decoding="async" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -702,7 +728,7 @@ $og_base_url = $og_protocol . $og_host;
             </article>
             <article class="service-card reveal reveal-delay-1">
               <div class="service-img-wrapper">
-                <img alt="LCD &amp; Kiosks" class="service-img" src="assetss/home/lcd-kiosks.webp" />
+                <img alt="LCD &amp; Kiosks" class="service-img" src="assetss/home/lcd-kiosks.webp" width="637" height="850" loading="lazy" decoding="async" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -724,7 +750,7 @@ $og_base_url = $og_protocol . $og_host;
             <article class="service-card reveal reveal-delay-2">
               <div class="service-img-wrapper">
                 <img alt="Corporate &amp; Government AV" class="service-img"
-                  src="assetss/home/corporate-av-solutions-1.webp" />
+                  src="assetss/home/corporate-av-solutions-1.webp" width="756" height="600" loading="lazy" decoding="async" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -745,7 +771,7 @@ $og_base_url = $og_protocol . $og_host;
             </article>
             <article class="service-card reveal reveal-delay-3">
               <div class="service-img-wrapper">
-                <img alt="Commercial &amp; Public AV" class="service-img" src="assetss/home/public-av1-1.webp" />
+                <img alt="Commercial &amp; Public AV" class="service-img" src="assetss/home/public-av1-1.webp" width="650" height="789" loading="lazy" decoding="async" />
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -831,7 +857,7 @@ $og_base_url = $og_protocol . $og_host;
             <div class="about-visual-showcase reveal reveal-delay-2" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Premium Indoor OLED Display Array" class="about-showcase-img"
-                  src="assetss/home/corporate-av-solutions-2.webp" style="height: 100%; object-fit: cover;" />
+                  src="assetss/home/corporate-av-solutions-2.webp" width="800" height="600" loading="lazy" decoding="async" style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
                 </div>
@@ -855,7 +881,7 @@ $og_base_url = $og_protocol . $og_host;
             <div class="about-visual-showcase reveal" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Display Solutions Engineering Preview" class="about-showcase-img"
-                  src="assetss/home/Unmatched_Expertise_Reliable_Support.webp"
+                  src="assetss/home/Unmatched_Expertise_Reliable_Support.webp" width="960" height="960" loading="lazy" decoding="async"
                   style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
@@ -983,7 +1009,7 @@ $og_base_url = $og_protocol . $og_host;
             <div class="about-visual-showcase reveal reveal-delay-2" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Grand Mall Digital Video Wall" class="about-showcase-img"
-                  src="assetss/home/Transforming_Spaces_Through_Visual_Innovation.webp"
+                  src="assetss/home/Transforming_Spaces_Through_Visual_Innovation.webp" width="1280" height="717" loading="lazy" decoding="async"
                   style="height: 100%; object-fit: cover;" />
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
