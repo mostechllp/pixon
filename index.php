@@ -39,9 +39,9 @@ $og_base_url = $og_protocol . $og_host;
   <meta property="og:type" content="website" />
   <meta property="og:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
   <meta property="og:url" content="<?php echo $og_base_url; ?>/" />
-  <meta property="og:image" content="<?php echo $og_base_url; ?>/assets/og-image.jpg" />
-  <meta property="og:image:secure_url" content="<?php echo $og_base_url; ?>/assets/og-image.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image" content="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
+  <meta property="og:image:secure_url" content="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
+  <meta property="og:image:type" content="image/webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Pixon Technologies LLC" />
@@ -50,9 +50,9 @@ $og_base_url = $og_protocol . $og_host;
   <meta name="twitter:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
   <meta name="twitter:site" content="@https://www.pixonglobal.com/" />
   <meta name="twitter:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
-  <meta name="twitter:image" content="<?php echo $og_base_url; ?>/assets/og-image.jpg" />
+  <meta name="twitter:image" content="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
   <meta name="twitter:image:alt" content="Pixon Technologies LLC" />
-  <link rel="image_src" href="<?php echo $og_base_url; ?>/assets/og-image.jpg" />
+  <link rel="image_src" href="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
   <meta content="#18315B" name="theme-color" />
   <!-- Favicon -->
   <link href="assets/favicon.png" rel="icon" type="image/png" />
