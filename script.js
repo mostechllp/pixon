@@ -22,29 +22,28 @@ document.addEventListener('error', function (e) {
     }
 }, true);
 
-// =================== PAGE LOADER ===================
+// =================== PAGE LOADER & HERO VIDEO ===================
 window.addEventListener('load', () => {
     const pageLoader = document.getElementById('page-loader');
     if (pageLoader) {
         pageLoader.classList.add('hidden');
     }
+});
 
+const initHeroVideo = () => {
     const bgVideo = document.getElementById('hero-bg-video');
     if (bgVideo) {
-        // Ensure video is ready before playing to avoid stuttering
-        bgVideo.load();
-
-        // Use canplay event for smooth initial play
         const playVideo = () => {
             bgVideo.play().catch(() => {
-                // Autoplay blocked — silently fail, static bg remains
+                // Autoplay blocked/deferred — silently fail
             });
         };
 
-        if (bgVideo.readyState >= 3) {
+        if (bgVideo.readyState >= 2) {
             playVideo();
         } else {
             bgVideo.addEventListener('canplay', playVideo, { once: true });
+            bgVideo.addEventListener('loadeddata', playVideo, { once: true });
         }
 
         // Pause video when not visible to save GPU resources
@@ -56,11 +55,18 @@ window.addEventListener('load', () => {
                     bgVideo.pause();
                 }
             },
-            { threshold: 0.1 }
+            { threshold: 0.05 }
         );
         observer.observe(bgVideo.closest('#hero') || bgVideo);
     }
-});
+};
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHeroVideo);
+} else {
+    initHeroVideo();
+}
+
 
 
 // =================== HEADER SCROLL / MOBILE MENU / SCROLL TO TOP ===================
@@ -252,22 +258,6 @@ if (heroSection && ambientOrbs.length > 0) {
     });
 }
 
-// =================== VIEWPORT-AWARE PLAYBACK ===================
-const heroVideo = document.getElementById('hero-bg-video');
-if (heroVideo) {
-    const videoObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                heroVideo.play().catch(err => {
-                    console.log('Video autoplay interrupted or deferred:', err);
-                });
-            } else {
-                heroVideo.pause();
-            }
-        });
-    }, { threshold: 0.05 });
-    videoObserver.observe(heroVideo);
-}
 
 // =================== FAQ ACCORDION INTERACTION ===================
 document.querySelectorAll('.faq-trigger').forEach(trigger => {
