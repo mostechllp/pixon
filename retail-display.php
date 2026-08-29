@@ -484,6 +484,25 @@
             background: transparent !important;
         }
 
+        .light-section .showcase-grid .product-visual {
+            height: auto !important;
+            padding: 20px 20px 0 20px !important;
+            background: transparent !important;
+        }
+
+        .light-section .showcase-grid .product-visual img {
+            width: 100% !important;
+            height: auto !important;
+            aspect-ratio: 16 / 9 !important;
+            object-fit: cover !important;
+            object-position: center !important;
+            border-radius: 8px !important;
+            display: block !important;
+            max-height: none !important;
+            max-width: 100% !important;
+            filter: none !important;
+        }
+
         .light-section .retail-video-wrapper {
             background: transparent !important;
             border: none !important;
@@ -604,7 +623,7 @@
 <div class="showcase-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
 <div class="product-card reveal">
 <div class="product-visual" style="height: 250px; background: transparent; padding: 20px;">
-<img alt="Retail Display Model 1" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.01%20PM%20(1).webp" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 8px;"/>
+<img alt="Retail Display Model 1" src="assetss/Retails/WhatsApp%20Image%202026-07-20%20at%205.49.01%20PM%20(1).webp" style="max-height: 100%; max-width: 100%; aspect-ratio: 970 / 550; object-fit: cover; border-radius: 8px;"/>
 </div>
 <div class="product-content" style="padding: 20px;">
 <div class="product-type" style="font-size: 12px; color: #00D9FF; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px;">Display Series</div>
