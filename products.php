@@ -344,6 +344,7 @@
             justify-content: center;
         }
 
+        .industry-card h3,
         .industry-card h4 {
             font-size: 15px;
             font-weight: 700;
@@ -565,7 +566,7 @@
 <div class="why-icon">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
 </div>
-<h4>Ultra HD Quality</h4>
+<h3>Ultra HD Quality</h3>
 <p>Spectrophotometer calibrated panels delivering infinite contrast, high HDR specs, and rich
                             pixel counts.</p>
 <div class="why-card-glow-blue"></div>
@@ -574,7 +575,7 @@
 <div class="why-icon">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
 </div>
-<h4>Smart Connectivity</h4>
+<h3>Smart Connectivity</h3>
 <p>Seamless integrations with modern AV interfaces, WiFi cloud arrays, and smartphone
                             configurations.</p>
 <div class="why-card-glow-orange"></div>
@@ -583,7 +584,7 @@
 <div class="why-icon">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
 </div>
-<h4>Commercial Reliability</h4>
+<h3>Commercial Reliability</h3>
 <p>Heavy-duty, long-lifespan capacitors, double-insulated wiring layers, and 24/7 continuous
                             operation support.</p>
 <div class="why-card-glow-blue"></div>
@@ -592,7 +593,7 @@
 <div class="why-icon">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
 </div>
-<h4>Energy Efficiency</h4>
+<h3>Energy Efficiency</h3>
 <p>Intelligent backlight power dimming and low consumption panels that reduce operational
                             expenses.</p>
 <div class="why-card-glow-orange"></div>
@@ -601,7 +602,7 @@
 <div class="why-icon">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
 </div>
-<h4>Modern Design</h4>
+<h3>Modern Design</h3>
 <p>Minimalist bezels, sleek metallic mounting frame structures, and clean integrated cable
                             layouts.</p>
 <div class="why-card-glow-blue"></div>
@@ -610,7 +611,7 @@
 <div class="why-icon">
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
 </div>
-<h4>Professional Setup</h4>
+<h3>Professional Setup</h3>
 <p>Certified engineers taking care of custom CAD calculations, precise calibration, and
                             structural anchors.</p>
 <div class="why-card-glow-orange"></div>
@@ -630,37 +631,37 @@
 <div class="industry-grid">
 <div class="industry-card reveal">
 <div class="industry-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg></div>
-<h4>Corporate Offices</h4>
+<h3>Corporate Offices</h3>
 <p>Equipping executive boardrooms, lobby entrances, and video wall systems with low-latency
                             screens.</p>
 </div>
 <div class="industry-card reveal reveal-delay-1">
 <div class="industry-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
-<h4>Retail Stores</h4>
+<h3>Retail Stores</h3>
 <p>Engaging mall audiences with high-brightness window displays, product showcase kiosks, and
                             posters.</p>
 </div>
 <div class="industry-card reveal reveal-delay-2">
 <div class="industry-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
-<h4>Education Centers</h4>
+<h3>Education Centers</h3>
 <p>Empowering classrooms and lecture auditoriums with 20-point touch smart interactive
                             whiteboards.</p>
 </div>
 <div class="industry-card reveal reveal-delay-3">
 <div class="industry-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
-<h4>Hospitality &amp; Hotels</h4>
+<h3>Hospitality &amp; Hotels</h3>
 <p>Elevating guest luxury with sleek, custom-designed room smart TVs and digital menu banners.
                         </p>
 </div>
 <div class="industry-card reveal reveal-delay-4">
 <div class="industry-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
-<h4>Healthcare &amp; Clinics</h4>
+<h3>Healthcare &amp; Clinics</h3>
 <p>Providing high-contrast digital directions posters and high-resolution clinical imaging
                             displays.</p>
 </div>
 <div class="industry-card reveal reveal-delay-5">
 <div class="industry-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.82 2H4.18A2.18 2.18 0 0 0 2 4.18v15.64A2.18 2.18 0 0 0 4.18 22h15.64A2.18 2.18 0 0 0 22 19.82V4.18A2.18 2.18 0 0 0 19.82 2z"/><path d="M7 2v20"/><path d="M17 2v20"/><path d="M2 12h20"/><path d="M2 7h5"/><path d="M2 17h5"/><path d="M17 17h5"/><path d="M17 7h5"/></svg></div>
-<h4>Residential Theaters</h4>
+<h3>Residential Theaters</h3>
 <p>Bringing cinematic, self-lit OLED television mastering and surround setup to residential
                             living.</p>
 </div>

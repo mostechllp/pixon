@@ -122,7 +122,7 @@
 <p class="about-story-text" style="color: var(--text-secondary); margin-bottom: 30px;">
                             Transform temporary spaces into immersive visual experiences. We supply ultra-lightweight, rapid-deployment LED cabinets engineered specifically for the touring and event production industry - ensuring your stage design dazzles the crowd and strikes down quickly.
                         </p>
-<h4 style="color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 10px;">What We Provide</h4>
+<h3 style="color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 10px;">What We Provide</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 30px; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="#8b5cf6" stroke-width="2" viewbox="0 0 24 24" width="20"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -175,14 +175,14 @@
 <p class="about-story-text" style="color: var(--text-secondary); margin-bottom: 30px;">
                             Live events leave no room for error. Our specialized broadcast engineers and on-site technicians handle pixel-mapping, signal routing, and live media servers to guarantee your visuals play perfectly on cue, from doors open to the final encore.
                         </p>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Support Services</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Support Services</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 30px; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(139, 92, 246, 0.1); padding: 8px; border-radius: 8px; color: #8b5cf6;">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">On-Site Technical Support</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">On-Site Technical Support</h4>
 <p style="font-size: 14px; margin: 0;">Expert technicians available throughout your event to ensure flawless operation.</p>
 </div>
 </li>
@@ -191,7 +191,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Content Management &amp; Playback</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Content Management &amp; Playback</h4>
 <p style="font-size: 14px; margin: 0;">Professional handling of your media to guarantee perfect synchronization.</p>
 </div>
 </li>
@@ -200,7 +200,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Signal Distribution Setup</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Signal Distribution Setup</h4>
 <p style="font-size: 14px; margin: 0;">Robust routing and scaling of video signals for multi-screen configurations.</p>
 </div>
 </li>
@@ -209,7 +209,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Live Monitoring &amp; Troubleshooting</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Live Monitoring &amp; Troubleshooting</h4>
 <p style="font-size: 14px; margin: 0;">Proactive system checks to prevent issues before they occur.</p>
 </div>
 </li>

@@ -81,7 +81,7 @@
 <p class="about-story-text" style="color: var(--text-secondary); margin-bottom: 30px;">
                             We don't just install equipment; we architect unified technological environments. Our specialists bridge the gap between IT networks and professional AV, deploying centralized DSPs, automated room controls, and synchronized multimedia ecosystems tailored to your operational workflows.
                         </p>
-<h4 style="color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 10px;">What We Provide</h4>
+<h3 style="color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 10px;">What We Provide</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 30px; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="#10b981" stroke-width="2" viewbox="0 0 24 24" width="20"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -137,14 +137,14 @@
 <p class="about-story-text" style="color: var(--text-secondary); margin-bottom: 30px;">
                             True AV integration requires rigorous tuning. Using advanced measurement tools, we sculpt the soundscape to eliminate reverberation, align multi-channel arrays, and calibrate video matrixes for zero-latency, artifact-free signal distribution across complex campus networks.
                         </p>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Optimization Services</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Optimization Services</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 30px; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Sound Calibration</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Sound Calibration</h4>
 <p style="font-size: 14px; margin: 0;">Tuning audio frequencies and managing echoes for crystal-clear sound reproduction.</p>
 </div>
 </li>
@@ -153,7 +153,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Display Synchronization</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Display Synchronization</h4>
 <p style="font-size: 14px; margin: 0;">Ensuring latency-free visual performance across multiple screens and projectors.</p>
 </div>
 </li>
@@ -162,7 +162,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Control Interface Programming</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Control Interface Programming</h4>
 <p style="font-size: 14px; margin: 0;">Designing intuitive touch-panel interfaces for effortless system management.</p>
 </div>
 </li>
@@ -171,7 +171,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Network Management Setup</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Network Management Setup</h4>
 <p style="font-size: 14px; margin: 0;">Securing AV over IP networks and establishing remote monitoring capabilities.</p>
 </div>
 </li>

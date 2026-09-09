@@ -613,13 +613,13 @@ require_once 'admin/config/database.php';
                             echo '<div class="pxn-card" data-src="' . $video_url . '" data-type="' . $data_type . '" data-category="' . $category . '">';
                             
                             if ($is_image) {
-                                echo '<img src="' . $video_url . '" alt="' . $title . '">';
+                                echo '<img src="' . $video_url . '" alt="' . $title . '" loading="lazy">';
                             } else {
-                                echo '<video autoplay loop muted playsinline src="' . $video_url . '"></video>';
+                                echo '<video loop muted playsinline preload="none" data-src="' . $video_url . '"></video>';
                             }
                             
                             echo '<div class="pxn-card-overlay">
-                                        <h3 style="color: white; font-size: 1.2rem; margin: 0; text-align: center; position: absolute; bottom: 20px; left: 0; right: 0; z-index: 20; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">' . $title . '</h3>
+                                        <h2 style="color: white; font-size: 1.2rem; margin: 0; text-align: center; position: absolute; bottom: 20px; left: 0; right: 0; z-index: 20; text-shadow: 0 2px 4px rgba(0,0,0,0.8);">' . $title . '</h2>
                                     </div>
                                     <div class="pxn-card-badge">' . ucfirst($category) . '</div>';
                                     
@@ -753,12 +753,15 @@ require_once 'admin/config/database.php';
                     const video = entry.target.querySelector('video');
                     if (!video) return;
                     if (entry.isIntersecting) {
+                        if (!video.getAttribute('src') && video.getAttribute('data-src')) {
+                            video.src = video.getAttribute('data-src');
+                        }
                         video.play().catch(() => { });
                     } else {
                         video.pause();
                     }
                 });
-            }, { threshold: 0.25 });
+            }, { rootMargin: '150px 0px', threshold: 0.1 });
 
             cards.forEach((card) => io.observe(card));
         })();

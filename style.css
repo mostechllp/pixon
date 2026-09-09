@@ -2389,6 +2389,7 @@ button {
     opacity: 1;
 }
 
+.why-card h3,
 .why-card h4 {
     font-size: 17px;
     font-weight: 700;
@@ -2398,6 +2399,7 @@ button {
     transition: color 0.3s ease;
 }
 
+.why-card:hover h3,
 .why-card:hover h4 {
     color: var(--navy-dark);
 }
@@ -4394,6 +4396,7 @@ textarea.form-input {
     opacity: 0.9;
 }
 
+.industry-card h3,
 .industry-card h4 {
     font-size: 18px;
     font-weight: 700;
@@ -9256,7 +9259,9 @@ CQ SPLIT Î“Ã‡Ã¶ MODERN CLEAN CONTACT SECTION (LIGHT THEME)==============
 }
 
 .light-section .sol-overview-card h3,
+.light-section .why-card h3,
 .light-section .why-card h4,
+.light-section .industry-card h3,
 .light-section .industry-card h4 {
     color: var(--text-dark);
 }
@@ -9323,9 +9328,10 @@ CQ SPLIT Î“Ã‡Ã¶ MODERN CLEAN CONTACT SECTION (LIGHT THEME)==============
 
 .showcase-tab.active {
     background: var(--blue-accent);
-    color: #fff;
+    color: #040B4F;
     border-color: var(--blue-accent);
     box-shadow: 0 4px 15px rgba(33, 150, 243, 0.4);
+    font-weight: 600;
 }
 
 .showcase-display-area {
@@ -9420,8 +9426,9 @@ CQ SPLIT Î“Ã‡Ã¶ MODERN CLEAN CONTACT SECTION (LIGHT THEME)==============
 
 .light-section .showcase-tab.active {
     background: var(--blue-accent);
-    color: #fff;
+    color: #040B4F;
     border-color: var(--blue-accent);
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -9477,6 +9484,7 @@ CQ SPLIT Î“Ã‡Ã¶ MODERN CLEAN CONTACT SECTION (LIGHT THEME)==============
 }
 
 /* Typography refinement for minimalist look */
+.light-section .why-card h3,
 .light-section .why-card h4 {
     color: #1d1d1f;
     font-weight: 600;

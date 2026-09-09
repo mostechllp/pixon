@@ -123,7 +123,7 @@
 <p class="about-story-text" style="color: var(--text-secondary); margin-bottom: 30px;">
                             Flawless visuals begin with rigorous engineering. Our structural specialists and certified riggers handle complex deployments, from custom wall-mounting brackets to freestanding steel superstructures. We execute precise weight-load calculations and secure every cabinet for uncompromising safety and perfect alignment.
                         </p>
-<h4 style="color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 10px;">What We Provide</h4>
+<h3 style="color: #fff; font-size: 20px; margin-top: 0; margin-bottom: 10px;">What We Provide</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 30px; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="var(--blue-accent)" stroke-width="2" viewbox="0 0 24 24" width="20"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -176,14 +176,14 @@
 <p class="about-story-text" style="color: var(--text-secondary); margin-bottom: 30px;">
                             Installation isn't complete until the display breathes life. Our integration engineers map complex pixel matrices, calibrate color uniformity across thousands of modules, and establish secure redundant data topologies to guarantee your screen runs flawlessly without a single dropped frame.
                         </p>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Configuration Services</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Configuration Services</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 30px; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Screen Calibration &amp; Color Tuning</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Screen Calibration &amp; Color Tuning</h4>
 <p style="font-size: 14px; margin: 0;">Ensuring vibrant and accurate colors across your entire display.</p>
 </div>
 </li>
@@ -192,7 +192,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Brightness &amp; Contrast Optimization</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Brightness &amp; Contrast Optimization</h4>
 <p style="font-size: 14px; margin: 0;">Adapting visuals perfectly to the surrounding environment.</p>
 </div>
 </li>
@@ -201,7 +201,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Content Management Setup</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Content Management Setup</h4>
 <p style="font-size: 14px; margin: 0;">Seamless setup of CMS, remote monitoring, and multi-screen synchronization.</p>
 </div>
 </li>
@@ -210,7 +210,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Software &amp; Firmware Updates</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Software &amp; Firmware Updates</h4>
 <p style="font-size: 14px; margin: 0;">Keeping your systems up-to-date with network configurations.</p>
 </div>
 </li>

@@ -124,7 +124,7 @@
                             Unlike indoor displays, outdoor screens must fight direct sunlight, endure rain, dust, and temperature swings, and remain visible from 50+ meters. Our screens are purpose-engineered with sealed cabinets, high-nit LEDs, and corrosion-resistant housings for these demanding conditions.
                         </p>
 <div>
-<h4 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h4>
+<h3 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="var(--blue-accent)" stroke-width="2" viewbox="0 0 24 24" width="20">
@@ -191,7 +191,7 @@
                             Middle Eastern summers exceed 50°C. Monsoon seasons bring torrential rain. Our outdoor displays are tested to military-grade durability standards, so your investment keeps performing year after year.
                         </p>
 <div>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Engineering Specifications</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Engineering Specifications</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
@@ -202,7 +202,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">5,000–10,000 Nits Brightness</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">5,000–10,000 Nits Brightness</h4>
 <p style="font-size: 14px; margin: 0;">Content remains vivid and readable even under the harshest midday sun.</p>
 </div>
 </li>
@@ -215,7 +215,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">IP65/IP68 Sealed Cabinets</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">IP65/IP68 Sealed Cabinets</h4>
 <p style="font-size: 14px; margin: 0;">Fully sealed against water ingress, dust, and sand—tested for desert and coastal environments.</p>
 </div>
 </li>
@@ -228,7 +228,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">-30°C to +60°C Operating Range</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">-30°C to +60°C Operating Range</h4>
 <p style="font-size: 14px; margin: 0;">Intelligent thermal management with forced-air cooling for extreme temperature resilience.</p>
 </div>
 </li>
@@ -241,7 +241,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Anti-Corrosion Aluminum Alloy Cabinets</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Anti-Corrosion Aluminum Alloy Cabinets</h4>
 <p style="font-size: 14px; margin: 0;">Marine-grade aluminum housings resist salt spray, humidity, and UV degradation.</p>
 </div>
 </li>
@@ -254,7 +254,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Auto Day/Night Brightness Scheduling</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Auto Day/Night Brightness Scheduling</h4>
 <p style="font-size: 14px; margin: 0;">Automatic dimming at night saves energy and prevents light pollution in residential areas.</p>
 </div>
 </li>
@@ -267,7 +267,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">4G/5G Cloud Remote Management</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">4G/5G Cloud Remote Management</h4>
 <p style="font-size: 14px; margin: 0;">Update content, monitor health, and troubleshoot screens from anywhere via cloud dashboard.</p>
 </div>
 </li>

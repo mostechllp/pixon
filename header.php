@@ -42,6 +42,8 @@ $productsPages = [
 ];
 $projectsPages = ['projects.php', 'news.php'];
 
+// $projectsPages = ['projects.php', 'news.php', 'blog.php', 'blogs.php', 'led-screen-company-dubai-tradeshow-display.php'];
+
 function navClass($page, $target, $group = [])
 {
     if ($page === $target || in_array($page, $group))

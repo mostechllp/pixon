@@ -10,6 +10,7 @@ RewriteBase /
     AddType image/svg+xml .svg .svgz
     AddType image/png .png
     AddType image/jpeg .jpg .jpeg
+    AddType video/mp4 .mp4
 </IfModule>
 
 # ----------------------------------------------------------------------
@@ -77,6 +78,12 @@ RewriteRule ^products/transparent-film-led/?$ transparent-film-led.php [L,NC]
 RewriteRule ^products/customized-led-screens/?$ customized-led-products.php [L,NC]
 RewriteRule ^products/floor-and-roll-led-display/?$ floor-and-roll-led-display.php [L,NC]
 RewriteRule ^products/kiosk-poster/?$ kiosk-poster.php [L,NC]
+
+# Blogs Internal Routing
+RewriteRule ^blogs/outdoor-led-screen-brand-visibility/?$ outdoor-led-screen-brand-visibility.php [L,NC]
+RewriteRule ^outdoor-led-screen-brand-visibility/?$ /blogs/outdoor-led-screen-brand-visibility/ [R=301,L,NC]
+RewriteRule ^blogs/led-screen-company-dubai-tradeshow-display/?$ led-screen-company-dubai-tradeshow-display.php [L,NC]
+RewriteRule ^led-screen-company-dubai-tradeshow-display/?$ /blogs/led-screen-company-dubai-tradeshow-display/ [R=301,L,NC]
 
 # ----------------------------------------------------------------------
 # 3. GENERAL CLEAN URLS & EXTENSION REMOVAL

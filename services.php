@@ -95,6 +95,45 @@
     z-index: 2;
     text-shadow: 0 2px 4px rgba(0,0,0,0.9);
 }
+
+/* Contrast & Accessibility Support */
+.showcase-tab.active {
+    background: var(--blue-accent) !important;
+    color: #040B4F !important;
+    font-weight: 600 !important;
+    border-color: var(--blue-accent) !important;
+}
+.light-section .why-card h3 {
+    color: var(--text-primary);
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -0.3px;
+    transition: color 0.3s ease;
+}
+.light-section .why-card:hover h3 {
+    color: var(--navy-dark);
+}
+#solution-specs .why-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+    letter-spacing: -0.3px;
+    transition: color 0.3s ease;
+}
+#solution-specs .why-card:hover h3 {
+    color: var(--accent-cyan);
+}
+.industry-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 8px;
+}
+.light-section .industry-card h3 {
+    color: #071952;
+}
 </style>
 </head>
 <body class="watermarked-page">
@@ -282,73 +321,73 @@
 <div class="why-choose-grid">
 <div class="why-card reveal">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="14" rx="2" width="20" x="2" y="3"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg></div>
-<h4>LED Display Solutions</h4>
+<h3>LED Display Solutions</h3>
 <p>End-to-end consulting, customization, and pixel calibration for advanced visual display systems.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-1">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M6 3h12l4 6-10 13L2 9Z"></path><path d="M11 3 8 9l4 13"></path><path d="M13 3l3 6-4 13"></path><path d="M2 9h20"></path></svg></div>
-<h4>Indoor &amp; Outdoor LED Screens</h4>
+<h3>Indoor &amp; Outdoor LED Screens</h3>
 <p>Ultra-fine pixel pitch COB and SMD LED displays and weatherproof high-brightness outdoor billboards.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal reveal-delay-2">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="2" ry="2" width="14" x="5" y="2"></rect><path d="M12 18h.01"></path></svg></div>
-<h4>Digital Signage Solutions</h4>
+<h3>Digital Signage Solutions</h3>
 <p>Standalone interactive vertical information kiosks, poster screens, and remote CMS scheduling hubs.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-3">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" x2="12" y1="19" y2="22"></line></svg></div>
-<h4>✅ Professional Audio-Visual Systems</h4>
+<h3>✅ Professional Audio-Visual Systems</h3>
 <p>Unified sound reinforcement, acoustic paneling, and commercial audio systems for spatial balance.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal reveal-delay-4">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="M12 4v16"></path><path d="M2 12h20"></path></svg></div>
-<h4>Video Wall Solutions</h4>
+<h3>Video Wall Solutions</h3>
 <p>Zero-bezel seamless LCD &amp; modular LED video wall installations engineered for mission-critical command centers.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-5">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
-<h4>Interactive Display Solutions</h4>
+<h3>Interactive Display Solutions</h3>
 <p>20-point touch smart interactive whiteboards designed for corporate boardrooms and digital interactive auditoriums.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.9 1.2 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg></div>
-<h4>Commercial &amp; Architectural Lighting</h4>
+<h3>Commercial &amp; Architectural Lighting</h3>
 <p>Futuristic facade lighting, accent lighting fixtures, and architectural lighting layouts built for maximum impact.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-1">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="2" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="3"></circle><path d="M14 10.25a3 3 0 0 0-4 0"></path><path d="M12 15v4"></path></svg></div>
-<h4>Smart Lighting Control Systems</h4>
+<h3>Smart Lighting Control Systems</h3>
 <p>Intelligent, centralized control hubs and dimming modules programmed for energy efficiency.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal reveal-delay-2">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path><circle cx="12" cy="13" r="3"></circle></svg></div>
-<h4>Security &amp; Surveillance Systems</h4>
+<h3>Security &amp; Surveillance Systems</h3>
 <p>High-definition CCTV networks and smart AI cameras monitoring perimeters 24/7.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-3">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path><path d="m21 2-9.6 9.6"></path><circle cx="7.5" cy="15.5" r="5.5"></circle></svg></div>
-<h4>Access Control Systems</h4>
+<h3>Access Control Systems</h3>
 <p>Biometric scanners, keycard entry layers, and security turnstiles integrating access control.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal reveal-delay-4">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div>
-<h4>Networking Solutions</h4>
+<h3>Networking Solutions</h3>
 <p>Enterprise routing, switching, structured fiber cabling, and high-performance wireless grids.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-5">
 <div class="why-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path></svg></div>
-<h4>Cloud Solutions</h4>
+<h3>Cloud Solutions</h3>
 <p>Secure cloud backups, hosting, and cloud hosting, backup, and centralized content management systems (CMS) for distributed displays.</p>
 <div class="why-card-glow-orange"></div>
 </div>
@@ -366,37 +405,37 @@
 <div class="why-choose-grid">
 <div class="why-card reveal">
 <div class="why-icon"><span style="font-size: 20px;"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg></span></div>
-<h4>Expert Installation</h4>
+<h3>Expert Installation</h3>
 <p>Certified engineers executing millimeter-precision panel alignment, customized structural engineering, and zero-bezel alignment.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-1">
 <div class="why-icon"><span style="font-size: 20px;"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span></div>
-<h4>24/7 Technical Support</h4>
+<h3>24/7 Technical Support</h3>
 <p>Instant troubleshooting, remote diagnostics, and certified technicians dispatched on-site across the Middle East &amp; Africa region.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal reveal-delay-2">
 <div class="why-icon"><span style="font-size: 20px;"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span></div>
-<h4>Smart Integration</h4>
+<h3>Smart Integration</h3>
 <p>Flawless connection with dynamic CMS software, enterprise cloud platforms, smart AV signals, and control interfaces.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-3">
 <div class="why-icon"><span style="font-size: 20px;"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z"></path><path d="m14.5 12.5 2-2"></path><path d="m11.5 9.5 2-2"></path><path d="m8.5 6.5 2-2"></path><path d="m17.5 15.5 2-2"></path></svg></span></div>
-<h4>Scalable Systems</h4>
+<h3>Scalable Systems</h3>
 <p>Modular LED structures and expandable display loops that easily scale to match your growing operational requirements.</p>
 <div class="why-card-glow-orange"></div>
 </div>
 <div class="why-card reveal reveal-delay-4">
 <div class="why-icon"><span style="font-size: 20px;"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path></svg></span></div>
-<h4>Energy Efficient Tech</h4>
+<h3>Energy Efficient Tech</h3>
 <p>Intelligent LED drivers and smart light controllers that reduce overall power consumption without losing visual performance.</p>
 <div class="why-card-glow-blue"></div>
 </div>
 <div class="why-card reveal reveal-delay-5">
 <div class="why-icon"><span style="font-size: 20px;"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg></span></div>
-<h4>Long-Term Reliability</h4>
+<h3>Long-Term Reliability</h3>
 <p>Deploying robust components, redundant signal failover systems, and structural weather reinforcement to prevent operational disruptions.</p>
 <div class="why-card-glow-orange"></div>
 </div>
@@ -414,38 +453,38 @@
 <div class="industry-grid">
 <div class="industry-card reveal">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="2" ry="2" width="16" x="4" y="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg></div>
-<h4>Corporate Offices</h4>
+<h3>Corporate Offices</h3>
 <p>Transform executive meeting spaces and reception lobbies with low-latency collaborative displays.</p>
 </div>
 <div class="industry-card reveal reveal-delay-1">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
-<h4>Shopping Malls</h4>
+<h3>Shopping Malls</h3>
 <p>Captivating visitor audiences with giant architectural atrium video walls and interactive kiosks.</p>
 </div>
 <div class="industry-card reveal reveal-delay-2">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="6" y1="2" y2="4"></line><line x1="10" x2="10" y1="2" y2="4"></line><line x1="14" x2="14" y1="2" y2="4"></line></svg></div>
-<h4>Restaurants &amp; Lounges</h4>
+<h3>Restaurants &amp; Lounges</h3>
 <p>Deploying synchronized, high-contrast digital menu boards and smart background digital feature walls.</p>
 </div>
 <div class="industry-card reveal reveal-delay-3">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 22v-6.57"></path><path d="M12 11h.01"></path><path d="M12 7h.01"></path><path d="M14 15.43V22"></path><path d="M15 16a5 5 0 0 0-6 0"></path><path d="M16 11h.01"></path><path d="M16 7h.01"></path><path d="M8 11h.01"></path><path d="M8 7h.01"></path><rect height="20" rx="2" width="16" x="4" y="2"></rect></svg></div>
-<h4>Hotels &amp; Resorts</h4>
+<h3>Hotels &amp; Resorts</h3>
 <p>Upgrading guest room luxury with centralized smart casting TVs and dynamic wayfinding screens.</p>
 </div>
 <div class="industry-card reveal reveal-delay-4">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg></div>
-<h4>Schools &amp; Academies</h4>
+<h3>Schools &amp; Academies</h3>
 <p>Enhancing classroom learning engagement with 20-point touch whiteboards and interactive auditoriums.</p>
 </div>
 <div class="industry-card reveal reveal-delay-5">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 6v4"></path><path d="M14 8h-4"></path><path d="M19 17V9a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v8"></path><path d="M3 21h18"></path><path d="M8 21v-4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4"></path></svg></div>
-<h4>Hospitals &amp; Clinics</h4>
+<h3>Hospitals &amp; Clinics</h3>
 <p>Streamlining patient experiences with vivid wayfinding boards and diagnostic imaging displays.</p>
 </div>
 <div class="industry-card reveal" style="grid-column: 1 / -1; text-align: center; display: flex; align-items: center; justify-content: center;">
 <div style="max-width: 600px;">
 <div class="industry-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19.82 2H4.18C2.98 2 2 3.06 2 4.38v15.24C2 20.94 2.98 22 4.18 22h15.64c1.2 0 2.18-1.06 2.18-2.38V4.38C22 3.06 21.02 2 19.82 2z"></path><path d="m7 2 5 5"></path><path d="m12 2 5 5"></path><path d="m17 2 5 5"></path><path d="M2 7h20"></path><path d="M2 17h20"></path><path d="m7 17 5 5"></path><path d="m12 17 5 5"></path><path d="m17 17 5 5"></path></svg></div>
-<h4 style="margin-top: 12px;">Entertainment &amp; Public Venues</h4>
+<h3 style="margin-top: 12px;">Entertainment &amp; Public Venues</h3>
 <p style="margin-bottom: 0;">Building immersive LED backdrops for concerts, stadiums, public venues, and digital art installations, concerts, and digital art installations.</p>
 </div>
 </div>

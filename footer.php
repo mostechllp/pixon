@@ -47,6 +47,7 @@
 <a class="footer-link" href="/services">Services</a>
 <a class="footer-link" href="/products">Products</a>
 <a class="footer-link" href="/projects">Projects</a>
+<a class="footer-link" href="/blogs">Blogs</a>
 <a class="footer-link" href="/contact">Contact</a>
 </nav>
 </div>

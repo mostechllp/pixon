@@ -124,7 +124,7 @@
                             Indoor spaces demand screens that excel under ambient lighting, fit seamlessly into architectural designs, and deliver flawless close-up image quality. Our displays are engineered specifically for these enclosed, climate-controlled settings.
                         </p>
 <div>
-<h4 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h4>
+<h3 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="var(--blue-accent)" stroke-width="2" viewbox="0 0 24 24" width="20"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -179,14 +179,14 @@
                             With pixel pitches ranging from 0.4mm to 4mm, our indoor panels produce seamless imagery that remains crisp even when viewed from just one meter away—eliminating the pixelation common in standard displays.
                         </p>
 <div>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">What Sets Us Apart</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">What Sets Us Apart</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Ultra-Fine Pixel Pitch (0.4mm-4mm)</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Ultra-Fine Pixel Pitch (0.4mm-4mm)</h4>
 <p style="font-size: 14px; margin: 0;">Delivers print-like clarity for close viewing distances in boardrooms and lobbies.</p>
 </div>
 </li>
@@ -195,7 +195,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Bezel-Free Seamless Video Wall</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Bezel-Free Seamless Video Wall</h4>
 <p style="font-size: 14px; margin: 0;">Zero-gap panel joints create a unified canvas—unlike LCD video walls with visible bezels.</p>
 </div>
 </li>
@@ -204,7 +204,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Low Heat &amp; Silent Operation</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Low Heat &amp; Silent Operation</h4>
 <p style="font-size: 14px; margin: 0;">Fan-less designs and low thermal output make them ideal for quiet, air-conditioned interiors.</p>
 </div>
 </li>
@@ -213,7 +213,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">160° Wide Viewing Angle</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">160° Wide Viewing Angle</h4>
 <p style="font-size: 14px; margin: 0;">Consistent color and brightness from virtually every seat in the room.</p>
 </div>
 </li>
@@ -222,7 +222,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Front-Access Magnetic Modules</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Front-Access Magnetic Modules</h4>
 <p style="font-size: 14px; margin: 0;">Tool-free maintenance from the front—no need to access the wall behind the display.</p>
 </div>
 </li>
@@ -231,7 +231,7 @@
 <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Auto-Brightness Adjustment</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Auto-Brightness Adjustment</h4>
 <p style="font-size: 14px; margin: 0;">Ambient light sensors adapt screen brightness for comfort in dim or well-lit rooms.</p>
 </div>
 </li>

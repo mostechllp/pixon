@@ -87,7 +87,7 @@
                             seamless, high-resolution visuals that leave a lasting impression.
                         </p>
 <div>
-<h4 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h4>
+<h3 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="var(--blue-accent)" stroke-width="2" viewbox="0 0 24 24" width="20">
@@ -156,7 +156,7 @@
                             structural integrity.
                         </p>
 <div>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Key Benefits</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Key Benefits</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
@@ -167,8 +167,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Flexible Modules
-                                        </h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Flexible Modules
+                                        </h4>
 <p style="font-size: 14px; margin: 0;">Soft, bendable LED panels that flawlessly
                                             adapt to convex or concave surfaces for perfectly smooth curves.</p>
 </div>
@@ -182,8 +182,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Seamless Cornering
-                                        </h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Seamless Cornering
+                                        </h4>
 <p style="font-size: 14px; margin: 0;">Specialized corner cabinets allow for
                                             right-angle and custom degree connections without visible gaps.</p>
 </div>
@@ -197,8 +197,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Lightweight
-                                            Architecture</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Lightweight
+                                            Architecture</h4>
 <p style="font-size: 14px; margin: 0;">Ultra-light designs allow these screens
                                             to be mounted directly onto existing architecture with minimal rigging.</p>
 </div>
@@ -212,8 +212,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Uncompromised
-                                            Uniformity</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Uncompromised
+                                            Uniformity</h4>
 <p style="font-size: 14px; margin: 0;">Even on complex geometries, our screens
                                             maintain consistent brightness, color matching, and wide viewing angles.</p>
 </div>

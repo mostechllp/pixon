@@ -299,6 +299,7 @@
     box-shadow: 0 8px 20px rgba(27, 92, 255, 0.2);
 }
 
+.feature-content h3,
 .feature-content h4 {
     color: #1B5CFF;
     font-size: 18px;
@@ -400,7 +401,7 @@
                     </svg>
                 </div>
                 <div class="feature-content">
-                    <h4>Regions Covered</h4>
+                    <h3>Regions Covered</h3>
                     <p>Delivering comprehensive project execution and technical support across the <strong>Middle East &amp; Africa</strong>.</p>
                 </div>
             </div>
@@ -420,7 +421,7 @@
                     </svg>
                 </div>
                 <div class="feature-content">
-                    <h4>Multi-System Integration</h4>
+                    <h3>Multi-System Integration</h3>
                     <p>Expertise in indoor and outdoor LED displays, professional AV, cloud solutions, and lighting control systems.</p>
                 </div>
             </div>

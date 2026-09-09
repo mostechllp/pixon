@@ -82,7 +82,7 @@
                             We design and develop high-impact visual content optimized for LED screens. From dynamic 3D animations and motion graphics to branded storytelling, our content ensures your displays captivate audiences and deliver your message effectively.
                         </p>
 <div>
-<h4 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h4>
+<h3 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="var(--blue-accent)" stroke-width="2" viewbox="0 0 24 24" width="20">
@@ -149,7 +149,7 @@
                             Our creative team leverages the latest design tools and techniques to produce content that maximizes the capabilities of your LED screens, delivering stunning visual fidelity and deep audience engagement.
                         </p>
 <div>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Key Benefits</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Key Benefits</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
@@ -160,7 +160,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Tailored to Your Screen</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Tailored to Your Screen</h4>
 <p style="font-size: 14px; margin: 0;">Content is custom-designed for the specific resolution, aspect ratio, and shape of your LED display.</p>
 </div>
 </li>
@@ -173,7 +173,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">High-Impact Visuals</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">High-Impact Visuals</h4>
 <p style="font-size: 14px; margin: 0;">We create eye-catching animations and graphics that grab attention and hold it.</p>
 </div>
 </li>
@@ -186,7 +186,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Brand Consistency</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Brand Consistency</h4>
 <p style="font-size: 14px; margin: 0;">All content is aligned with your brand guidelines to ensure a cohesive and professional appearance.</p>
 </div>
 </li>
@@ -199,7 +199,7 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">End-to-End Service</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">End-to-End Service</h4>
 <p style="font-size: 14px; margin: 0;">From concept and storyboard to final rendering and deployment, we handle the entire content creation process.</p>
 </div>
 </li>

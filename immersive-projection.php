@@ -87,7 +87,7 @@
                             worlds into physical reality.
                         </p>
 <div>
-<h4 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h4>
+<h3 style="color: var(--text-primary); font-size: 20px; margin-bottom: 15px;">Ideal For</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
 <li style="display: flex; align-items: center; gap: 10px;">
 <svg fill="none" height="20" stroke="var(--blue-accent)" stroke-width="2" viewbox="0 0 24 24" width="20">
@@ -156,7 +156,7 @@
                             spectacles.
                         </p>
 <div>
-<h4 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Key Capabilities</h4>
+<h3 style="color: #fff; font-size: 20px; margin-bottom: 15px;">Key Capabilities</h3>
 <ul style="color: var(--text-secondary); margin-bottom: 0; list-style-type: none; padding-left: 0; display: grid; grid-template-columns: 1fr; gap: 15px;">
 <li style="display: flex; align-items: flex-start; gap: 15px;">
 <div style="background: rgba(255,255,255,0.05); padding: 8px; border-radius: 8px; color: var(--blue-accent);">
@@ -167,8 +167,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">3D Projection
-                                            Mapping</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">3D Projection
+                                            Mapping</h4>
 <p style="font-size: 14px; margin: 0;">Precisely align dynamic video content
                                             onto complex architectural structures or irregular physical objects.</p>
 </div>
@@ -182,8 +182,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Interactive
-                                            Tracking</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Interactive
+                                            Tracking</h4>
 <p style="font-size: 14px; margin: 0;">Incorporate LiDAR and optical sensors
                                             that allow the projection environment to respond in real-time to human
                                             movement.</p>
@@ -198,8 +198,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Seamless Edge
-                                            Blending</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Seamless Edge
+                                            Blending</h4>
 <p style="font-size: 14px; margin: 0;">Flawlessly stitch multiple high-lumen
                                             projectors together to create a single, unified, and gigantic visual canvas.
                                         </p>
@@ -214,8 +214,8 @@
 </svg>
 </div>
 <div>
-<h5 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Laser Precision
-                                            &amp; 4K</h5>
+<h4 style="color: #fff; font-size: 16px; margin-bottom: 4px;">Laser Precision
+                                            &amp; 4K</h4>
 <p style="font-size: 14px; margin: 0;">Experience crystal clear visuals with
                                             phenomenal contrast ratios and vivid color accuracy using pure laser
                                             projection technology.</p>
