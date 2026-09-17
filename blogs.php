@@ -10,16 +10,6 @@ $blogPosts = [
         'image_alt' => 'How Outdoor LED Screens Can Build Brand Visibility',
         'excerpt' => 'Discover how outdoor LED screens boost brand visibility, attract customers, promote offers, and create engaging advertising experiences for businesses.',
         'url' => '/blogs/outdoor-led-screen-brand-visibility/'
-    ],
-    [
-        'id' => 'led-screen-company-dubai-tradeshow-display',
-        'title' => 'HOW TO FIND THE RIGHT LED SIGN DISPLAY FOR TRADESHOWS IN DUBAI',
-        'date' => '02-09-2026',
-        'category' => 'Tradeshows & Expos',
-        'image' => 'assets/led-sign-display-tradeshows-dubai.webp',
-        'image_alt' => 'How to Find the Right LED Sign Display For Tradeshows in Dubai',
-        'excerpt' => 'Discover the main parameters for choosing an LED signage for an exhibition in Dubai, from booth size and pixel pitch to content optimization and installation support.',
-        'url' => '/blogs/led-screen-company-dubai-tradeshow-display/'
     ]
 ];
 ?>
