@@ -3,11 +3,11 @@
 $blogPosts = [
     [
         'id' => 'outdoor-led-screen-brand-visibility',
-        'title' => 'HOW OUTDOOR LED SCREENS CAN BUILD UP BRAND VISIBILITY',
-        'date' => '07-09-2026',
+        'title' => 'HOW OUTDOOR LED SCREENS CAN BUILD BRAND VISIBILITY',
+        'date' => '17-09-2026',
         'category' => 'Outdoor LED Screens',
-        'image' => 'assets/outdoor-led-screens-brand-visibility.webp',
-        'image_alt' => 'How Outdoor LED Screens Can Build up Brand Visibility',
+        'image' => 'assets/Outdoor_LED_Screens.webp',
+        'image_alt' => 'How Outdoor LED Screens Can Build Brand Visibility',
         'excerpt' => 'Discover how outdoor LED screens boost brand visibility, attract customers, promote offers, and create engaging advertising experiences for businesses.',
         'url' => '/blogs/outdoor-led-screen-brand-visibility/'
     ],
