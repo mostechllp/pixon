@@ -111,13 +111,11 @@ $blogPosts = [
   <meta content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions in Dubai &amp; Middle East." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/blogs" property="og:url" />
-  <meta content="https://www.pixonglobal.com/assets/led-sign-display-tradeshows-dubai.webp" property="og:image" />
   
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Blogs &amp; Insights | PIXON TECHNOLOGIES" />
   <meta name="twitter:description" content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions." />
-  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/led-sign-display-tradeshows-dubai.webp" />
 
   <title>Blogs &amp; Industry Insights | PIXON TECHNOLOGIES</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
