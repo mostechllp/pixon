@@ -559,7 +559,7 @@ $og_base_url = $og_protocol . $og_host;
                   <polyline points="12 5 19 12 12 19"></polyline>
                 </svg>
               </a>
-              <a class="btn-ghost-white" href="contact.php" style="padding: 10px 20px; font-size: 14px;" id="home-contact">Contact Us</a>
+              <a class="btn-ghost-white" href="/contact" style="padding: 10px 20px; font-size: 14px;" id="home-contact">Contact Us</a>
             </div>
           </div>
         </div>
@@ -843,7 +843,7 @@ $og_base_url = $og_protocol . $og_host;
                     Professional Audio-Visual (AV) System Integration (Middle East &amp; Africa-wide)
                   </div>
                 </div>
-                <a class="btn btn-primary" href="products.php">
+                <a class="btn btn-primary" href="/products">
                   Explore Our Display Solutions
                   <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2.5"
                     viewbox="0 0 24 24" width="16">
@@ -933,7 +933,7 @@ $og_base_url = $og_protocol . $og_host;
                     24/7 Middle East &amp; Africa-wide Technical Support
                   </div>
                 </div>
-                <a class="btn btn-primary" href="about.php">
+                <a class="btn btn-primary" href="/about">
                   Learn More About Us
                   <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2.5"
                     viewbox="0 0 24 24" width="16">
@@ -995,7 +995,7 @@ $og_base_url = $og_protocol . $og_host;
                     IKEA &amp; Lulu Group International Flagship Displays
                   </div>
                 </div>
-                <a class="btn btn-primary" href="projects.php">
+                <a class="btn btn-primary" href="/projects">
                   Explore Our Work
                   <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2.5"
                     viewbox="0 0 24 24" width="16">
@@ -1619,13 +1619,13 @@ $og_base_url = $og_protocol . $og_host;
               team is ready to design and calibrate your layout.
             </p>
             <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-              <a href="contact.php" class="cta-btn-solid">
+              <a href="/contact" class="cta-btn-solid">
                 Contact Our Team
                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                 </svg>
               </a>
-              <a href="contact.php" class="cta-btn-outline">
+              <a href="/contact" class="cta-btn-outline">
                 Schedule Consultation
                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>

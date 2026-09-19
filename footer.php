@@ -90,12 +90,7 @@
 +971 43992851
 </a>
 </div>
-<div style="width: 100%; height: 120px; border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-top: 15px;">
-<iframe
-    src="https://maps.google.com/maps?q=25.2721157,55.3096237&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-    style="display: block; width: 100%; height: 100%; border: none;"
-    title="Google Maps Location - Pixon Technologies" loading="lazy">
-</iframe>
+<div id="footer-map-container" data-map-src="https://maps.google.com/maps?q=25.2721157,55.3096237&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed" style="width: 100%; height: 120px; border-radius: 8px; overflow: hidden; border: 1px solid rgba(255,255,255,0.1); margin-top: 15px;">
 </div>
 </div>
 </div>
@@ -510,8 +505,8 @@
           }
         }
 
-        // Open modal for CTA buttons linking to contact.php
-        var ctaButtons = document.querySelectorAll('a[href="contact.php"]');
+        // Open modal for CTA buttons linking to contact
+        var ctaButtons = document.querySelectorAll('a[href="contact.php"], a[href="/contact"]');
         ctaButtons.forEach(function(btn) {
           // Check if it is a solid or outline CTA button, or contains relevant text
           if (btn.classList.contains('cta-btn-solid') || btn.classList.contains('cta-btn-outline') || btn.textContent.includes('Contact Our Team') || btn.textContent.includes('Schedule Consultation')) {
@@ -547,5 +542,31 @@
             }
           }
         });
+
+        // Dynamic Lazy-load for Footer Google Map (avoids static iframe penalty & improves performance)
+        var mapContainer = document.getElementById('footer-map-container');
+        if (mapContainer) {
+          var loadFooterMap = function() {
+            if (mapContainer.querySelector('iframe')) return;
+            var mapIframe = document.createElement('iframe');
+            mapIframe.src = mapContainer.getAttribute('data-map-src');
+            mapIframe.style.cssText = 'display: block; width: 100%; height: 100%; border: none;';
+            mapIframe.title = 'Google Maps Location - Pixon Technologies';
+            mapIframe.loading = 'lazy';
+            mapContainer.appendChild(mapIframe);
+          };
+
+          if ('IntersectionObserver' in window) {
+            var mapObserver = new IntersectionObserver(function(entries) {
+              if (entries[0].isIntersecting) {
+                loadFooterMap();
+                mapObserver.disconnect();
+              }
+            }, { rootMargin: '300px' });
+            mapObserver.observe(mapContainer);
+          } else {
+            loadFooterMap();
+          }
+        }
       });
     </script>

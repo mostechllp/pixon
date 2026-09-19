@@ -57,10 +57,6 @@ function mobileNavClass($page, $target, $group = [])
     return 'mobile-nav-link';
 }
 ?>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPW8N7BC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 <!-- ======================== HEADER ======================== -->
 <header id="header">
     <div class="container">
@@ -95,7 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="mega-menu-grid">
                             <!-- Indoor Products -->
                             <div class="mega-column">
-                                <h4 class="mega-title">Indoor Products</h4>
+                                <div class="mega-title">Indoor Products</div>
                                 <ul class="mega-list">
                                     <li><a href="/products/indoor-led-screen">Indoor LED Screen</a></li>
                                     <li><a href="/products/oled-series">OLED Series</a></li>
@@ -104,14 +100,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                             <!-- Outdoor Products -->
                             <div class="mega-column">
-                                <h4 class="mega-title">Outdoor Products</h4>
+                                <div class="mega-title">Outdoor Products</div>
                                 <ul class="mega-list">
                                     <li><a href="/products/outdoor-led-screen">Outdoor LED Screen</a></li>
                                 </ul>
                             </div>
                             <!-- Innovative LED Screens -->
                             <div class="mega-column">
-                                <h4 class="mega-title">Innovative LED Screens</h4>
+                                <div class="mega-title">Innovative LED Screens</div>
                                 <ul class="mega-list">
                                     <li><a href="/products/outdoor-mesh-screen">Mesh Transparent Screen</a></li>
                                     <li><a href="/products/smart-classroom-led">Smart Classroom LED System</a></li>
@@ -125,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </div>
                             <!-- LCD & Kiosk -->
                             <div class="mega-column">
-                                <h4 class="mega-title">LCD &amp; Kiosk</h4>
+                                <div class="mega-title">LCD &amp; Kiosk</div>
                                 <ul class="mega-list">
                                     <li><a href="/products/kiosk-poster">Kiosk &amp; Poster Screen</a></li>
                                 </ul>
@@ -158,8 +154,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             </defs>
                                         </svg>
                                     </div>
-                                    <h3 class="promo-heading">Need help to choose the right LED Solution? Feel free
-                                        contact us</h3>
+                                    <div class="promo-heading">Need help to choose the right LED Solution? Feel free
+                                        contact us</div>
                                     <div class="promo-arrow">
                                         <svg fill="none" height="50" viewBox="0 0 100 70" width="70"
                                             xmlns="http://www.w3.org/2000/svg">
