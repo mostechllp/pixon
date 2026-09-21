@@ -1,5 +1,5 @@
 <?php
-// Local array of blog posts - Only the single required blog post
+// Local array of blog posts
 $blogPosts = [
     [
         'id' => 'outdoor-led-screen-brand-visibility',
@@ -10,6 +10,16 @@ $blogPosts = [
         'image_alt' => 'How Outdoor LED Screens Can Build Brand Visibility',
         'excerpt' => 'Discover how outdoor LED screens boost brand visibility, attract customers, promote offers, and create engaging advertising experiences for businesses.',
         'url' => '/blogs/outdoor-led-screen-brand-visibility/'
+    ],
+    [
+        'id' => 'led-screen-company-dubai-tradeshow-display',
+        'title' => 'HOW TO FIND THE RIGHT LED SIGN DISPLAY FOR TRADESHOWS IN DUBAI',
+        'date' => '02-09-2026',
+        'category' => 'LED Sign Display',
+        'image' => 'assets/led-sign-display-tradeshows-dubai.webp',
+        'image_alt' => 'How to Find the Right LED Sign Display For Tradeshows in Dubai',
+        'excerpt' => 'Looking for the right LED sign display in Dubai? Learn how an experienced LED Screen Company can help you choose the ideal display for tradeshows and exhibitions.',
+        'url' => '/blogs/led-screen-company-dubai-tradeshow-display/'
     ]
 ];
 ?>
