@@ -132,9 +132,21 @@ RewriteRule ^outdoor-led-screen-brand-visibility/?$ /blogs/outdoor-led-screen-br
 RewriteRule ^blogs/led-screen-company-dubai-tradeshow-display/?$ led-screen-company-dubai-tradeshow-display.php [L,NC]
 RewriteRule ^led-screen-company-dubai-tradeshow-display/?$ /blogs/led-screen-company-dubai-tradeshow-display/ [R=301,L,NC]
 
-# Keyword Landing Pages Internal Routing
+# Keyword Landing Pages Internal Routing & 301 Redirects
 RewriteRule ^outdoor-led-screen/?$ outdoor-led-screen-in-uae.php [L,NC]
 RewriteRule ^outdoor-led-screen-in-uae(?:\.php)?/?$ /outdoor-led-screen [R=301,L,NC]
+
+RewriteRule ^led-screen-supplier/?$ led-screen-supplier.php [L,NC]
+RewriteRule ^led-screen-supplier-in-uae(?:\.php)?/?$ /led-screen-supplier [R=301,L,NC]
+
+RewriteRule ^video-wall-installation/?$ video-wall-installation.php [L,NC]
+RewriteRule ^video-wall-installation-in-uae(?:\.php)?/?$ /video-wall-installation [R=301,L,NC]
+
+RewriteRule ^transparent-led-screen/?$ transparent-led-screen.php [L,NC]
+RewriteRule ^transparent-led-screen-in-uae(?:\.php)?/?$ /transparent-led-screen [R=301,L,NC]
+
+RewriteRule ^led-screen-installation/?$ led-screen-installation.php [L,NC]
+RewriteRule ^led-screen-installation-in-uae(?:\.php)?/?$ /led-screen-installation [R=301,L,NC]
 
 
 # ----------------------------------------------------------------------
