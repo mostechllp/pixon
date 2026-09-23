@@ -85,7 +85,7 @@ RewriteRule ^content-creation(?:\.php)?/?$ /services/content-creation [R=301,L,N
 RewriteRule ^indoor-led-screen(?:\.php)?/?$ /products/indoor-led-screen [R=301,L,NC]
 RewriteRule ^oled-series(?:\.php)?/?$ /products/oled-series [R=301,L,NC]
 RewriteRule ^indoor-cob(?:\.php)?/?$ /products/indoor-cob [R=301,L,NC]
-RewriteRule ^outdoor-led-screen(?:\.php)?/?$ /products/outdoor-led-screen [R=301,L,NC]
+RewriteRule ^outdoor-led-screen\.php$ /products/outdoor-led-screen [R=301,L,NC]
 RewriteRule ^outdoor-mesh-screen(?:\.php)?/?$ /products/outdoor-mesh-screen [R=301,L,NC]
 RewriteRule ^smart-classroom-led(?:\.php)?/?$ /products/smart-classroom-led [R=301,L,NC]
 RewriteRule ^interactive-conference-led(?:\.php)?/?$ /products/interactive-conference-led [R=301,L,NC]
@@ -131,6 +131,11 @@ RewriteRule ^blogs/outdoor-led-screen-brand-visibility/?$ outdoor-led-screen-bra
 RewriteRule ^outdoor-led-screen-brand-visibility/?$ /blogs/outdoor-led-screen-brand-visibility/ [R=301,L,NC]
 RewriteRule ^blogs/led-screen-company-dubai-tradeshow-display/?$ led-screen-company-dubai-tradeshow-display.php [L,NC]
 RewriteRule ^led-screen-company-dubai-tradeshow-display/?$ /blogs/led-screen-company-dubai-tradeshow-display/ [R=301,L,NC]
+
+# Keyword Landing Pages Internal Routing
+RewriteRule ^outdoor-led-screen/?$ outdoor-led-screen-in-uae.php [L,NC]
+RewriteRule ^outdoor-led-screen-in-uae(?:\.php)?/?$ /outdoor-led-screen [R=301,L,NC]
+
 
 # ----------------------------------------------------------------------
 # 3. GENERAL CLEAN URLS & EXTENSION REMOVAL
