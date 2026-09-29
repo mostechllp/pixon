@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager & Analytics (Optimized Deferred Loading) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1DXF42V841');
+    dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+
+    (function() {
+      var loaded = false;
+      function initAnalytics() {
+        if (loaded) return;
+        loaded = true;
+        ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+          window.removeEventListener(evt, initAnalytics, { passive: true });
+        });
+        var s1 = document.createElement('script');
+        s1.async = true;
+        s1.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-NPW8N7BC';
+        document.head.appendChild(s1);
+
+        var s2 = document.createElement('script');
+        s2.async = true;
+        s2.src = 'https://www.googletagmanager.com/gtm.js?id=G-1DXF42V841';
+        document.head.appendChild(s2);
+      }
+      ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+        window.addEventListener(evt, initAnalytics, { passive: true, once: true });
+      });
+      if ('requestIdleCallback' in window) {
+        window.addEventListener('load', function() {
+          requestIdleCallback(function() {
+            setTimeout(initAnalytics, 1500);
+          }, { timeout: 3500 });
+        });
+      } else {
+        window.addEventListener('load', function() {
+          setTimeout(initAnalytics, 2500);
+        });
+      }
+    })();
+  </script>
+  <meta charset="utf-8" />
+  <base href="/" />
+  <link rel="canonical" href="https://www.pixonglobal.com/indoor-led-screen-installation" />
+  
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.pixonglobal.com/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Indoor LED Screen Installation",
+      "item": "https://www.pixonglobal.com/indoor-led-screen-installation"
+    }]
+  }
+  </script>
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Get professional indoor LED screen installation from Pixon for offices, retail stores, showrooms, events, and commercial spaces. Contact us for expert solutions." name="description" />
+  <meta content="Indoor LED Screen Installation, Indoor LED Screen, indoor LED display installation Dubai, commercial LED screen setup" name="keywords" />
+  <meta content="PIXON TECHNOLOGIES" name="author" />
+  
+  <!-- Open Graph -->
+  <meta content="Indoor LED Screen Installation | Pixon Technologies" property="og:title" />
+  <meta content="Get professional indoor LED screen installation from Pixon for offices, retail stores, showrooms, events, and commercial spaces. Contact us for expert solutions." property="og:description" />
+  <meta content="website" property="og:type" />
+  <meta content="https://www.pixonglobal.com/indoor-led-screen-installation" property="og:url" />
+  <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Indoor LED Screen Installation | Pixon Technologies" />
+  <meta name="twitter:description" content="Get professional indoor LED screen installation from Pixon for offices, retail stores, showrooms, events, and commercial spaces. Contact us for expert solutions." />
+  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
+
+  <title>Indoor LED Screen Installation | Pixon Technologies</title>
+  <link href="assets/favicon.png" rel="icon" type="image/png" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link href="style.css?v=3" rel="stylesheet" />
+
+  <!-- Scoped Styles for Clean Layout & Header Banner -->
+  <style>
+    .blog-post-wrapper {
+      background: #F8FAFC !important;
+      color: #1E293B !important;
+      position: relative;
+      font-family: 'Inter', 'Poppins', sans-serif;
+    }
+
+    /* Hero Banner matching website design */
+    .blog-banner-section {
+      position: relative;
+      padding: 120px 0 35px 0;
+      background: url('assets/product-bg.webp') center/cover no-repeat;
+      overflow: hidden;
+    }
+    .blog-banner-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(6, 11, 40, 0.88) 0%, rgba(5, 8, 45, 0.94) 100%);
+    }
+    .blog-banner-title {
+      font-family: 'Poppins', 'Inter', sans-serif !important;
+      font-size: clamp(22px, 3vw, 36px) !important;
+      font-weight: 800 !important;
+      color: #FFFFFF !important;
+      margin: 0 0 12px 0 !important;
+      letter-spacing: -0.02em !important;
+    }
+    .blog-banner-breadcrumbs {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.75);
+    }
+    .blog-banner-breadcrumbs a {
+      color: #FFFFFF !important;
+      text-decoration: none !important;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    .blog-banner-breadcrumbs a:hover {
+      color: #00D9FF !important;
+      text-decoration: underline !important;
+    }
+    .blog-banner-breadcrumbs span.separator {
+      color: rgba(255, 255, 255, 0.4);
+    }
+    .blog-banner-breadcrumbs span.current {
+      color: rgba(255, 255, 255, 0.85) !important;
+    }
+
+    /* Main Content Container */
+    .blog-content-container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 50px 24px 80px 24px;
+    }
+
+    /* Heading 1 (Title) */
+    .blog-h1-title {
+      font-family: 'Poppins', 'Inter', sans-serif !important;
+      font-size: clamp(26px, 3.5vw, 38px) !important;
+      line-height: 1.35 !important;
+      font-weight: 800 !important;
+      color: #0F172A !important;
+      margin: 0 0 28px 0 !important;
+      letter-spacing: -0.02em !important;
+    }
+
+    /* Article Body Text */
+    .blog-body-text {
+      font-size: 1.12rem;
+      line-height: 1.9;
+      color: #334155;
+    }
+
+    .blog-body-text p {
+      color: #334155 !important;
+      font-size: 1.12rem !important;
+      line-height: 1.9 !important;
+      margin-bottom: 24px !important;
+    }
+
+    .blog-body-text h2 {
+      font-family: 'Poppins', 'Inter', sans-serif !important;
+      font-size: clamp(20px, 2.5vw, 26px) !important;
+      font-weight: 700 !important;
+      color: #0F172A !important;
+      margin-top: 42px !important;
+      margin-bottom: 16px !important;
+      line-height: 1.35 !important;
+      letter-spacing: -0.01em !important;
+    }
+
+    .blog-body-text ul {
+      margin: 0 0 24px 0;
+      padding-left: 24px;
+      list-style-type: disc;
+    }
+
+    .blog-body-text ul li {
+      color: #334155 !important;
+      font-size: 1.12rem !important;
+      line-height: 1.8 !important;
+      margin-bottom: 10px !important;
+    }
+
+    .blog-body-text strong,
+    .blog-body-text b {
+      color: #0F172A !important;
+      font-weight: 700 !important;
+    }
+
+    .blog-body-text a {
+      color: #0A3DFF !important;
+      text-decoration: underline !important;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .blog-body-text a:hover {
+      color: #1B5CFF !important;
+    }
+  </style>
+</head>
+
+<body>
+  <?php include 'header.php'; ?>
+
+  <main class="blog-post-wrapper">
+    
+    <!-- ======================== HERO BANNER ======================== -->
+    <section class="blog-banner-section">
+      <div class="blog-banner-overlay"></div>
+      <div class="container" style="position: relative; z-index: 2; max-width: 1000px; margin: 0 auto; padding: 0 24px;">
+        <h1 class="blog-banner-title">
+          Indoor LED Screen Installation in UAE
+        </h1>
+        <nav aria-label="Breadcrumb" class="blog-banner-breadcrumbs">
+          <a href="/">Home</a>
+          <span class="separator">/</span>
+          <span class="current" aria-current="page">Indoor LED Screen Installation</span>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ======================== CONTENT ======================== -->
+    <div class="blog-content-container">
+      
+      <!-- Main Heading / H1 Title -->
+      <h1 class="blog-h1-title">
+        Indoor LED Screen Installation
+      </h1>
+
+      <!-- Exact Content From PDF -->
+      <article class="blog-body-text">
+        <p>
+          An indoor LED screen installation is a way for businesses to bring engaging visuals into commercial spaces. LED screens are now commonly found in offices, retail stores, showrooms, hotels, malls, conference rooms, exhibition areas, and entertainment venues. They can show brand messages, presentations, advertisements, product information, live feeds, and announcements. A suitable screen can change how people interact with a space and give the area a look.
+        </p>
+
+        <h2>Indoor LED Screens for Different Spaces</h2>
+        <p>
+          Every indoor space has its needs. A small reception area may need a display. A shopping mall or showroom may need a screen. Screen size, pixel pitch, viewing distance, brightness, and installation position all must be considered before choosing a display.
+        </p>
+        <p>
+          At <a href="/">Pixon Global</a> we examine these details before suggesting a solution. Our indoor LED range includes SMD, COB, and OLED display options, allowing businesses to pick a screen that fits their space and visual needs.
+        </p>
+
+        <h2>Professional Installation Matters</h2>
+        <p>
+          An LED screen installation is not about mounting LED panels on a wall. The structure, power connections, signal cables, control system, screen alignment, and configuration all must be handled correctly. Even small installation problems can affect the look and performance of the screen.
+        </p>
+        <p>
+          We handle the installation process with care for alignment, connectivity, calibration, and system testing. This creates a display that is ready for everyday use. We also offer installation and configuration as part of our LED and AV services.
+        </p>
+        <p>
+          For spaces where a standard rectangular display does not fit customized LED screens can be designed around needs. This gives businesses flexibility when planning their display area.
+        </p>
+
+        <h2>Why Choose Us?</h2>
+        <p>
+          We provide LED display services from design and supply to installation, calibration, commissioning, and ongoing technical support. Our team works on LED projects across the Middle East and Africa, offering solutions that fit environments and needs.
+        </p>
+        <p>
+          If you are planning an <a href="/services/indoor-led-screens">indoor LED screen installation</a>, choosing the display and installation approach can make a difference to the final result. We can help you find a solution that fits your space, purpose, and budget.
+        </p>
+
+        <p>
+          For information about our LED display solutions, visit Pixon Technologies
+        </p>
+      </article>
+
+    </div>
+  </main>
+
+  <?php include 'footer.php'; ?>
+</body>
+
+</html>
