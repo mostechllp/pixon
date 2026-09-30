@@ -2,6 +2,16 @@
 // Local array of blog posts
 $blogPosts = [
     [
+        'id' => 'indoor-outdoor-led-screens',
+        'title' => 'INDOOR VS. OUTDOOR LED DISPLAYS: KEY DIFFERENCES AND HOW TO CHOOSE THE RIGHT ONE',
+        'date' => '30-09-2026',
+        'category' => 'LED Displays',
+        'image' => 'assets/indoor_vs_outdoor_led_displays.webp',
+        'image_alt' => 'Indoor vs. Outdoor LED Displays: Key Differences and How to Choose the Right One',
+        'excerpt' => 'Indoor and outdoor LED screens vary in terms of design, brightness, protection, and specifications based on their intended location and application. Choosing between the two depends on the location of the intended display, the distance of viewers from a screen, and the type of content and information that you plan to present.',
+        'url' => '/blogs/indoor-outdoor-led-screens/'
+    ],
+    [
         'id' => 'outdoor-led-screen-brand-visibility',
         'title' => 'HOW OUTDOOR LED SCREENS CAN BUILD BRAND VISIBILITY',
         'date' => '17-09-2026',
