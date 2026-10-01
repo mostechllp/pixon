@@ -518,8 +518,7 @@ $og_base_url = $og_protocol . $og_host;
     <section aria-label="Hero section" id="hero">
       <!-- Full-screen video background -->
       <div class="hero-bg">
-        <video aria-hidden="true" autoplay="" id="hero-bg-video" loop="" muted="" playsinline="" preload="auto">
-          <source src="assets/home-banner-video.mp4" type="video/mp4" />
+        <video aria-hidden="true" autoplay="" id="hero-bg-video" loop="" muted="" playsinline="" preload="none" poster="assets/home-banner-poster.webp" data-src="assets/home-banner-video.mp4">
         </video>
         <!-- Cinematic vignette: dark edges, clear centre so video shows through -->
         <div class="hero-vignette"></div>
