@@ -21,6 +21,7 @@ $blogPosts = [
         'excerpt' => 'Pixel pitch directly affects image clarity, pixel density, viewing distance, and project cost. Learn how to choose the right LED display pixel pitch based on viewing distance, screen size, and content.',
         'url' => '/blogs/how-to-choose-the-right-pixel-pitch-for-your-led-display/'
     ],
+    /*
     [
         'id' => 'indoor-outdoor-led-screens',
         'title' => 'INDOOR VS. OUTDOOR LED DISPLAYS: KEY DIFFERENCES AND HOW TO CHOOSE THE RIGHT ONE',
@@ -31,6 +32,7 @@ $blogPosts = [
         'excerpt' => 'Indoor and outdoor LED screens vary in terms of design, brightness, protection, and specifications based on their intended location and application. Choosing between the two depends on the location of the intended display, the distance of viewers from a screen, and the type of content and information that you plan to present.',
         'url' => '/blogs/indoor-outdoor-led-screens/'
     ],
+    */
     [
         'id' => 'outdoor-led-screen-brand-visibility',
         'title' => 'HOW OUTDOOR LED SCREENS CAN BUILD BRAND VISIBILITY',
