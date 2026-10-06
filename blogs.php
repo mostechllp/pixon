@@ -2,6 +2,16 @@
 // Local array of blog posts
 $blogPosts = [
     [
+        'id' => 'how-to-choose-the-right-pixel-pitch-for-your-led-display',
+        'title' => 'HOW TO CHOOSE THE RIGHT PIXEL PITCH FOR YOUR LED DISPLAY',
+        'date' => '06-10-2026',
+        'category' => 'LED Displays',
+        'image' => 'assets/right_pixel_pitch_led_display.webp',
+        'image_alt' => 'How to Choose the Right Pixel Pitch for Your LED Display',
+        'excerpt' => 'Pixel pitch directly affects image clarity, pixel density, viewing distance, and project cost. Learn how to choose the right LED display pixel pitch based on viewing distance, screen size, and content.',
+        'url' => '/blogs/how-to-choose-the-right-pixel-pitch-for-your-led-display/'
+    ],
+    [
         'id' => 'indoor-outdoor-led-screens',
         'title' => 'INDOOR VS. OUTDOOR LED DISPLAYS: KEY DIFFERENCES AND HOW TO CHOOSE THE RIGHT ONE',
         'date' => '30-09-2026',

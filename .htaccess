@@ -127,6 +127,8 @@ RewriteRule ^products/floor-and-roll-led-display/?$ floor-and-roll-led-display.p
 RewriteRule ^products/kiosk-poster/?$ kiosk-poster.php [L,NC]
 
 # Blogs Internal Routing
+RewriteRule ^blogs/how-to-choose-the-right-pixel-pitch-for-your-led-display/?$ how-to-choose-the-right-pixel-pitch-for-your-led-display.php [L,NC]
+RewriteRule ^how-to-choose-the-right-pixel-pitch-for-your-led-display/?$ /blogs/how-to-choose-the-right-pixel-pitch-for-your-led-display/ [R=301,L,NC]
 RewriteRule ^blogs/indoor-outdoor-led-screens/?$ indoor-outdoor-led-screens.php [L,NC]
 RewriteRule ^indoor-outdoor-led-screens/?$ /blogs/indoor-outdoor-led-screens/ [R=301,L,NC]
 RewriteRule ^blogs/outdoor-led-screen-brand-visibility/?$ outdoor-led-screen-brand-visibility.php [L,NC]
