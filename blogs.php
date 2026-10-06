@@ -2,6 +2,16 @@
 // Local array of blog posts
 $blogPosts = [
     [
+        'id' => 'performance-beyond-brightness-stadium-led-displays',
+        'title' => 'PERFORMANCE BEYOND BRIGHTNESS: WHAT STADIUM LED DISPLAYS NEED',
+        'date' => '07-10-2026',
+        'category' => 'Stadium LED Displays',
+        'image' => 'assets/performance_beyond_brightness_stadium_led_displays.webp',
+        'image_alt' => 'Performance Beyond Brightness: What Stadium LED Displays Need',
+        'excerpt' => 'Stadium LED screens must deliver reliable performance, smooth visuals and continuous operation. Discover why professional sports displays need more than brightness.',
+        'url' => '/blogs/performance-beyond-brightness-stadium-led-displays/'
+    ],
+    [
         'id' => 'how-to-choose-the-right-pixel-pitch-for-your-led-display',
         'title' => 'HOW TO CHOOSE THE RIGHT PIXEL PITCH FOR YOUR LED DISPLAY',
         'date' => '06-10-2026',
