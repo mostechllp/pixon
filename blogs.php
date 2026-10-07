@@ -1,7 +1,6 @@
 <?php
 // Local array of blog posts
 $blogPosts = [
-    /*
     [
         'id' => 'performance-beyond-brightness-stadium-led-displays',
         'title' => 'PERFORMANCE BEYOND BRIGHTNESS: WHAT STADIUM LED DISPLAYS NEED',
@@ -12,7 +11,6 @@ $blogPosts = [
         'excerpt' => 'Stadium LED screens must deliver reliable performance, smooth visuals and continuous operation. Discover why professional sports displays need more than brightness.',
         'url' => '/blogs/performance-beyond-brightness-stadium-led-displays/'
     ],
-    */
     [
         'id' => 'how-to-choose-the-right-pixel-pitch-for-your-led-display',
         'title' => 'HOW TO CHOOSE THE RIGHT PIXEL PITCH FOR YOUR LED DISPLAY',
