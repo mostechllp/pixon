@@ -46,7 +46,7 @@
   </script>
   <meta charset="utf-8" />
   <base href="/" />
-  <link rel="canonical" href="https://www.pixonglobal.com/cob-led-display-in-uae" />
+  <link rel="canonical" href="https://www.pixonglobal.com/cob-led-display" />
   
   <!-- Structured Data: BreadcrumbList -->
   <script type="application/ld+json">
@@ -62,7 +62,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "COB LED Display in UAE",
-      "item": "https://www.pixonglobal.com/cob-led-display-in-uae"
+      "item": "https://www.pixonglobal.com/cob-led-display"
     }]
   }
   </script>
@@ -74,7 +74,7 @@
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/cob-led-display-in-uae"
+      "@id": "https://www.pixonglobal.com/cob-led-display"
     },
     "headline": "COB LED Display Solutions for Businesses",
     "description": "Explore professional COB LED display solutions from Pixon for sharp visuals, seamless screens, reliable performance, and modern business environments.",
@@ -105,7 +105,7 @@
   <meta content="COB LED Display Solutions for Modern Businesses | Pixon" property="og:title" />
   <meta content="Explore professional COB LED display solutions from Pixon for sharp visuals, seamless screens, reliable performance, and modern business environments." property="og:description" />
   <meta content="website" property="og:type" />
-  <meta content="https://www.pixonglobal.com/cob-led-display-in-uae" property="og:url" />
+  <meta content="https://www.pixonglobal.com/cob-led-display" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
