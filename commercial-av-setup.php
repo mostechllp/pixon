@@ -67,34 +67,6 @@
   }
   </script>
 
-  <!-- Structured Data: Article / WebPage -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/commercial-av-setup"
-    },
-    "headline": "Commercial AV Setup",
-    "description": "Pixon provides professional commercial AV setup solutions for offices, meeting rooms, hotels, showrooms and event spaces with reliable installation and support.",
-    "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.pixonglobal.com/assets/pixon-logo.webp"
-      }
-    },
-    "datePublished": "2026-09-15",
-    "dateModified": "2026-09-15"
-  }
-  </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Pixon provides professional commercial AV setup solutions for offices, meeting rooms, hotels, showrooms and event spaces with reliable installation and support." name="description" />
@@ -252,7 +224,7 @@
       
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        Commercial AV Setup
+        Commercial AV Setup in UAE
       </h1>
 
       <!-- Exact Content From PDF -->

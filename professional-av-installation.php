@@ -67,34 +67,6 @@
   }
   </script>
 
-  <!-- Structured Data: Article / WebPage -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/professional-av-installation"
-    },
-    "headline": "Professional AV Installation",
-    "description": "Choose professional AV installation from Pixon for offices, conference rooms, events, hotels, and commercial spaces with reliable audio and visual solutions.",
-    "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.pixonglobal.com/assets/pixon-logo.webp"
-      }
-    },
-    "datePublished": "2026-09-15",
-    "dateModified": "2026-09-15"
-  }
-  </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Choose professional AV installation from Pixon for offices, conference rooms, events, hotels, and commercial spaces with reliable audio and visual solutions." name="description" />
@@ -252,7 +224,7 @@
       
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        Professional AV Installation
+        Professional AV Installation in UAE
       </h1>
 
       <!-- Exact Content From PDF -->
