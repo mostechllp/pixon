@@ -2,6 +2,16 @@
 // Local array of blog posts
 $blogPosts = [
     [
+        'id' => 'outdoor-led-screens-unipole-bridge-building-facade',
+        'title' => 'OUTDOOR LED SCREENS FOR UNIPOLE, BRIDGE & BUILDING FACADE APPLICATIONS',
+        'date' => '08-10-2026',
+        'category' => 'Outdoor LED Screens',
+        'image' => 'assets/Dubai LED Cityscape at Sunset.png',
+        'image_alt' => 'Outdoor LED Screens for Unipole, Bridge & Building Facade Applications',
+        'excerpt' => 'PIXON provides professional outdoor LED screen solutions in Dubai, UAE and across the GCC, including outdoor unipole LED screens, outdoor bridge LED screens and building facade LED screens.',
+        'url' => '/blogs/outdoor-led-screens-unipole-bridge-building-facade/'
+    ],
+    [
         'id' => 'performance-beyond-brightness-stadium-led-displays',
         'title' => 'PERFORMANCE BEYOND BRIGHTNESS: WHAT STADIUM LED DISPLAYS NEED',
         'date' => '07-10-2026',
