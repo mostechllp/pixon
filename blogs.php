@@ -1,68 +1,66 @@
 <?php
 // Local array of blog posts
 $blogPosts = [
-    [
-        'id' => 'outdoor-led-screens-unipole-bridge-building-facade',
-        'title' => 'OUTDOOR LED SCREENS FOR UNIPOLE, BRIDGE & BUILDING FACADE APPLICATIONS',
-        'date' => '08-10-2026',
-        'category' => 'Outdoor LED Screens',
-        'image' => 'assets/Dubai LED Cityscape at Sunset.png',
-        'image_alt' => 'Outdoor LED Screens for Unipole, Bridge & Building Facade Applications',
-        'excerpt' => 'PIXON provides professional outdoor LED screen solutions in Dubai, UAE and across the GCC, including outdoor unipole LED screens, outdoor bridge LED screens and building facade LED screens.',
-        'url' => '/blogs/outdoor-led-screens-unipole-bridge-building-facade/'
-    ],
-    [
-        'id' => 'performance-beyond-brightness-stadium-led-displays',
-        'title' => 'PERFORMANCE BEYOND BRIGHTNESS: WHAT STADIUM LED DISPLAYS NEED',
-        'date' => '07-10-2026',
-        'category' => 'Stadium LED Displays',
-        'image' => 'assets/performance_beyond_brightness_stadium_led_displays.webp',
-        'image_alt' => 'Performance Beyond Brightness: What Stadium LED Displays Need',
-        'excerpt' => 'Stadium LED screens must deliver reliable performance, smooth visuals and continuous operation. Discover why professional sports displays need more than brightness.',
-        'url' => '/blogs/performance-beyond-brightness-stadium-led-displays/'
-    ],
-    [
-        'id' => 'how-to-choose-the-right-pixel-pitch-for-your-led-display',
-        'title' => 'HOW TO CHOOSE THE RIGHT PIXEL PITCH FOR YOUR LED DISPLAY',
-        'date' => '06-10-2026',
-        'category' => 'LED Displays',
-        'image' => 'assets/right_pixel_pitch_led_display.webp',
-        'image_alt' => 'How to Choose the Right Pixel Pitch for Your LED Display',
-        'excerpt' => 'Pixel pitch directly affects image clarity, pixel density, viewing distance, and project cost. Learn how to choose the right LED display pixel pitch based on viewing distance, screen size, and content.',
-        'url' => '/blogs/how-to-choose-the-right-pixel-pitch-for-your-led-display/'
-    ],
-    /*
-    [
-        'id' => 'indoor-outdoor-led-screens',
-        'title' => 'INDOOR VS. OUTDOOR LED DISPLAYS: KEY DIFFERENCES AND HOW TO CHOOSE THE RIGHT ONE',
-        'date' => '30-09-2026',
-        'category' => 'LED Displays',
-        'image' => 'assets/indoor_vs_outdoor_led_displays.webp',
-        'image_alt' => 'Indoor vs. Outdoor LED Displays: Key Differences and How to Choose the Right One',
-        'excerpt' => 'Indoor and outdoor LED screens vary in terms of design, brightness, protection, and specifications based on their intended location and application. Choosing between the two depends on the location of the intended display, the distance of viewers from a screen, and the type of content and information that you plan to present.',
-        'url' => '/blogs/indoor-outdoor-led-screens/'
-    ],
-    */
-    [
-        'id' => 'outdoor-led-screen-brand-visibility',
-        'title' => 'HOW OUTDOOR LED SCREENS CAN BUILD BRAND VISIBILITY',
-        'date' => '17-09-2026',
-        'category' => 'Outdoor LED Screens',
-        'image' => 'assets/Outdoor_LED_Screens.webp',
-        'image_alt' => 'How Outdoor LED Screens Can Build Brand Visibility',
-        'excerpt' => 'Discover how outdoor LED screens boost brand visibility, attract customers, promote offers, and create engaging advertising experiences for businesses.',
-        'url' => '/blogs/outdoor-led-screen-brand-visibility/'
-    ],
-    [
-        'id' => 'led-screen-company-dubai-tradeshow-display',
-        'title' => 'HOW TO FIND THE RIGHT LED SIGN DISPLAY FOR TRADESHOWS IN DUBAI',
-        'date' => '02-09-2026',
-        'category' => 'LED Sign Display',
-        'image' => 'assets/led-sign-display-tradeshows-dubai.webp',
-        'image_alt' => 'How to Find the Right LED Sign Display For Tradeshows in Dubai',
-        'excerpt' => 'Looking for the right LED sign display in Dubai? Learn how an experienced LED Screen Company can help you choose the ideal display for tradeshows and exhibitions.',
-        'url' => '/blogs/led-screen-company-dubai-tradeshow-display/'
-    ]
+  [
+      'id' => 'indoor-outdoor-led-screens',
+      'title' => 'INDOOR VS. OUTDOOR LED DISPLAYS: KEY DIFFERENCES AND HOW TO CHOOSE THE RIGHT ONE',
+      'date' => '12-10-2026',
+      'category' => 'LED Displays',
+      'image' => 'assets/indoor_vs_outdoor_led_displays.webp',
+      'image_alt' => 'Indoor vs. Outdoor LED Displays: Key Differences and How to Choose the Right One',
+      'excerpt' => 'Indoor and outdoor LED screens vary in terms of design, brightness, protection, and specifications based on their intended location and application. Choosing between the two depends on the location of the intended display, the distance of viewers from a screen, and the type of content and information that you plan to present.',
+      'url' => '/blogs/indoor-outdoor-led-screens/'
+  ],
+  [
+    'id' => 'outdoor-led-screens-unipole-bridge-building-facade',
+    'title' => 'OUTDOOR LED SCREENS FOR UNIPOLE, BRIDGE & BUILDING FACADE APPLICATIONS',
+    'date' => '08-10-2026',
+    'category' => 'Outdoor LED Screens',
+    'image' => 'assets/Dubai LED Cityscape at Sunset.png',
+    'image_alt' => 'Outdoor LED Screens for Unipole, Bridge & Building Facade Applications',
+    'excerpt' => 'PIXON provides professional outdoor LED screen solutions in Dubai, UAE and across the GCC, including outdoor unipole LED screens, outdoor bridge LED screens and building facade LED screens.',
+    'url' => '/blogs/outdoor-led-screens-unipole-bridge-building-facade/'
+  ],
+  [
+    'id' => 'performance-beyond-brightness-stadium-led-displays',
+    'title' => 'PERFORMANCE BEYOND BRIGHTNESS: WHAT STADIUM LED DISPLAYS NEED',
+    'date' => '07-10-2026',
+    'category' => 'Stadium LED Displays',
+    'image' => 'assets/performance_beyond_brightness_stadium_led_displays.webp',
+    'image_alt' => 'Performance Beyond Brightness: What Stadium LED Displays Need',
+    'excerpt' => 'Stadium LED screens must deliver reliable performance, smooth visuals and continuous operation. Discover why professional sports displays need more than brightness.',
+    'url' => '/blogs/performance-beyond-brightness-stadium-led-displays/'
+  ],
+  [
+    'id' => 'how-to-choose-the-right-pixel-pitch-for-your-led-display',
+    'title' => 'HOW TO CHOOSE THE RIGHT PIXEL PITCH FOR YOUR LED DISPLAY',
+    'date' => '06-10-2026',
+    'category' => 'LED Displays',
+    'image' => 'assets/right_pixel_pitch_led_display.webp',
+    'image_alt' => 'How to Choose the Right Pixel Pitch for Your LED Display',
+    'excerpt' => 'Pixel pitch directly affects image clarity, pixel density, viewing distance, and project cost. Learn how to choose the right LED display pixel pitch based on viewing distance, screen size, and content.',
+    'url' => '/blogs/how-to-choose-the-right-pixel-pitch-for-your-led-display/'
+  ],
+  [
+    'id' => 'outdoor-led-screen-brand-visibility',
+    'title' => 'HOW OUTDOOR LED SCREENS CAN BUILD BRAND VISIBILITY',
+    'date' => '17-09-2026',
+    'category' => 'Outdoor LED Screens',
+    'image' => 'assets/Outdoor_LED_Screens.webp',
+    'image_alt' => 'How Outdoor LED Screens Can Build Brand Visibility',
+    'excerpt' => 'Discover how outdoor LED screens boost brand visibility, attract customers, promote offers, and create engaging advertising experiences for businesses.',
+    'url' => '/blogs/outdoor-led-screen-brand-visibility/'
+  ],
+  [
+    'id' => 'led-screen-company-dubai-tradeshow-display',
+    'title' => 'HOW TO FIND THE RIGHT LED SIGN DISPLAY FOR TRADESHOWS IN DUBAI',
+    'date' => '02-09-2026',
+    'category' => 'LED Sign Display',
+    'image' => 'assets/led-sign-display-tradeshows-dubai.webp',
+    'image_alt' => 'How to Find the Right LED Sign Display For Tradeshows in Dubai',
+    'excerpt' => 'Looking for the right LED sign display in Dubai? Learn how an experienced LED Screen Company can help you choose the ideal display for tradeshows and exhibitions.',
+    'url' => '/blogs/led-screen-company-dubai-tradeshow-display/'
+  ]
 ];
 ?>
 <!DOCTYPE html>
@@ -72,17 +70,17 @@ $blogPosts = [
   <!-- Google Tag Manager & Analytics (Optimized Deferred Loading) -->
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-1DXF42V841');
-    dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+    dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
 
-    (function() {
+    (function () {
       var loaded = false;
       function initAnalytics() {
         if (loaded) return;
         loaded = true;
-        ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+        ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function (evt) {
           window.removeEventListener(evt, initAnalytics, { passive: true });
         });
         var s1 = document.createElement('script');
@@ -95,17 +93,17 @@ $blogPosts = [
         s2.src = 'https://www.googletagmanager.com/gtm.js?id=G-1DXF42V841';
         document.head.appendChild(s2);
       }
-      ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function(evt) {
+      ['scroll', 'mousemove', 'touchstart', 'click', 'keydown'].forEach(function (evt) {
         window.addEventListener(evt, initAnalytics, { passive: true, once: true });
       });
       if ('requestIdleCallback' in window) {
-        window.addEventListener('load', function() {
-          requestIdleCallback(function() {
+        window.addEventListener('load', function () {
+          requestIdleCallback(function () {
             setTimeout(initAnalytics, 1500);
           }, { timeout: 3500 });
         });
       } else {
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
           setTimeout(initAnalytics, 2500);
         });
       }
@@ -114,7 +112,7 @@ $blogPosts = [
   <meta charset="utf-8" />
   <base href="/" />
   <link rel="canonical" href="https://www.pixonglobal.com/blogs" />
-  
+
   <!-- Structured Data: BreadcrumbList -->
   <script type="application/ld+json">
   {
@@ -154,26 +152,35 @@ $blogPosts = [
   </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions in Dubai &amp; Middle East." name="description" />
-  <meta content="LED Screen Blog Dubai, exhibition LED display tips, tradeshow LED screen guide, commercial AV insights Dubai, PIXON blogs" name="keywords" />
+  <meta
+    content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions in Dubai &amp; Middle East."
+    name="description" />
+  <meta
+    content="LED Screen Blog Dubai, exhibition LED display tips, tradeshow LED screen guide, commercial AV insights Dubai, PIXON blogs"
+    name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
-  
+
   <!-- Open Graph -->
   <meta content="Blogs &amp; Insights | PIXON TECHNOLOGIES" property="og:title" />
-  <meta content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions in Dubai &amp; Middle East." property="og:description" />
+  <meta
+    content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions in Dubai &amp; Middle East."
+    property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/blogs" property="og:url" />
-  
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Blogs &amp; Insights | PIXON TECHNOLOGIES" />
-  <meta name="twitter:description" content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions." />
+  <meta name="twitter:description"
+    content="Explore the latest blogs, guides, and technical insights on commercial LED screens, exhibition signage, and AV solutions." />
 
   <title>Blogs &amp; Industry Insights | PIXON TECHNOLOGIES</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
   <link href="style.css?v=3" rel="stylesheet" />
 
   <!-- Scoped Styles for Blog Listing Page -->
@@ -194,14 +201,16 @@ $blogPosts = [
       color: #FFFFFF;
       overflow: hidden;
     }
+
     .blog-hero-section::before {
       content: '';
       position: absolute;
       inset: 0;
       background: radial-gradient(circle at 20% 30%, rgba(0, 217, 255, 0.15), transparent 40%),
-                  radial-gradient(circle at 80% 20%, rgba(10, 61, 255, 0.25), transparent 45%);
+        radial-gradient(circle at 80% 20%, rgba(10, 61, 255, 0.25), transparent 45%);
       pointer-events: none;
     }
+
     .blog-hero-badge {
       display: inline-flex;
       align-items: center;
@@ -217,6 +226,7 @@ $blogPosts = [
       border-radius: 50px;
       margin-bottom: 20px;
     }
+
     .blog-hero-badge .dot {
       width: 7px;
       height: 7px;
@@ -224,6 +234,7 @@ $blogPosts = [
       background: #00D9FF;
       box-shadow: 0 0 8px #00D9FF;
     }
+
     .blog-hero-title {
       font-family: 'Poppins', sans-serif;
       font-size: clamp(32px, 4.5vw, 54px);
@@ -232,11 +243,13 @@ $blogPosts = [
       margin-bottom: 16px;
       line-height: 1.2;
     }
+
     .blog-hero-title span {
       background: linear-gradient(135deg, #00D9FF 0%, #0A3DFF 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
     .blog-hero-sub {
       font-size: 1.1rem;
       color: #C7D2FE;
@@ -266,6 +279,7 @@ $blogPosts = [
       flex-direction: column;
       transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
     }
+
     .blog-card:hover {
       transform: translateY(-8px);
       box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
@@ -281,6 +295,7 @@ $blogPosts = [
       background: #0F172A;
       display: block;
     }
+
     .blog-card-media img {
       width: 100%;
       height: 100%;
@@ -288,6 +303,7 @@ $blogPosts = [
       display: block;
       transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
     }
+
     .blog-card:hover .blog-card-media img {
       transform: scale(1.05);
     }
@@ -314,6 +330,7 @@ $blogPosts = [
       align-self: flex-start;
       margin-bottom: 20px;
     }
+
     .blog-card-date svg {
       color: #3B82F6;
     }
@@ -332,6 +349,7 @@ $blogPosts = [
       transition: color 0.2s ease;
       text-decoration: none !important;
     }
+
     .blog-card:hover .blog-card-title,
     .blog-card:hover .blog-card-title a {
       color: #0A3DFF !important;
@@ -363,6 +381,7 @@ $blogPosts = [
       transition: all 0.25s ease;
       background: transparent;
     }
+
     .blog-card-btn:hover {
       background: #0F172A !important;
       color: #FFFFFF !important;
@@ -375,7 +394,7 @@ $blogPosts = [
   <?php include 'header.php'; ?>
 
   <main class="blog-listing-page">
-    
+
     <!-- ======================== BLOG HERO ======================== -->
     <section class="blog-hero-section">
       <div class="container" style="position: relative; z-index: 2;">
@@ -387,7 +406,8 @@ $blogPosts = [
           Our Latest <span>Blogs</span>
         </h1>
         <p class="blog-hero-sub">
-          Read our latest articles, expert guides, and updates on LED screen displays, exhibition signage, and AV solutions.
+          Read our latest articles, expert guides, and updates on LED screen displays, exhibition signage, and AV
+          solutions.
         </p>
       </div>
     </section>
@@ -395,18 +415,14 @@ $blogPosts = [
     <!-- ======================== BLOG POSTS GRID ======================== -->
     <section class="section" style="padding-top: 40px; padding-bottom: 70px;">
       <div class="container">
-        
+
         <div class="blog-posts-grid">
           <?php foreach ($blogPosts as $post): ?>
             <article class="blog-card">
-              <a href="<?= htmlspecialchars($post['url']) ?>" class="blog-card-media" aria-label="<?= htmlspecialchars($post['title']) ?>">
-                <img 
-                  src="<?= htmlspecialchars($post['image']) ?>" 
-                  alt="<?= htmlspecialchars($post['image_alt']) ?>" 
-                  loading="lazy"
-                  width="600"
-                  height="338"
-                />
+              <a href="<?= htmlspecialchars($post['url']) ?>" class="blog-card-media"
+                aria-label="<?= htmlspecialchars($post['title']) ?>">
+                <img src="<?= htmlspecialchars($post['image']) ?>" alt="<?= htmlspecialchars($post['image_alt']) ?>"
+                  loading="lazy" width="600" height="338" />
               </a>
               <div class="blog-card-body">
                 <div class="blog-card-date">
@@ -426,7 +442,8 @@ $blogPosts = [
                 <p class="blog-card-excerpt">
                   <?= htmlspecialchars($post['excerpt']) ?>
                 </p>
-                <a href="<?= htmlspecialchars($post['url']) ?>" class="blog-card-btn" aria-label="Read more about <?= htmlspecialchars($post['title']) ?>">
+                <a href="<?= htmlspecialchars($post['url']) ?>" class="blog-card-btn"
+                  aria-label="Read more about <?= htmlspecialchars($post['title']) ?>">
                   Read More &rarr;
                 </a>
               </div>
@@ -439,43 +456,43 @@ $blogPosts = [
 
     <!-- ======================== CTA SECTION (HIDDEN) ======================== -->
     <?php /*
-    <section aria-labelledby="cta-heading" class="section cta-section" id="contact" style="padding: 0; background: #05082D;">
-      <div style="background: transparent; padding: 90px 20px; position: relative; overflow: hidden; display: flex; justify-content: center; align-items: center; text-align: center;">
-        
-        <!-- Left curved lines -->
-        <svg width="300" height="100%" viewBox="0 0 300 400" preserveAspectRatio="none" style="position: absolute; left: 0; top: 0; opacity: 0.5; pointer-events: none;">
-          <path d="M0,0 C120,80 150,250 0,400" fill="none" stroke="#ffffff" stroke-width="1.5"/>
-          <path d="M0,0 C160,100 190,270 0,400" fill="none" stroke="#ffffff" stroke-width="1"/>
-          <path d="M0,0 C200,120 230,290 0,400" fill="none" stroke="#ffffff" stroke-width="0.5"/>
-        </svg>
+<section aria-labelledby="cta-heading" class="section cta-section" id="contact" style="padding: 0; background: #05082D;">
+ <div style="background: transparent; padding: 90px 20px; position: relative; overflow: hidden; display: flex; justify-content: center; align-items: center; text-align: center;">
 
-        <!-- Right curved lines -->
-        <svg width="300" height="100%" viewBox="0 0 300 400" preserveAspectRatio="none" style="position: absolute; right: 0; bottom: 0; opacity: 0.5; pointer-events: none;">
-          <path d="M300,400 C180,320 150,150 300,0" fill="none" stroke="#ffffff" stroke-width="1.5"/>
-          <path d="M300,400 C140,300 110,130 300,0" fill="none" stroke="#ffffff" stroke-width="1"/>
-          <path d="M300,400 C100,280 70,110 300,0" fill="none" stroke="#ffffff" stroke-width="0.5"/>
-        </svg>
+   <!-- Left curved lines -->
+   <svg width="300" height="100%" viewBox="0 0 300 400" preserveAspectRatio="none" style="position: absolute; left: 0; top: 0; opacity: 0.5; pointer-events: none;">
+     <path d="M0,0 C120,80 150,250 0,400" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+     <path d="M0,0 C160,100 190,270 0,400" fill="none" stroke="#ffffff" stroke-width="1"/>
+     <path d="M0,0 C200,120 230,290 0,400" fill="none" stroke="#ffffff" stroke-width="0.5"/>
+   </svg>
 
-        <div class="container" style="position: relative; z-index: 2; max-width: 1000px;">
-          <div class="cta-label" style="color: rgba(255,255,255,0.8); text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; font-weight: 700; margin-bottom: 15px;">EXHIBITION EXCELLENCE</div>
-          <h2 id="cta-heading" style="color: #ffffff; font-size: clamp(22px, 3vw, 32px); font-weight: 600; margin-bottom: 20px; font-family: 'Poppins', sans-serif;">Ready To Upgrade Your Display Experience?</h2>
-          <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.05rem; line-height: 1.6; margin-bottom: 36px; font-weight: 400; max-width: 650px; margin-left: auto; margin-right: auto;">
-            From precise LED module calibrations to massive commercial LED meshes, PIXON TECHNOLOGIES's engineering team is ready to design and calibrate your layout.
-          </p>
-          <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-            <a href="/contact" class="cta-btn-solid">
-              Contact Our Team
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            </a>
-            <a href="/contact" class="cta-btn-outline">
-              Schedule Consultation
-              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    */ ?>
+   <!-- Right curved lines -->
+   <svg width="300" height="100%" viewBox="0 0 300 400" preserveAspectRatio="none" style="position: absolute; right: 0; bottom: 0; opacity: 0.5; pointer-events: none;">
+     <path d="M300,400 C180,320 150,150 300,0" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+     <path d="M300,400 C140,300 110,130 300,0" fill="none" stroke="#ffffff" stroke-width="1"/>
+     <path d="M300,400 C100,280 70,110 300,0" fill="none" stroke="#ffffff" stroke-width="0.5"/>
+   </svg>
+
+   <div class="container" style="position: relative; z-index: 2; max-width: 1000px;">
+     <div class="cta-label" style="color: rgba(255,255,255,0.8); text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; font-weight: 700; margin-bottom: 15px;">EXHIBITION EXCELLENCE</div>
+     <h2 id="cta-heading" style="color: #ffffff; font-size: clamp(22px, 3vw, 32px); font-weight: 600; margin-bottom: 20px; font-family: 'Poppins', sans-serif;">Ready To Upgrade Your Display Experience?</h2>
+     <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.05rem; line-height: 1.6; margin-bottom: 36px; font-weight: 400; max-width: 650px; margin-left: auto; margin-right: auto;">
+       From precise LED module calibrations to massive commercial LED meshes, PIXON TECHNOLOGIES's engineering team is ready to design and calibrate your layout.
+     </p>
+     <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+       <a href="/contact" class="cta-btn-solid">
+         Contact Our Team
+         <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+       </a>
+       <a href="/contact" class="cta-btn-outline">
+         Schedule Consultation
+         <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+       </a>
+     </div>
+   </div>
+ </div>
+</section>
+*/ ?>
 
   </main>
 
