@@ -261,7 +261,7 @@
 
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        LED Display Supplier in Dubai – High-Quality Display Solutions for Every Business
+        LED Display Supplier in Dubai | PIXON Technologies.
       </h1>
 
       <!-- Content from Document (Reviewed & Fixed) -->
