@@ -75,7 +75,7 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Rental LED Screen Solutions for Events & Exhibitions | Pixon" property="og:title" />
+  <meta content="Rental LED Screen Solutions for Events | Pixon Global" property="og:title" />
   <meta content="Get flexible rental LED screen solutions from Pixon for events, exhibitions, conferences, concerts, and temporary displays with reliable visual performance." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://pixonglobal.com/rental-led-screen" property="og:url" />
@@ -83,11 +83,11 @@
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Rental LED Screen Solutions for Events & Exhibitions | Pixon" />
+  <meta name="twitter:title" content="Rental LED Screen Solutions for Events | Pixon Global" />
   <meta name="twitter:description" content="Get flexible rental LED screen solutions from Pixon for events, exhibitions, conferences, concerts, and temporary displays with reliable visual performance." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
-  <title>Rental LED Screen Solutions for Events & Exhibitions | Pixon</title>
+  <title>Rental LED Screen Solutions for Events | Pixon Global</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
