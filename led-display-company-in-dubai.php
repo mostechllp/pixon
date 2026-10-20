@@ -91,7 +91,7 @@
         "@id": "https://www.pixonglobal.com/led-display-company-in-dubai"
       },
       "headline": "LED Display Company in Dubai | Pixon Global Solutions",
-      "description": "Discover LED display solutions with Pixon Global in Dubai, offering high-quality indoor LED screens, outdoor displays and video walls for businesses of all sizes.",
+      "description": "Discover LED display solutions with Pixon Global in Dubai, offering premium indoor LED screens, outdoor displays, and video walls for businesses of all sizes.",
       "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
       "author": {
         "@type": "Organization",
@@ -111,13 +111,13 @@
   </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Discover LED display solutions with Pixon Global in Dubai, offering high-quality indoor LED screens, outdoor displays and video walls for businesses of all sizes." name="description" />
+  <meta content="Discover LED display solutions with Pixon Global in Dubai, offering premium indoor LED screens, outdoor displays, and video walls for businesses of all sizes." name="description" />
   <meta content="LED display company in Dubai, LED screens Dubai, indoor LED displays UAE, outdoor LED display Dubai, LED video wall Dubai, digital signage UAE, Pixon Global" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
 
   <!-- Open Graph -->
   <meta content="LED Display Company in Dubai | Pixon Global Solutions" property="og:title" />
-  <meta content="Discover LED display solutions with Pixon Global in Dubai, offering high-quality indoor LED screens, outdoor displays and video walls for businesses of all sizes." property="og:description" />
+  <meta content="Discover LED display solutions with Pixon Global in Dubai, offering premium indoor LED screens, outdoor displays, and video walls for businesses of all sizes." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-display-company-in-dubai" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
@@ -125,7 +125,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="LED Display Company in Dubai | Pixon Global Solutions" />
-  <meta name="twitter:description" content="Discover LED display solutions with Pixon Global in Dubai, offering high-quality indoor LED screens, outdoor displays and video walls for businesses of all sizes." />
+  <meta name="twitter:description" content="Discover LED display solutions with Pixon Global in Dubai, offering premium indoor LED screens, outdoor displays, and video walls for businesses of all sizes." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>LED Display Company in Dubai | Pixon Global Solutions</title>

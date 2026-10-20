@@ -69,13 +69,13 @@
 
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Pixon provides professional commercial AV setup solutions for offices, meeting rooms, hotels, showrooms and event spaces with reliable installation and support." name="description" />
+  <meta content="Pixon provides expert commercial AV setup solutions for offices, meeting rooms, hotels, showrooms, and event spaces with reliable installation and support." name="description" />
   <meta content="commercial av setup, commercial av solutions, audio visual setup UAE, commercial audio visual system, conference room av setup, corporate av solutions" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
   <meta content="Commercial AV Setup Solutions for Business | Pixon" property="og:title" />
-  <meta content="Pixon provides professional commercial AV setup solutions for offices, meeting rooms, hotels, showrooms and event spaces with reliable installation and support." property="og:description" />
+  <meta content="Pixon provides expert commercial AV setup solutions for offices, meeting rooms, hotels, showrooms, and event spaces with reliable installation and support." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/commercial-av-setup" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
@@ -83,7 +83,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Commercial AV Setup Solutions for Business | Pixon" />
-  <meta name="twitter:description" content="Pixon provides professional commercial AV setup solutions for offices, meeting rooms, hotels, showrooms and event spaces with reliable installation and support." />
+  <meta name="twitter:description" content="Pixon provides expert commercial AV setup solutions for offices, meeting rooms, hotels, showrooms, and event spaces with reliable installation and support." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Commercial AV Setup Solutions for Business | Pixon</title>

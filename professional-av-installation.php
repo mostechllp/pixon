@@ -69,13 +69,13 @@
 
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Choose professional AV installation from Pixon for offices, conference rooms, events, hotels, and commercial spaces with reliable audio and visual solutions." name="description" />
+  <meta content="Choose professional AV installation from Pixon for corporate offices, meeting rooms, hotels, and commercial spaces with seamless audio and visual systems." name="description" />
   <meta content="professional av installation, commercial av installation, av installation services UAE, audio visual setup Dubai, corporate av installation" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
   <meta content="Professional AV Installation Services | Pixon Global" property="og:title" />
-  <meta content="Choose professional AV installation from Pixon for offices, conference rooms, events, hotels, and commercial spaces with reliable audio and visual solutions." property="og:description" />
+  <meta content="Choose professional AV installation from Pixon for corporate offices, meeting rooms, hotels, and commercial spaces with seamless audio and visual systems." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/professional-av-installation" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
@@ -83,7 +83,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Professional AV Installation Services | Pixon Global" />
-  <meta name="twitter:description" content="Choose professional AV installation from Pixon for offices, conference rooms, events, hotels, and commercial spaces with reliable audio and visual solutions." />
+  <meta name="twitter:description" content="Choose professional AV installation from Pixon for corporate offices, meeting rooms, hotels, and commercial spaces with seamless audio and visual systems." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Professional AV Installation Services | Pixon Global</title>

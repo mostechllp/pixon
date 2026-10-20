@@ -69,24 +69,24 @@
 
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="PIXON Technologies delivers professional LED screen installation and display solutions worldwide, supporting corporate, retail, hospitality, exhibition, event and commercial environments." name="description" />
+  <meta content="PIXON delivers professional LED screen installation solutions for corporate offices, retail spaces, hospitality, exhibitions, and outdoor advertising venues." name="description" />
   <meta content="LED Screen Installation, Professional Display Solutions, LED display installation UAE, commercial LED screen, indoor outdoor LED installation, Pixon Technologies" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="LED Screen Installation | Professional Display Solutions - Pixon" property="og:title" />
-  <meta content="PIXON Technologies delivers professional LED screen installation and display solutions worldwide, supporting corporate, retail, hospitality, exhibition, event and commercial environments." property="og:description" />
+  <meta content="LED Screen Installation | Professional Displays by Pixon" property="og:title" />
+  <meta content="PIXON delivers professional LED screen installation solutions for corporate offices, retail spaces, hospitality, exhibitions, and outdoor advertising venues." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-screen-installation" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Screen Installation | Professional Display Solutions - Pixon" />
-  <meta name="twitter:description" content="PIXON Technologies delivers professional LED screen installation and display solutions worldwide, supporting corporate, retail, hospitality, exhibition, event and commercial environments." />
+  <meta name="twitter:title" content="LED Screen Installation | Professional Displays by Pixon" />
+  <meta name="twitter:description" content="PIXON delivers professional LED screen installation solutions for corporate offices, retail spaces, hospitality, exhibitions, and outdoor advertising venues." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
-  <title>LED Screen Installation | Professional Display Solutions - Pixon</title>
+  <title>LED Screen Installation | Professional Displays by Pixon</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />

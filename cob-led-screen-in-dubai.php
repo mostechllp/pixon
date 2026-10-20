@@ -91,7 +91,7 @@
         "@id": "https://www.pixonglobal.com/cob-led-screen-in-dubai"
       },
       "headline": "COB LED Screen in Dubai | Premium LED Display Solutions",
-      "description": "Explore COB LED screens in Dubai with Pixon Global. Discover high-resolution displays, durable technology, and professional LED display solutions for businesses.",
+      "description": "Explore COB LED screens in Dubai with Pixon Global: discover high-resolution displays, durable technology, and reliable LED display solutions for businesses.",
       "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
       "author": {
         "@type": "Organization",
@@ -111,13 +111,13 @@
   </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Explore COB LED screens in Dubai with Pixon Global. Discover high-resolution displays, durable technology, and professional LED display solutions for businesses." name="description" />
+  <meta content="Explore COB LED screens in Dubai with Pixon Global: discover high-resolution displays, durable technology, and reliable LED display solutions for businesses." name="description" />
   <meta content="COB LED screen in Dubai, Chip on Board LED, fine pitch LED display, indoor COB display UAE, boardroom video wall, Pixon Global" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
 
   <!-- Open Graph -->
   <meta content="COB LED Screen in Dubai | Premium LED Display Solutions" property="og:title" />
-  <meta content="Explore COB LED screens in Dubai with Pixon Global. Discover high-resolution displays, durable technology, and professional LED display solutions for businesses." property="og:description" />
+  <meta content="Explore COB LED screens in Dubai with Pixon Global: discover high-resolution displays, durable technology, and reliable LED display solutions for businesses." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/cob-led-screen-in-dubai" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
@@ -125,7 +125,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="COB LED Screen in Dubai | Premium LED Display Solutions" />
-  <meta name="twitter:description" content="Explore COB LED screens in Dubai with Pixon Global. Discover high-resolution displays, durable technology, and professional LED display solutions for businesses." />
+  <meta name="twitter:description" content="Explore COB LED screens in Dubai with Pixon Global: discover high-resolution displays, durable technology, and reliable LED display solutions for businesses." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>COB LED Screen in Dubai | Premium LED Display Solutions</title>

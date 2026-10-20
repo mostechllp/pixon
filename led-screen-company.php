@@ -74,7 +74,7 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="LED Screen Company for Professional Display Solutions | Pixon" property="og:title" />
+  <meta content="LED Screen Company for Display Solutions | Pixon Global" property="og:title" />
   <meta content="Discover professional display solutions from Pixon for businesses, events, retail spaces, advertising, and indoor or outdoor applications worldwide." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-screen-company" property="og:url" />
@@ -82,11 +82,11 @@
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Screen Company for Professional Display Solutions | Pixon" />
+  <meta name="twitter:title" content="LED Screen Company for Display Solutions | Pixon Global" />
   <meta name="twitter:description" content="Discover professional display solutions from Pixon for businesses, events, retail spaces, advertising, and indoor or outdoor applications worldwide." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
-  <title>LED Screen Company for Professional Display Solutions | Pixon</title>
+  <title>LED Screen Company for Display Solutions | Pixon Global</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />

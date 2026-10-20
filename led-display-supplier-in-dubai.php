@@ -76,8 +76,8 @@
       "@type": "WebPage",
       "@id": "https://www.pixonglobal.com/led-display-supplier-in-dubai"
     },
-    "headline": "LED Display Supplier in Dubai – High-Quality Display Solutions for Every Business",
-    "description": "Looking for a reliable LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising.",
+    "headline": "LED Display Supplier in Dubai | Pixon Global Solutions",
+    "description": "Looking for an LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising.",
     "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
     "author": {
       "@type": "Organization",
@@ -97,24 +97,24 @@
   </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Looking for a reliable LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising." name="description" />
+  <meta content="Looking for an LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising." name="description" />
   <meta content="LED display supplier in Dubai, LED screens Dubai, indoor LED displays UAE, outdoor LED screens, video wall solutions Dubai, digital signage UAE, Pixon" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="LED Display Supplier in Dubai – High-Quality Display Solutions | Pixon" property="og:title" />
-  <meta content="Looking for a reliable LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising." property="og:description" />
+  <meta content="LED Display Supplier in Dubai | Pixon Global Solutions" property="og:title" />
+  <meta content="Looking for an LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-display-supplier-in-dubai" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Display Supplier in Dubai – High-Quality Display Solutions | Pixon" />
-  <meta name="twitter:description" content="Looking for a reliable LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising." />
+  <meta name="twitter:title" content="LED Display Supplier in Dubai | Pixon Global Solutions" />
+  <meta name="twitter:description" content="Looking for an LED display supplier in Dubai? Discover high-quality indoor and outdoor LED screen solutions for retail, corporate, events, and advertising." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
-  <title>LED Display Supplier in Dubai – High-Quality Display Solutions | Pixon</title>
+  <title>LED Display Supplier in Dubai | Pixon Global Solutions</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />

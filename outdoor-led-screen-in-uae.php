@@ -69,24 +69,24 @@
 
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="PIXON Technologies provides outdoor LED screen solutions in UAE for advertising, brand promotion, events, exhibitions, and commercial displays with clear visibility and reliable performance." name="description" />
+  <meta content="Looking for outdoor LED screens in UAE? Pixon delivers weatherproof, ultra-bright LED display solutions for advertising, corporate events, and retail spaces." name="description" />
   <meta content="Outdoor LED Screen, Outdoor LED Screen UAE, outdoor advertising display, commercial LED billboards, outdoor digital signage Dubai" name="keywords" />
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Outdoor LED Screen in UAE | Pixon" property="og:title" />
-  <meta content="PIXON Technologies provides outdoor LED screen solutions in UAE for advertising, brand promotion, events, exhibitions, and commercial displays with clear visibility and reliable performance." property="og:description" />
+  <meta content="Outdoor LED Screen in UAE | High-Impact Displays | Pixon" property="og:title" />
+  <meta content="Looking for outdoor LED screens in UAE? Pixon delivers weatherproof, ultra-bright LED display solutions for advertising, corporate events, and retail spaces." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/outdoor-led-screen" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Outdoor LED Screen in UAE | Pixon" />
-  <meta name="twitter:description" content="PIXON Technologies provides outdoor LED screen solutions in UAE for advertising, brand promotion, events, exhibitions, and commercial displays with clear visibility and reliable performance." />
+  <meta name="twitter:title" content="Outdoor LED Screen in UAE | High-Impact Displays | Pixon" />
+  <meta name="twitter:description" content="Looking for outdoor LED screens in UAE? Pixon delivers weatherproof, ultra-bright LED display solutions for advertising, corporate events, and retail spaces." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
-  <title>Outdoor LED Screen in UAE | Pixon</title>
+  <title>Outdoor LED Screen in UAE | High-Impact Displays | Pixon</title>
   <link href="assets/favicon.png" rel="icon" type="image/png" />
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
