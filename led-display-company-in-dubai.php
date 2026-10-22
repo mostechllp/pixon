@@ -313,7 +313,7 @@
 
         <h2>Why Choose Pixon Global for LED Displays in Dubai?</h2>
         <p>
-          <a href="/">Pixon Global</a> provides industry-leading LED display and audiovisual (AV) solutions designed for forward-thinking organizations looking to elevate their visual communication. Our comprehensive display portfolio empowers commercial spaces—such as retail chains, corporate enterprises, hospitality venues, event producers, and digital advertising networks—to communicate with maximum visual influence.
+          Pixon Global provides industry-leading LED display and audiovisual (AV) solutions designed for forward-thinking organizations looking to elevate their visual communication. Our comprehensive display portfolio empowers commercial spaces—such as retail chains, corporate enterprises, hospitality venues, event producers, and digital advertising networks—to communicate with maximum visual influence.
         </p>
         <p>
           When selecting an LED display, businesses must evaluate crucial factors such as installation requirements, optimal viewing distance, structural performance, long-term maintenance accessibility, and comprehensive post-installation technical support. An expertly engineered display solution not only enhances communication effectiveness but also imparts a modern, prestigious look that elevates brand perception.

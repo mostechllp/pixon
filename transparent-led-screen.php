@@ -284,7 +284,7 @@
 
         <h2>Professional LED Solutions from PIXON</h2>
         <p>
-          <a href="/">PIXON Technologies</a> provides professional LED display solutions designed around each project’s requirements. From technology selection and technical planning to installation, configuration, and testing, our team supports the complete display solution.
+          PIXON Technologies provides professional LED display solutions designed around each project’s requirements. From technology selection and technical planning to installation, configuration, and testing, our team supports the complete display solution.
         </p>
         <p>
           With the right technology and professional installation, transparent LED displays can transform glass and architectural spaces into modern, engaging visual experiences.

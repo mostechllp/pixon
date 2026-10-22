@@ -240,7 +240,7 @@
 
         <h2>Reliable Installation and Setup</h2>
         <p>
-          Professional installation can cut down on problems like bad sound, fuzzy images, hard‑to‑use controls, or gear that does not sync. Cables, connections, screens, speakers, and other parts must be set up carefully to give an orderly system. At <a href="/">Pixon</a> I aim to give AV installation solutions that work well in real-world applications . I handle the bits while keeping the system easy for people to use without extra trouble.
+          Professional installation can cut down on problems like bad sound, fuzzy images, hard‑to‑use controls, or gear that does not sync. Cables, connections, screens, speakers, and other parts must be set up carefully to give an orderly system. At Pixon I aim to give AV installation solutions that work well in real-world applications . I handle the bits while keeping the system easy for people to use without extra trouble.
         </p>
 
         <h2>Suitable for Different Applications</h2>

@@ -318,7 +318,7 @@
 
         <h2>Why Choose Pixon Global for LED Display Solutions?</h2>
         <p>
-          <a href="/">Pixon Global</a> provides state-of-the-art LED display and audiovisual (AV) solutions engineered to help forward-thinking enterprises elevate their communication. With solutions customized for corporate spaces, commercial centers, retail flagships, and entertainment venues, businesses can easily find display technologies tailored to their exact project requirements.
+          Pixon Global provides state-of-the-art LED display and audiovisual (AV) solutions engineered to help forward-thinking enterprises elevate their communication. With solutions customized for corporate spaces, commercial centers, retail flagships, and entertainment venues, businesses can easily find display technologies tailored to their exact project requirements.
         </p>
         <p>
           Selecting an LED display requires careful evaluation of key technical specifications, including pixel pitch, screen resolution, viewing distance, ambient lighting levels, structural mounting, and ease of ongoing maintenance. A well-planned investment ensures consistent visual excellence, seamless performance, and sustainable long-term ROI. Whether your facility demands a fine-pitch indoor video wall, a weatherproof outdoor advertising screen, or an interactive corporate display, working with the right technology partner makes all the difference.
