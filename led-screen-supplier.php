@@ -258,7 +258,7 @@
           Choosing the right LED screen supplier is essential to achieving the right visual quality, performance and long-term value. Every project has different requirements, from retail and corporate spaces to exhibitions, events, advertising and outdoor installations.
         </p>
         <p>
-          <a href="/">PIXON Technologies</a> provides professional LED display solutions worldwide, helping clients select the right technology based on their application, environment and viewing requirements.
+          PIXON Technologies provides professional LED display solutions worldwide, helping clients select the right technology based on their application, environment and viewing requirements.
         </p>
 
         <h2>Choosing the Right LED Display</h2>

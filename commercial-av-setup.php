@@ -259,7 +259,7 @@
 
         <h2>Commercial AV Solutions from Pixon</h2>
         <p>
-          At <a href="/">Pixon</a> we focus on creating AV setups that match the needs of each business. We look at the space, equipment needs, installation conditions, and intended use before building a solution. Our goal is to keep the system reliable and easy to use.
+          At Pixon we focus on creating AV setups that match the needs of each business. We look at the space, equipment needs, installation conditions, and intended use before building a solution. Our goal is to keep the system reliable and easy to use.
         </p>
         <p>
           A good AV setup should not feel hard to manage. Users should be able to use the equipment while getting audio and visual performance. Professional installation also helps maintain a clean and professional appearance by organizing cables, placing equipment correctly, and testing the system before use.

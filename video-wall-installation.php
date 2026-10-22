@@ -255,7 +255,7 @@
       <!-- Article Content -->
       <article class="blog-body-text">
         <p>
-          <a href="/">PIXON Technologies</a> delivers professional video wall solutions and installation services worldwide, supporting corporate, commercial, retail, hospitality, control room and event environments.
+          PIXON Technologies delivers professional video wall solutions and installation services worldwide, supporting corporate, commercial, retail, hospitality, control room and event environments.
         </p>
         <p>
           From site assessment and system design to installation, configuration and commissioning, our technical team delivers reliable, high-quality video wall solutions tailored to each project.

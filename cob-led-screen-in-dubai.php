@@ -325,7 +325,7 @@
 
         <h2>Reliable COB LED Solutions from Pixon Global</h2>
         <p>
-          <a href="/">Pixon Global</a> delivers high-end display and audiovisual solutions tailored to meet modern corporate communication requirements. With a dedicated focus on product build quality, functionality, and professional installation standards, we help businesses implement displays aligned with their operational objectives and visual expectations.
+          Pixon Global delivers high-end display and audiovisual solutions tailored to meet modern corporate communication requirements. With a dedicated focus on product build quality, functionality, and professional installation standards, we help businesses implement displays aligned with their operational objectives and visual expectations.
         </p>
         <p>
           Whether designing an executive boardroom, an immersive luxury showroom, or a high-traffic commercial installation, selecting the appropriate LED technology makes a decisive difference. Professional engineering assistance ensures business owners specify display systems that perfectly integrate into their architectural environment.

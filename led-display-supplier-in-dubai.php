@@ -287,7 +287,7 @@
 
         <h2>Why Choose Pixon for LED Display Solutions?</h2>
         <p>
-          <a href="/">Pixon</a> provides professional audiovisual and display solutions designed to support modern business communication. With a clear focus on quality, functionality, and dependable performance, our professional LED display solutions help organizations create engaging visual environments for commercial and corporate applications—enhancing brand visibility, improving communication, and delivering impactful visual experiences.
+          Pixon provides professional audiovisual and display solutions designed to support modern business communication. With a clear focus on quality, functionality, and dependable performance, our professional LED display solutions help organizations create engaging visual environments for commercial and corporate applications—enhancing brand visibility, improving communication, and delivering impactful visual experiences.
         </p>
         <p>
           Whether a business needs a display for advertising, corporate presentations, retail promotions, or large-scale visual installations, choosing the right solution can make a significant difference. Key factors such as display specifications, installation quality, system integration, and dedicated after-sales support should all be considered before making an investment.
