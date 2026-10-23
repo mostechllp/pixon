@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="LED Screen Installation | Professional Displays by Pixon" property="og:title" />
-  <meta content="PIXON delivers professional LED screen installation solutions for corporate offices, retail spaces, hospitality, exhibitions, and outdoor advertising venues." property="og:description" />
+  <meta content="LED Screen Installation in UAE | Pixon Technologies" property="og:title" />
+  <meta content="Pixon Technologies provides LED screen installation in UAE for businesses, events, retail spaces, and commercial projects with professional display solutions." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-screen-installation" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Screen Installation | Professional Displays by Pixon" />
-  <meta name="twitter:description" content="PIXON delivers professional LED screen installation solutions for corporate offices, retail spaces, hospitality, exhibitions, and outdoor advertising venues." />
+  <meta name="twitter:title" content="LED Screen Installation in UAE | Pixon Technologies" />
+  <meta name="twitter:description" content="Pixon Technologies provides LED screen installation in UAE for businesses, events, retail spaces, and commercial projects with professional display solutions." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>LED Screen Installation | Professional Displays by Pixon</title>

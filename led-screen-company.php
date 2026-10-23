@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="LED Screen Company for Display Solutions | Pixon Global" property="og:title" />
-  <meta content="Discover professional display solutions from Pixon for businesses, events, retail spaces, advertising, and indoor or outdoor applications worldwide." property="og:description" />
+  <meta content="LED Screen Company in UAE | Pixon Technologies Dubai" property="og:title" />
+  <meta content="Pixon Technologies is a leading LED screen company in UAE, providing indoor and outdoor LED displays, video walls, and digital display solutions for businesses." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-screen-company" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Screen Company for Display Solutions | Pixon Global" />
-  <meta name="twitter:description" content="Discover professional display solutions from Pixon for businesses, events, retail spaces, advertising, and indoor or outdoor applications worldwide." />
+  <meta name="twitter:title" content="LED Screen Company in UAE | Pixon Technologies Dubai" />
+  <meta name="twitter:description" content="Pixon Technologies is a leading LED screen company in UAE, providing indoor and outdoor LED displays, video walls, and digital display solutions for businesses." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>LED Screen Company for Display Solutions | Pixon Global</title>

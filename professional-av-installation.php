@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Professional AV Installation Services | Pixon Global" property="og:title" />
-  <meta content="Choose professional AV installation from Pixon for corporate offices, meeting rooms, hotels, and commercial spaces with seamless audio and visual systems." property="og:description" />
+  <meta content="Professional AV Installation in UAE | Pixon Technologies" property="og:title" />
+  <meta content="Pixon Technologies provides professional AV installation in UAE, delivering audio visual solutions for offices, meeting rooms, retail spaces, and businesses." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/professional-av-installation" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Professional AV Installation Services | Pixon Global" />
-  <meta name="twitter:description" content="Choose professional AV installation from Pixon for corporate offices, meeting rooms, hotels, and commercial spaces with seamless audio and visual systems." />
+  <meta name="twitter:title" content="Professional AV Installation in UAE | Pixon Technologies" />
+  <meta name="twitter:description" content="Pixon Technologies provides professional AV installation in UAE, delivering audio visual solutions for offices, meeting rooms, retail spaces, and businesses." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Professional AV Installation Services | Pixon Global</title>

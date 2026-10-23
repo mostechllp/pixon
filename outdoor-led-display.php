@@ -75,16 +75,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Outdoor LED Display Solutions | Pixon Technologies LLC" property="og:title" />
-  <meta content="Explore reliable Outdoor LED Display solutions for bright, durable, and engaging outdoor communication, advertising, events, and commercial applications." property="og:description" />
+  <meta content="Outdoor LED Display in UAE | Pixon Technologies LLC" property="og:title" />
+  <meta content="Pixon Technologies offers outdoor LED displays in UAE for advertising, events, retail, and commercial spaces with high-quality display solutions for businesses." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/outdoor-led-display" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Outdoor LED Display Solutions | Pixon Technologies LLC" />
-  <meta name="twitter:description" content="Explore reliable Outdoor LED Display solutions for bright, durable, and engaging outdoor communication, advertising, events, and commercial applications." />
+  <meta name="twitter:title" content="Outdoor LED Display in UAE | Pixon Technologies LLC" />
+  <meta name="twitter:description" content="Pixon Technologies offers outdoor LED displays in UAE for advertising, events, retail, and commercial spaces with high-quality display solutions for businesses." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Outdoor LED Display Solutions | Pixon Technologies LLC</title>
