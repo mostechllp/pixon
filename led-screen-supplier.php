@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="LED Screen Supplier | Quality LED Display Solutions by Pixon" property="og:title" />
-  <meta content="Looking for a reliable LED Screen Supplier? Pixon offers quality LED display solutions for exhibitions, events, retail spaces, offices, and advertising." property="og:description" />
+  <meta content="Professional LED Screen Supplier UAE | Pixon Technologies" property="og:title" />
+  <meta content="Pixon Technologies is a leading LED screen supplier in UAE, offering indoor and outdoor LED displays for businesses, events, retail, and commercial spaces." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/led-screen-supplier" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Screen Supplier | Quality LED Display Solutions by Pixon" />
-  <meta name="twitter:description" content="Looking for a reliable LED Screen Supplier? Pixon offers quality LED display solutions for exhibitions, events, retail spaces, offices, and advertising." />
+  <meta name="twitter:title" content="Professional LED Screen Supplier UAE | Pixon Technologies" />
+  <meta name="twitter:description" content="Pixon Technologies is a leading LED screen supplier in UAE, offering indoor and outdoor LED displays for businesses, events, retail, and commercial spaces." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>LED Screen Supplier | Quality LED Display Solutions by Pixon</title>

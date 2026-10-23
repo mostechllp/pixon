@@ -102,16 +102,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="COB LED Display Solutions for Modern Businesses | Pixon" property="og:title" />
-  <meta content="Explore professional COB LED display solutions from Pixon for sharp visuals, seamless screens, reliable performance, and modern business environments." property="og:description" />
+  <meta content="COB LED Display Solutions in UAE | Pixon Technologies" property="og:title" />
+  <meta content="Pixon Technologies offers COB LED displays in UAE with high-resolution visuals and seamless display solutions for businesses, retail spaces, and control rooms." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/cob-led-display" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="COB LED Display Solutions for Modern Businesses | Pixon" />
-  <meta name="twitter:description" content="Explore professional COB LED display solutions from Pixon for sharp visuals, seamless screens, reliable performance, and modern business environments." />
+  <meta name="twitter:title" content="COB LED Display Solutions in UAE | Pixon Technologies" />
+  <meta name="twitter:description" content="Pixon Technologies offers COB LED displays in UAE with high-resolution visuals and seamless display solutions for businesses, retail spaces, and control rooms." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>COB LED Display Solutions for Modern Businesses | Pixon</title>

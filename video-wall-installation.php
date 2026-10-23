@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Video Wall Installation Services for Businesses | Pixon" property="og:title" />
-  <meta content="Looking for professional video wall installation? Pixon provides reliable video wall solutions designed for offices, retail spaces, events, and exhibitions." property="og:description" />
+  <meta content="Video Wall Installation in UAE | Pixon Technologies" property="og:title" />
+  <meta content="Video wall installation in UAE by Pixon Technologies, offering advanced video wall solutions for businesses, retail spaces, and commercial environments." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/video-wall-installation" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Video Wall Installation Services for Businesses | Pixon" />
-  <meta name="twitter:description" content="Looking for professional video wall installation? Pixon provides reliable video wall solutions designed for offices, retail spaces, events, and exhibitions." />
+  <meta name="twitter:title" content="Video Wall Installation in UAE | Pixon Technologies" />
+  <meta name="twitter:description" content="Video wall installation in UAE by Pixon Technologies, offering advanced video wall solutions for businesses, retail spaces, and commercial environments." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Video Wall Installation Services for Businesses | Pixon</title>

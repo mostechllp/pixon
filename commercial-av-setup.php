@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Commercial AV Setup Solutions for Business | Pixon" property="og:title" />
-  <meta content="Pixon provides expert commercial AV setup solutions for offices, meeting rooms, hotels, showrooms, and event spaces with reliable installation and support." property="og:description" />
+  <meta content="Commercial AV Setup in UAE | Pixon Technologies LLC" property="og:title" />
+  <meta content="Pixon Technologies offers commercial AV setup in UAE, providing reliable audio visual solutions for offices, conference rooms, retail spaces, and businesses." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/commercial-av-setup" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Commercial AV Setup Solutions for Business | Pixon" />
-  <meta name="twitter:description" content="Pixon provides expert commercial AV setup solutions for offices, meeting rooms, hotels, showrooms, and event spaces with reliable installation and support." />
+  <meta name="twitter:title" content="Commercial AV Setup in UAE | Pixon Technologies LLC" />
+  <meta name="twitter:description" content="Pixon Technologies offers commercial AV setup in UAE, providing reliable audio visual solutions for offices, conference rooms, retail spaces, and businesses." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Commercial AV Setup Solutions for Business | Pixon</title>

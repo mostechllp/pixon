@@ -74,16 +74,16 @@
   <meta content="PIXON TECHNOLOGIES" name="author" />
   
   <!-- Open Graph -->
-  <meta content="Transparent LED Screen Solutions | Pixon Technologies" property="og:title" />
-  <meta content="Explore transparent LED screen solutions from Pixon for retail stores, corporate offices, exhibitions, and modern architectural spaces with vibrant visuals." property="og:description" />
+  <meta content="Transparent LED Screen in UAE | Pixon Technologies LLC" property="og:title" />
+  <meta content="Pixon Technologies offers transparent LED screens in UAE for retail, showrooms, and commercial spaces, delivering modern display solutions with clear visuals." property="og:description" />
   <meta content="website" property="og:type" />
   <meta content="https://www.pixonglobal.com/transparent-led-screen" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Transparent LED Screen Solutions | Pixon Technologies" />
-  <meta name="twitter:description" content="Explore transparent LED screen solutions from Pixon for retail stores, corporate offices, exhibitions, and modern architectural spaces with vibrant visuals." />
+  <meta name="twitter:title" content="Transparent LED Screen in UAE | Pixon Technologies LLC" />
+  <meta name="twitter:description" content="Pixon Technologies offers transparent LED screens in UAE for retail, showrooms, and commercial spaces, delivering modern display solutions with clear visuals." />
   <meta name="twitter:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 
   <title>Transparent LED Screen Solutions | Pixon Technologies</title>
