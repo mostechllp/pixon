@@ -247,7 +247,7 @@
       
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        Indoor LED Screen in UAE
+        Indoor LED Screen Installation in UAE
       </h1>
 
       <!-- Exact Content From PDF -->
