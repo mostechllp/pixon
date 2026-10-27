@@ -144,6 +144,10 @@ RewriteRule ^led-screen-company-dubai-tradeshow-display/?$ /blogs/led-screen-com
 RewriteRule ^led-video-wall-in-dubai/?$ led-video-wall-in-dubai.php [L,NC]
 RewriteRule ^corporate-led-screen-in-uae/?$ corporate-led-screen-in-uae.php [L,NC]
 RewriteRule ^led-display-supplier-in-uae/?$ led-display-supplier-in-uae.php [L,NC]
+RewriteRule ^outdoor-unique-pole-screens/?$ outdoor-unique-pole-screens.php [L,NC]
+RewriteRule ^flexible-led-module-in-uae/?$ flexible-led-module-in-uae.php [L,NC]
+RewriteRule ^flexible-led-module-solution/in/uae/?$ flexible-led-module-in-uae.php [L,NC]
+RewriteRule ^flexible-led-display/?$ flexible-led-display.php [L,NC]
 
 RewriteRule ^outdoor-led-screen/?$ outdoor-led-screen-in-uae.php [L,NC]
 RewriteRule ^outdoor-led-screen-in-uae(?:\.php)?/?$ /outdoor-led-screen [R=301,L,NC]
