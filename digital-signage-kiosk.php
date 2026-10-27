@@ -247,7 +247,7 @@
       
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        Digital Signage Kiosk
+        Digital Signage Kiosk in UAE
       </h1>
 
       <!-- Exact Content From PDF -->
@@ -282,7 +282,7 @@
         </p>
 
         <p>
-          At <a href="/">Pixon</a> give signage service. From picking the products for your needs to professional installation and final testing, I give steady support so you get great value and a reliable, nice-looking display.
+          At Pixon give signage service. From picking the products for your needs to professional installation and final testing, I give steady support so you get great value and a reliable, nice-looking display.
         </p>
       </article>
 
