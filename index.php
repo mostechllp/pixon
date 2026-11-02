@@ -1,7 +1,7 @@
 <?php
-$og_protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443)) ? "https://" : "http://";
-$og_host = $_SERVER['HTTP_HOST'] ?? 'www.pixonglobal.com';
-$og_base_url = $og_protocol . $og_host;
+// Canonical base URL
+
+$og_base_url = 'https://www.pixonglobal.com';
 ?>
 <!DOCTYPE html>
 

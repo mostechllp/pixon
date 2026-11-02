@@ -31,7 +31,7 @@
 <meta content="Discover professional content creation services by Pixon to build engaging digital experiences with creative, impactful, and SEO-friendly content for your brand." name="description"/>
 <meta content="content creation, LED display content, visual storytelling, 3D animations, digital signage content, PIXON TECHNOLOGIES" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Content Creation Services for Engaging Digital Experiences | Pixon</title>
+<title>Content Creation for Digital Experiences | Pixon</title>
 <link href="assets/favicon.png" rel="icon" type="image/png" />
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
