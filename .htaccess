@@ -67,6 +67,18 @@ RewriteCond %{ENV:REDIRECT_STATUS} !^$
 RewriteRule ^ - [L]
 
 # ----------------------------------------------------------------------
+# CANONICAL DOMAIN REDIRECT: FORCE HTTPS & WWW (FIX DUPLICATE CONTENT)
+# ----------------------------------------------------------------------
+# Redirect non-www (pixonglobal.com) to www (www.pixonglobal.com)
+RewriteCond %{HTTP_HOST} ^pixonglobal\.com$ [NC]
+RewriteRule ^(.*)$ https://www.pixonglobal.com/$1 [R=301,L,NE]
+
+# Force HTTPS if accessed via HTTP
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L,NE]
+
+# ----------------------------------------------------------------------
 # 1. 301 PERMANENT REDIRECTS: OLD URLS -> NEW CLEAN EXACT URLS (SEO)
 # ----------------------------------------------------------------------
 
@@ -141,8 +153,9 @@ RewriteRule ^blogs/led-screen-company-dubai-tradeshow-display/?$ led-screen-comp
 RewriteRule ^led-screen-company-dubai-tradeshow-display/?$ /blogs/led-screen-company-dubai-tradeshow-display/ [R=301,L,NC]
 
 # Keyword Landing Pages Internal Routing & 301 Redirects
-RewriteRule ^led-video-wall-in-dubai/?$ led-video-wall-in-dubai.php [L,NC]
-RewriteRule ^corporate-led-screen-in-uae/?$ corporate-led-screen-in-uae.php [L,NC]
+RewriteRule ^led-display-installation-in-dubai/?$ led-display-installation-in-dubai.php [L,NC]
+RewriteRule ^led-video-wall-in-dubai(?:\.php)?/?$ /led-video-wall-in-uae [R=301,L,NC]
+RewriteRule ^corporate-led-screen-in-uae(?:\.php)?/?$ /corporate-led-display-in-uae [R=301,L,NC]
 RewriteRule ^led-display-supplier-in-uae/?$ led-display-supplier-in-uae.php [L,NC]
 RewriteRule ^outdoor-unique-pole-screens/?$ outdoor-unique-pole-screens.php [L,NC]
 RewriteRule ^flexible-led-module-in-uae/?$ flexible-led-module-in-uae.php [L,NC]
