@@ -3,6 +3,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+<base href="/" />
+<link rel="canonical" href="https://www.pixonglobal.com/news" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="PIXON TECHNOLOGIES Newsroom ? Industry dispatches, commercial LED screen technology innovations, smart display trends, and Middle East &amp; Africa telemetry updates." name="description"/>
 <meta content="LED screen technology, AV systems Middle East &amp; Africa, video wall trends Dubai, digital display Riyadh" name="keywords"/>
@@ -10,7 +12,7 @@
 <meta content="Newsroom ? PIXON TECHNOLOGIES" property="og:title"/>
 <meta content="Latest insights on commercial LED display engineering, micro-soldering pixel calibrations, and digital signage trends." property="og:description"/>
 <meta content="website" property="og:type"/>
-<meta content="https://PIXON TECHNOLOGIES.com/news.html" property="og:url"/>
+<meta content="https://www.pixonglobal.com/news" property="og:url"/>
 <meta content="#18315B" name="theme-color"/>
 <title>Newsroom ? PIXON TECHNOLOGIES | LED &amp; AV Industry Dispatches</title>
 <link href="assets/favicon.png" rel="icon" type="image/png" />

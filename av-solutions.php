@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <base href="/"/>
-<link rel="canonical" href="https://pixonglobal.com/services/av-solutions" />
+<link rel="canonical" href="https://www.pixonglobal.com/services/av-solutions" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
