@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <base href="/"/>
-<link rel="canonical" href="https://pixonglobal.com/products/indoor-led-screen" />
+<link rel="canonical" href="https://www.pixonglobal.com/products/indoor-led-screen" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",

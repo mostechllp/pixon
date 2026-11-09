@@ -51,7 +51,7 @@ $og_base_url = 'https://www.pixonglobal.com';
     })();
   </script>
   <meta charset="utf-8" />
-  <link rel="canonical" href="<?php echo $og_base_url; ?>/" />
+  <link rel="canonical" href="https://www.pixonglobal.com/" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="google-site-verification" content="VEnfiFGWSLn_FEkppFRdk3APHzhlh6IqBdAKGGfYptQ" />
   <meta
@@ -64,9 +64,9 @@ $og_base_url = 'https://www.pixonglobal.com';
   <meta name="googlebot" content="index, follow" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
-  <meta property="og:url" content="<?php echo $og_base_url; ?>/" />
-  <meta property="og:image" content="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
-  <meta property="og:image:secure_url" content="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
+  <meta property="og:url" content="https://www.pixonglobal.com/" />
+  <meta property="og:image" content="https://www.pixonglobal.com/assets/ogcard.webp" />
+  <meta property="og:image:secure_url" content="https://www.pixonglobal.com/assets/ogcard.webp" />
   <meta property="og:image:type" content="image/webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -74,11 +74,10 @@ $og_base_url = 'https://www.pixonglobal.com';
   <meta property="og:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="LED Screen &amp; AV Solutions Company - Pixon Global Technologies" />
-  <meta name="twitter:site" content="@https://www.pixonglobal.com/" />
   <meta name="twitter:description" content="Next-generation LED &amp; AV solutions across the Middle East &amp; Africa. We design, supply, install and service LED screens, digital displays and AV systems." />
-  <meta name="twitter:image" content="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
+  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/ogcard.webp" />
   <meta name="twitter:image:alt" content="Pixon Technologies LLC" />
-  <link rel="image_src" href="<?php echo $og_base_url; ?>/assets/ogcard.webp" />
+  <link rel="image_src" href="https://www.pixonglobal.com/assets/ogcard.webp" />
   <meta content="#18315B" name="theme-color" />
   <!-- Favicon -->
   <link href="assets/favicon.png" rel="icon" type="image/png" />

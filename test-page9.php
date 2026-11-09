@@ -46,7 +46,7 @@
   </script>
   <meta charset="utf-8" />
   <base href="/" />
-  <link rel="canonical" href="https://pixonglobal.com/rental-led-screen-in-uae" />
+  <link rel="canonical" href="https://www.pixonglobal.com/rental-led-screen-in-uae" />
   
   <!-- Structured Data: BreadcrumbList -->
   <script type="application/ld+json">
