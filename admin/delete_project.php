@@ -4,11 +4,18 @@ require_once 'config/database.php';
 
 // Protect page - check if user is logged in
 if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
+    header('Location: /admin/login.php');
     exit;
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
+    // Validate CSRF token
+    if (!isset($_POST['csrf_token']) || !hash_equals($_SESSION['csrf_token'] ?? '', $_POST['csrf_token'])) {
+        $_SESSION['error_msg'] = "Invalid or expired security token. Please try again.";
+        header("Location: /admin/projects.php");
+        exit;
+    }
+
     $id = (int)$_POST['id'];
     
     // First get the project to find the video file path
@@ -41,6 +48,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id'])) {
     }
 }
 
-header("Location: projects.php");
+header("Location: /admin/projects.php");
 exit;
 ?>

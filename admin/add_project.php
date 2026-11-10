@@ -4,14 +4,25 @@ require_once 'config/database.php';
 
 // Protect page - check if user is logged in
 if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
+    header('Location: /admin/login.php');
     exit;
+}
+
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
 $userEmail = $_SESSION['email'] ?? 'Admin';
 $userRole = $_SESSION['role'] ?? 'Unknown';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Validate CSRF token
+    if (!isset($_POST['csrf_token']) || !hash_equals($_SESSION['csrf_token'] ?? '', $_POST['csrf_token'])) {
+        $_SESSION['error_msg'] = "Invalid or expired security token. Please try again.";
+        header('Location: add_project.php');
+        exit;
+    }
+
     $title = trim($_POST['title'] ?? '');
     $category = trim($_POST['category'] ?? 'indoor');
     $project_date = trim($_POST['project_date'] ?? '');
@@ -39,8 +50,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Ensure upload directory exists
                 $upload_dir = '../uploads/projects/';
                 if (!file_exists($upload_dir)) {
-                    // Create directory recursively with 0777 permissions
-                    mkdir($upload_dir, 0777, true);
+                    // Create directory recursively with safe permissions
+                    mkdir($upload_dir, 0755, true);
                 }
                 
                 // Generate unique filename to prevent overwriting
@@ -56,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     
                     if ($stmt->execute()) {
                         $_SESSION['success_msg'] = "Project added successfully.";
-                        header('Location: projects.php');
+                        header('Location: /admin/projects.php');
                         exit;
                     } else {
                         $_SESSION['error_msg'] = "Database error: " . $conn->error;
@@ -215,6 +226,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php include 'toast.php'; ?>
 
             <form action="add_project.php" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                 <div class="form-group">
                     <label class="form-label" for="title">Project Title <span style="color: red;">*</span></label>
                     <input type="text" id="title" name="title" class="form-input" required placeholder="Enter project title" value="<?php echo htmlspecialchars($_POST['title'] ?? ''); ?>">

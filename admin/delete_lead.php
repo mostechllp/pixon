@@ -4,11 +4,18 @@ require_once 'config/database.php';
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
+    header('Location: /admin/login.php');
     exit;
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Validate CSRF token
+    if (!isset($_POST['csrf_token']) || !hash_equals($_SESSION['csrf_token'] ?? '', $_POST['csrf_token'])) {
+        $_SESSION['error_msg'] = "Invalid or expired security token. Please try again.";
+        header('Location: /admin/dashboard.php');
+        exit;
+    }
+
     $id = intval($_POST['id'] ?? 0);
     
     if ($id > 0) {
@@ -32,6 +39,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 // Redirect back to dashboard
-header('Location: dashboard.php');
+header('Location: /admin/dashboard.php');
 exit;
 ?>

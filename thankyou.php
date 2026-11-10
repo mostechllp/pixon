@@ -117,12 +117,12 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Extract redirect URL from query string
+            // Extract redirect URL from query string and validate against open redirects / javascript URIs
             const urlParams = new URLSearchParams(window.location.search);
             let redirectUrl = urlParams.get('redirect');
             
-            // If no redirect URL, default to index.php
-            if (!redirectUrl) {
+            // Validate: must be a safe relative internal path (e.g. starts with single /)
+            if (!redirectUrl || !redirectUrl.startsWith('/') || redirectUrl.startsWith('//') || redirectUrl.includes('\\') || redirectUrl.toLowerCase().includes('javascript:')) {
                 redirectUrl = 'index.php';
             }
 

@@ -1,10 +1,16 @@
 <?php
+ini_set('session.cookie_httponly', 1);
+ini_set('session.use_only_cookies', 1);
+ini_set('session.cookie_samesite', 'Strict');
+if ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https')) {
+    ini_set('session.cookie_secure', 1);
+}
 session_start();
 require_once 'config/database.php';
 
 // Redirect to dashboard if already logged in
 if (isset($_SESSION['user_id'])) {
-    header('Location: dashboard.php');
+    header('Location: /admin/dashboard.php');
     exit;
 }
 
@@ -25,13 +31,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $user = $result->fetch_assoc();
             // Verify hashed password
             if (password_verify($password, $user['password'])) {
+                // Prevent session fixation
+                session_regenerate_id(true);
+                
                 // Password is correct, start session
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['email'] = $user['email'];
                 $_SESSION['role'] = $user['role'];
+                $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
                 $_SESSION['success_msg'] = 'Logged in successfully.';
                 
-                header('Location: dashboard.php');
+                header('Location: /admin/dashboard.php');
                 exit;
             } else {
                 $error = 'Invalid email or password.';
