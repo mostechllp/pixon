@@ -2,6 +2,11 @@ RewriteEngine On
 RewriteBase /
 
 # ----------------------------------------------------------------------
+# BLOCK HACKED SPAM URLS (RETURN 410 GONE FOR IMMEDIATE GOOGLE DE-INDEXING)
+# ----------------------------------------------------------------------
+RewriteRule ^items(/.*)?$ - [G,L,NC]
+
+# ----------------------------------------------------------------------
 # CANONICAL REDIRECTS: FORCE HTTPS & WWW (FIX DUPLICATE TITLE & META)
 # ----------------------------------------------------------------------
 # 1. Redirect non-www (pixonglobal.com) to www (www.pixonglobal.com)
