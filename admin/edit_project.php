@@ -4,8 +4,12 @@ require_once 'config/database.php';
 
 // Protect page - check if user is logged in
 if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
+    header('Location: /admin/login.php');
     exit;
+}
+
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
 $userEmail = $_SESSION['email'] ?? 'Admin';
@@ -14,7 +18,7 @@ $userEmail = $_SESSION['email'] ?? 'Admin';
 $id = isset($_GET['id']) ? (int)$_GET['id'] : (isset($_POST['id']) ? (int)$_POST['id'] : 0);
 
 if ($id === 0) {
-    header('Location: projects.php');
+    header('Location: /admin/projects.php');
     exit;
 }
 
@@ -26,13 +30,20 @@ $result = $stmt->get_result();
 
 if ($result->num_rows === 0) {
     $_SESSION['error_msg'] = "Project not found.";
-    header('Location: projects.php');
+    header('Location: /admin/projects.php');
     exit;
 }
 
 $project = $result->fetch_assoc();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Validate CSRF token
+    if (!isset($_POST['csrf_token']) || !hash_equals($_SESSION['csrf_token'] ?? '', $_POST['csrf_token'])) {
+        $_SESSION['error_msg'] = "Invalid or expired security token. Please try again.";
+        header("Location: edit_project.php?id=" . $id);
+        exit;
+    }
+
     $title = trim($_POST['title'] ?? '');
     $category = trim($_POST['category'] ?? 'indoor');
     $project_date = trim($_POST['project_date'] ?? '');
@@ -60,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     $upload_dir = '../uploads/projects/';
                     if (!file_exists($upload_dir)) {
-                        mkdir($upload_dir, 0777, true);
+                        mkdir($upload_dir, 0755, true);
                     }
                     
                     $new_filename = uniqid('proj_') . '.' . $file_ext;
@@ -91,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             if ($update_stmt->execute()) {
                 $_SESSION['success_msg'] = "Project updated successfully.";
-                header('Location: projects.php');
+                header('Location: /admin/projects.php');
                 exit;
             } else {
                 $_SESSION['error_msg'] = "Database error: " . $conn->error;
@@ -240,6 +251,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php include 'toast.php'; ?>
 
             <form action="edit_project.php?id=<?php echo $id; ?>" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
                 
                 <div class="form-group">

@@ -43,6 +43,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 exit;
             }
 
+            // Verify MIME type using fileinfo if available
+            if (class_exists('finfo')) {
+                $finfo = new finfo(FILEINFO_MIME_TYPE);
+                $detected_mime = $finfo->file($file_tmp);
+                $allowed_mimes = [
+                    'application/pdf',
+                    'application/msword',
+                    'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                    'image/jpeg',
+                    'image/png',
+                    'image/webp'
+                ];
+                if (!in_array($detected_mime, $allowed_mimes)) {
+                    echo json_encode(['success' => false, 'message' => 'Invalid file content detected.']);
+                    exit;
+                }
+            }
+
             if ($file_size > $max_size) {
                 echo json_encode(['success' => false, 'message' => 'File size exceeds 10MB limit.']);
                 exit;

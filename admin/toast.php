@@ -17,7 +17,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         Toastify({
-            text: "<?php echo addslashes(htmlspecialchars($_SESSION['success_msg'])); ?>",
+            text: <?php echo json_encode($_SESSION['success_msg']); ?>,
             duration: 3000,
             close: true,
             gravity: "top", 
@@ -37,7 +37,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         Toastify({
-            text: "<?php echo addslashes(htmlspecialchars($_SESSION['error_msg'])); ?>",
+            text: <?php echo json_encode($_SESSION['error_msg']); ?>,
             duration: 4000,
             close: true,
             gravity: "top", 

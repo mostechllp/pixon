@@ -2,6 +2,27 @@ RewriteEngine On
 RewriteBase /
 
 # ----------------------------------------------------------------------
+# SECURITY: PREVENT DIRECTORY BROWSING & BLOCK SENSITIVE FILES
+# ----------------------------------------------------------------------
+Options -Indexes
+DirectoryIndex index.php
+
+# Block sensitive files from web access (.env, .git, .sql, .bak, .log, etc.)
+<FilesMatch "^(\.env|\.git|\.gitignore|database\.sql|debug_upload\.txt|.*\.sql|.*\.bak|.*\.log)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order Deny,Allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Block all hidden files/directories (starting with dot) except .well-known
+RewriteCond %{REQUEST_URI} "!(^|/)\.well-known([^/]+)?/" [NC]
+RewriteRule "(^|/)\." - [F,L]
+
+# ----------------------------------------------------------------------
 # BLOCK HACKED SPAM URLS (RETURN 410 GONE FOR IMMEDIATE GOOGLE DE-INDEXING)
 # ----------------------------------------------------------------------
 RewriteRule ^items(/.*)?$ - [G,L,NC]
@@ -66,6 +87,13 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 <IfModule mod_headers.c>
+    # Security Headers
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
     # 1 Year Cache-Control for Images, Fonts, Media
     <FilesMatch "\.(ico|jpe?g|png|gif|webp|svg|mp4|webm|woff2?|ttf|otf|eot)$">
         Header set Cache-Control "max-age=31536000, public, immutable"
@@ -204,14 +232,30 @@ RewriteRule ^flexible-led-module-solution/in/uae/?$ flexible-led-module-in-uae.p
 RewriteRule ^flexible-led-display/?$ flexible-led-display.php [L,NC]
 
 # ----------------------------------------------------------------------
-# 3. GENERAL CLEAN URLS & EXTENSION REMOVAL FALLBACK
+# 3. ADMIN PANEL ROUTING
+# ----------------------------------------------------------------------
+
+# Force trailing slash on /admin
+RewriteRule ^admin$ /admin/ [R=301,L]
+
+# Clean URLs for admin: map /admin/xxx to admin/xxx.php if file exists
+RewriteCond %{DOCUMENT_ROOT}/admin/$1.php -f [OR]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^admin/([^/]+)/?$ admin/$1.php [L]
+
+# Let existing admin files pass through directly
+RewriteRule ^admin/ - [L]
+
+# ----------------------------------------------------------------------
+# 4. GENERAL CLEAN URLS & EXTENSION REMOVAL FALLBACK
 # ----------------------------------------------------------------------
 
 # Redirect index.php to /
 RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
 RewriteRule ^index\.php$ / [R=301,L]
 
-# Remove .php extension for general requests
+# Remove .php extension for general requests (excluding admin)
+RewriteCond %{REQUEST_URI} !^/admin [NC]
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^(.+)\.php$ /$1 [R=301,L,NE]
 

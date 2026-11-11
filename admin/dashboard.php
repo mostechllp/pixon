@@ -4,8 +4,12 @@ require_once 'config/database.php';
 
 // Protect dashboard.php - check if user is logged in
 if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
+    header('Location: /admin/login.php');
     exit;
+}
+
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
 $userEmail = $_SESSION['email'] ?? 'Admin';
@@ -104,35 +108,47 @@ $page = isset($_GET['page']) ? max(1, (int)$_GET['page']) : 1;
 $offset = ($page - 1) * $limit;
 
 // Count total rows
-$countQuery = "SELECT COUNT(*) as total FROM leads" . $whereSql;
-$countStmt = $conn->prepare($countQuery);
-if ($types !== '') {
-    $countStmt->bind_param($types, ...$params);
-}
-$countStmt->execute();
-$countResult = $countStmt->get_result();
-$totalRows = $countResult->fetch_assoc()['total'];
-$totalPages = ceil($totalRows / $limit);
-$countStmt->close();
+$totalRows = 0;
+$totalPages = 1;
+$leadsResult = false;
+$pagesResult = false;
 
-$query = "SELECT * FROM leads" . $whereSql . " ORDER BY created_at DESC LIMIT ? OFFSET ?";
-$stmt = $conn->prepare($query);
+if ($conn) {
+    $countQuery = "SELECT COUNT(*) as total FROM leads" . $whereSql;
+    $countStmt = $conn->prepare($countQuery);
+    if ($countStmt) {
+        if ($types !== '') {
+            $countStmt->bind_param($types, ...$params);
+        }
+        $countStmt->execute();
+        $countResult = $countStmt->get_result();
+        $totalRows = $countResult->fetch_assoc()['total'];
+        $totalPages = ceil($totalRows / $limit);
+        $countStmt->close();
+    }
 
-if ($types !== '') {
-    $bindTypes = $types . 'ii';
-    $bindParams = $params;
-    $bindParams[] = $limit;
-    $bindParams[] = $offset;
-    $stmt->bind_param($bindTypes, ...$bindParams);
+    $query = "SELECT * FROM leads" . $whereSql . " ORDER BY created_at DESC LIMIT ? OFFSET ?";
+    $stmt = $conn->prepare($query);
+    if ($stmt) {
+        if ($types !== '') {
+            $bindTypes = $types . 'ii';
+            $bindParams = $params;
+            $bindParams[] = $limit;
+            $bindParams[] = $offset;
+            $stmt->bind_param($bindTypes, ...$bindParams);
+        } else {
+            $stmt->bind_param('ii', $limit, $offset);
+        }
+        $stmt->execute();
+        $leadsResult = $stmt->get_result();
+    }
+
+    // Get unique pages for the filter dropdown
+    $pagesQuery = "SELECT DISTINCT page FROM leads WHERE page IS NOT NULL AND page != ''";
+    $pagesResult = $conn->query($pagesQuery);
 } else {
-    $stmt->bind_param('ii', $limit, $offset);
+    $_SESSION['error_msg'] = "Database connection error. Please verify database credentials.";
 }
-$stmt->execute();
-$leadsResult = $stmt->get_result();
-
-// Get unique pages for the filter dropdown
-$pagesQuery = "SELECT DISTINCT page FROM leads WHERE page IS NOT NULL AND page != ''";
-$pagesResult = $conn->query($pagesQuery);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -419,7 +435,7 @@ $pagesResult = $conn->query($pagesQuery);
                                 <td><span class="badge-screen"><?php echo htmlspecialchars($row['service']); ?></span></td>
                                 <td>
                                     <div class="action-btns">
-                                        <button class="btn-icon btn-view" title="View Details" onclick='viewLead(<?php echo json_encode($row); ?>)'>
+                                        <button class="btn-icon btn-view" title="View Details" onclick='viewLead(<?php echo htmlspecialchars(json_encode($row, JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_TAG | JSON_HEX_AMP), ENT_QUOTES, "UTF-8"); ?>)'>
                                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
                                         </button>
                                         <button class="btn-icon btn-delete" title="Delete" onclick="confirmDelete(<?php echo $row['id']; ?>)">
@@ -483,6 +499,7 @@ $pagesResult = $conn->query($pagesQuery);
             <div class="modal-actions">
                 <button type="button" class="btn btn-secondary" onclick="closeModals()">Cancel</button>
                 <form id="deleteForm" action="delete_lead.php" method="POST">
+                    <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                     <input type="hidden" name="id" id="deleteLeadId">
                     <button type="submit" class="btn btn-primary" style="background: var(--accent-red);">Delete Forever</button>
                 </form>

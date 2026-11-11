@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+RewriteEngine On
+RewriteBase /admin/
+
+# If requested file exists as .php in admin, rewrite internally
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+

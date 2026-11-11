@@ -4,8 +4,12 @@ require_once 'config/database.php';
 
 // Protect projects.php - check if user is logged in
 if (!isset($_SESSION['user_id'])) {
-    header('Location: login.php');
+    header('Location: /admin/login.php');
     exit;
+}
+
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
 
 $userEmail = $_SESSION['email'] ?? 'Admin';
@@ -16,14 +20,24 @@ $limit = 10;
 $page = isset($_GET['page']) ? max(1, (int)$_GET['page']) : 1;
 $offset = ($page - 1) * $limit;
 
-$totalQuery = "SELECT COUNT(*) as total FROM projects";
-$totalResult = $conn->query($totalQuery);
-$totalRows = $totalResult->fetch_assoc()['total'];
-$totalPages = ceil($totalRows / $limit);
+$totalRows = 0;
+$totalPages = 1;
+$projectsResult = false;
 
-// Fetch projects
-$query = "SELECT * FROM projects ORDER BY created_at DESC LIMIT $limit OFFSET $offset";
-$projectsResult = $conn->query($query);
+if ($conn) {
+    $totalQuery = "SELECT COUNT(*) as total FROM projects";
+    $totalResult = $conn->query($totalQuery);
+    if ($totalResult) {
+        $totalRows = $totalResult->fetch_assoc()['total'];
+        $totalPages = ceil($totalRows / $limit);
+    }
+
+    // Fetch projects
+    $query = "SELECT * FROM projects ORDER BY created_at DESC LIMIT $limit OFFSET $offset";
+    $projectsResult = $conn->query($query);
+} else {
+    $_SESSION['error_msg'] = "Database connection error. Please verify database credentials.";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -289,6 +303,7 @@ $projectsResult = $conn->query($query);
             <div class="modal-actions">
                 <button type="button" class="btn btn-secondary" onclick="closeModals()">Cancel</button>
                 <form id="deleteForm" action="delete_project.php" method="POST">
+                    <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($_SESSION['csrf_token']); ?>">
                     <input type="hidden" name="id" id="deleteProjectId">
                     <button type="submit" class="btn btn-primary" style="background: var(--accent-red);">Delete Forever</button>
                 </form>
