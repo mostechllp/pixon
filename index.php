@@ -85,9 +85,14 @@ $og_base_url = 'https://www.pixonglobal.com';
   <title>LED Screen &amp; AV Display Company - Pixon Technologies</title>
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
-    rel="stylesheet" />
+    rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
+  </noscript>
+  <link rel="preload" href="style.css?v=2" as="style" />
   <link href="style.css?v=2" rel="stylesheet" />
   <!-- Hero video: avoid GPU translate layers that soften clarity -->
   <style>

@@ -466,28 +466,53 @@ if (contactForm) {
     const hiddenInput = document.getElementById('contact-country-code');
 
     if (customSelectWrapper && selectTrigger && selectDropdown && hiddenInput && typeof countryList !== 'undefined') {
-        // Populate dropdown
-        selectDropdown.innerHTML = '';
-        
-        // Define default country
+        let isPopulated = false;
         const defaultCode = "+971";
-        
-        countryList.forEach(country => {
-            const isSelected = country.code === defaultCode;
-            const optionHTML = `
-                <div class="country-option ${isSelected ? 'selected' : ''}" data-value="${country.code}" data-flag="${country.flag}">
+
+        const populateCountryDropdown = () => {
+            if (isPopulated) return;
+            isPopulated = true;
+            selectDropdown.innerHTML = '';
+            
+            const fragment = document.createDocumentFragment();
+            countryList.forEach(country => {
+                const isSelected = country.code === defaultCode;
+                const optionEl = document.createElement('div');
+                optionEl.className = `country-option ${isSelected ? 'selected' : ''}`;
+                optionEl.setAttribute('data-value', country.code);
+                optionEl.setAttribute('data-flag', country.flag);
+                optionEl.innerHTML = `
                     <span class="country-check">✓</span>
                     <span class="country-flag">${country.flag}</span>
                     <span class="country-code" style="opacity: 0.8; font-size: 14px;">${country.code}</span>
-                </div>
-            `;
-            selectDropdown.insertAdjacentHTML('beforeend', optionHTML);
-        });
+                `;
+                optionEl.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    selectDropdown.querySelectorAll('.country-option').forEach(opt => opt.classList.remove('selected'));
+                    optionEl.classList.add('selected');
 
-        const options = selectDropdown.querySelectorAll('.country-option');
+                    const val = optionEl.getAttribute('data-value');
+                    const flag = optionEl.getAttribute('data-flag');
+                    hiddenInput.value = val;
+
+                    selectValueContainer.innerHTML = `
+                        <span class="country-flag">${flag}</span>
+                        <span class="country-code">${val}</span>
+                    `;
+
+                    customSelectWrapper.classList.remove('open');
+                });
+                fragment.appendChild(optionEl);
+            });
+            selectDropdown.appendChild(fragment);
+        };
+
+        selectTrigger.addEventListener('mouseenter', populateCountryDropdown, { once: true, passive: true });
+        selectTrigger.addEventListener('focus', populateCountryDropdown, { once: true, passive: true });
 
         selectTrigger.addEventListener('click', (e) => {
             e.stopPropagation();
+            populateCountryDropdown();
             customSelectWrapper.classList.toggle('open');
             
             // Scroll selected item into view
@@ -500,31 +525,6 @@ if (contactForm) {
                     }, 10);
                 }
             }
-        });
-
-        options.forEach(option => {
-            option.addEventListener('click', (e) => {
-                e.stopPropagation();
-                // Remove selected class from all
-                options.forEach(opt => opt.classList.remove('selected'));
-                
-                // Add selected class to clicked
-                option.classList.add('selected');
-
-                // Update hidden input
-                const val = option.getAttribute('data-value');
-                const flag = option.getAttribute('data-flag');
-                hiddenInput.value = val;
-
-                // Update trigger text (just flag and code as before)
-                selectValueContainer.innerHTML = `
-                    <span class="country-flag">${flag}</span>
-                    <span class="country-code">${val}</span>
-                `;
-
-                // Close dropdown
-                customSelectWrapper.classList.remove('open');
-            });
         });
 
         // Close on click outside
@@ -1170,25 +1170,53 @@ if (contactModalForm) {
     const hiddenInputModal = document.getElementById('contact-modal-country-code');
 
     if (customSelectWrapperModal && selectTriggerModal && selectDropdownModal && hiddenInputModal && typeof countryList !== 'undefined') {
-        selectDropdownModal.innerHTML = '';
+        let isPopulatedModal = false;
         const defaultCode = "+971";
-        
-        countryList.forEach(country => {
-            const isSelected = country.code === defaultCode;
-            const optionHTML = `
-                <div class="country-option ${isSelected ? 'selected' : ''}" data-value="${country.code}" data-flag="${country.flag}">
+
+        const populateCountryDropdownModal = () => {
+            if (isPopulatedModal) return;
+            isPopulatedModal = true;
+            selectDropdownModal.innerHTML = '';
+            
+            const fragment = document.createDocumentFragment();
+            countryList.forEach(country => {
+                const isSelected = country.code === defaultCode;
+                const optionEl = document.createElement('div');
+                optionEl.className = `country-option ${isSelected ? 'selected' : ''}`;
+                optionEl.setAttribute('data-value', country.code);
+                optionEl.setAttribute('data-flag', country.flag);
+                optionEl.innerHTML = `
                     <span class="country-check">✓</span>
                     <span class="country-flag">${country.flag}</span>
                     <span class="country-code" style="opacity: 0.8; font-size: 14px;">${country.code}</span>
-                </div>
-            `;
-            selectDropdownModal.insertAdjacentHTML('beforeend', optionHTML);
-        });
+                `;
+                optionEl.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    selectDropdownModal.querySelectorAll('.country-option').forEach(opt => opt.classList.remove('selected'));
+                    optionEl.classList.add('selected');
 
-        const optionsModal = selectDropdownModal.querySelectorAll('.country-option');
+                    const val = optionEl.getAttribute('data-value');
+                    const flag = optionEl.getAttribute('data-flag');
+                    hiddenInputModal.value = val;
+
+                    selectValueContainerModal.innerHTML = `
+                        <span class="country-flag">${flag}</span>
+                        <span class="country-code">${val}</span>
+                    `;
+
+                    customSelectWrapperModal.classList.remove('open');
+                });
+                fragment.appendChild(optionEl);
+            });
+            selectDropdownModal.appendChild(fragment);
+        };
+
+        selectTriggerModal.addEventListener('mouseenter', populateCountryDropdownModal, { once: true, passive: true });
+        selectTriggerModal.addEventListener('focus', populateCountryDropdownModal, { once: true, passive: true });
 
         selectTriggerModal.addEventListener('click', (e) => {
             e.stopPropagation();
+            populateCountryDropdownModal();
             customSelectWrapperModal.classList.toggle('open');
             
             if (customSelectWrapperModal.classList.contains('open')) {
@@ -1199,25 +1227,6 @@ if (contactModalForm) {
                     }, 10);
                 }
             }
-        });
-
-        optionsModal.forEach(option => {
-            option.addEventListener('click', (e) => {
-                e.stopPropagation();
-                optionsModal.forEach(opt => opt.classList.remove('selected'));
-                option.classList.add('selected');
-
-                const val = option.getAttribute('data-value');
-                const flag = option.getAttribute('data-flag');
-                hiddenInputModal.value = val;
-
-                selectValueContainerModal.innerHTML = `
-                    <span class="country-flag">${flag}</span>
-                    <span class="country-code">${val}</span>
-                `;
-
-                customSelectWrapperModal.classList.remove('open');
-            });
         });
 
         document.addEventListener('click', (e) => {
