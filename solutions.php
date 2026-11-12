@@ -50,11 +50,22 @@
 <meta content="Advanced Display &amp; AV Solutions - Explore PIXON TECHNOLOGIES's professional AV system integrations and display solutions for corporate offices, control centers, auditoriums, and retail stores." name="description"/>
 <meta content="PIXON TECHNOLOGIES solutions, commercial AV Solutions, corporate boardrooms Middle East &amp; Africa, digital signage Dubai, command centers Riyadh" name="keywords"/>
 <meta content="PIXON TECHNOLOGIES" name="author"/>
-<title>Display Solutions - PIXON TECHNOLOGIES | Corporate &amp; Commercial AV Systems</title>
+<title>Commercial Display &amp; AV Solutions | Pixon Technologies</title>
+<link rel="canonical" href="https://www.pixonglobal.com/solutions" />
+<meta property="og:title" content="Commercial Display &amp; AV Solutions | Pixon Technologies" />
+<meta property="og:description" content="Advanced Display &amp; AV Solutions - Explore PIXON TECHNOLOGIES's professional AV system integrations and display solutions across the Middle East &amp; Africa." />
+<meta property="og:url" content="https://www.pixonglobal.com/solutions" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.pixonglobal.com/assets/pixon-logo.webp" />
 <link href="assets/favicon.png" rel="icon" type="image/png" />
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+</noscript>
+<link rel="preload" href="style.css?v=3" as="style" />
 <link href="style.css?v=3" rel="stylesheet"/>
 
 
