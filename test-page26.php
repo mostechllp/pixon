@@ -306,13 +306,13 @@
 
         <h2>Reliable Display Solutions for UAE Businesses</h2>
         <p>
-          At <a href="/">Pixon Global</a>, we provide advanced LED display solutions designed to meet the visual communication needs of modern businesses. Our focus is on delivering display systems that combine visual clarity, dependable performance, and suitable configurations for different corporate applications.
+          At Pixon Global, we provide advanced LED display solutions designed to meet the visual communication needs of modern businesses. Our focus is on delivering display systems that combine visual clarity, dependable performance, and suitable configurations for different corporate applications.
         </p>
         <p>
-          From <a href="/services/indoor-led-screens">indoor LED screens</a> to large-format video walls, we help businesses create professional display environments that support their communication goals.
+          From indoor LED screens to large-format video walls, we help businesses create professional display environments that support their communication goals.
         </p>
         <p>
-          Explore our solutions at <a href="/">Pixon Global</a> and <a href="/contact">inquire with us</a> to find the right LED display solution for your corporate space in the UAE.
+          Explore our solutions at Pixon Global and inquire with us to find the right LED display solution for your corporate space in the UAE.
         </p>
       </article>
 

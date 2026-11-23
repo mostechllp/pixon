@@ -298,10 +298,10 @@
 
         <h2>Our Outdoor LED Display Solutions – Pixon Global</h2>
         <p>
-          At <a href="/">Pixon Global</a>, we offer sophisticated LED display solutions that help in meeting the contemporary needs of businesses in terms of visual advertisement and communication. The outdoor display solutions that we offer are characterized by factors such as brightness, quality of images, durability, and reliability. We recognize the fact that different projects have different needs and thus we provide display solutions appropriate for different spaces and viewing distances.
+          At Pixon Global, we offer sophisticated LED display solutions that help in meeting the contemporary needs of businesses in terms of visual advertisement and communication. The outdoor display solutions that we offer are characterized by factors such as brightness, quality of images, durability, and reliability. We recognize the fact that different projects have different needs and thus we provide display solutions appropriate for different spaces and viewing distances.
         </p>
         <p>
-          Please visit our website, <a href="/">Pixon Global</a>, where we have <a href="/services/outdoor-led-screens">outdoor LED display solutions</a> available for you. If you have plans to enhance your advertising space or set up an outdoor visual display, you can <a href="/contact">contact us</a> to help provide you with appropriate display solutions.
+          Please visit our website, Pixon Global, where we have outdoor LED display solutions available for you. If you have plans to enhance your advertising space or set up an outdoor visual display, you can contact us to help provide you with appropriate display solutions.
         </p>
       </article>
 
