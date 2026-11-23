@@ -202,6 +202,7 @@ RewriteRule ^cob-led-display-in-uae/?$ cob-led-display-in-uae.php [L,NC]
 RewriteRule ^cob-led-screen-in-dubai/?$ cob-led-screen-in-dubai.php [L,NC]
 
 RewriteRule ^outdoor-led-display/?$ outdoor-led-display.php [L,NC]
+RewriteRule ^outdoor-led-display-uae/?$ outdoor-led-display-uae.php [L,NC]
 RewriteRule ^outdoor-led-screen/?$ outdoor-led-screen-in-uae.php [L,NC]
 RewriteRule ^outdoor-led-screen-in-uae(?:\.php)?/?$ /outdoor-led-screen [R=301,L,NC]
 RewriteRule ^outdoor-unique-pole-screens/?$ outdoor-unique-pole-screens.php [L,NC]
@@ -219,6 +220,9 @@ RewriteRule ^led-video-wall-in-uae/?$ led-video-wall-in-uae.php [L,NC]
 
 RewriteRule ^corporate-led-screen-in-uae/?$ corporate-led-screen-in-uae.php [L,NC]
 RewriteRule ^corporate-led-display-in-uae/?$ corporate-led-display-in-uae.php [L,NC]
+RewriteRule ^corporate-led-screen-uae/?$ corporate-led-screen-uae.php [L,NC]
+RewriteRule ^test-page26/?$ test-page26.php [L,NC]
+RewriteRule ^test-page27/?$ test-page27.php [L,NC]
 
 RewriteRule ^led-display-installation-in-dubai/?$ led-display-installation-in-dubai.php [L,NC]
 RewriteRule ^led-screen-installation/?$ led-screen-installation.php [L,NC]
