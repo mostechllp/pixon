@@ -259,7 +259,7 @@
       
       <!-- Main Heading / H1 Title -->
       <h2 class="blog-h1-title">
-        Outdoor LED Screen in UAE
+        Outdoor LED Screen in UAE – Pixon Technologies
       </h2>
 
       <!-- Exact Content -->
