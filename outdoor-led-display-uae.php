@@ -279,7 +279,7 @@
 
       <!-- Main Heading / H1 Title -->
       <h2 class="blog-h1-title">
-        Outdoor LED Display in UAE – Pixon Technologies
+        Outdoor LED Display in UAE
       </h2>
 
       <!-- Article Content -->
