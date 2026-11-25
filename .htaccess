@@ -222,7 +222,7 @@ RewriteRule ^led-video-wall-in-uae/?$ led-video-wall-in-uae.php [L,NC]
 RewriteRule ^corporate-led-screen-in-uae/?$ corporate-led-screen-in-uae.php [L,NC]
 RewriteRule ^corporate-led-display-in-uae/?$ corporate-led-display-in-uae.php [L,NC]
 RewriteRule ^corporate-led-screen-uae(?:\.php)?/?$ /corporate-led-screen-in-uae [R=301,L,NC]
-RewriteRule ^test-page26/?$ test-page26.php [L,NC]
+RewriteRule ^test-page28/?$ test-page28.php [L,NC]
 
 RewriteRule ^led-display-installation-in-dubai/?$ led-display-installation-in-dubai.php [L,NC]
 RewriteRule ^led-screen-installation/?$ led-screen-installation.php [L,NC]
