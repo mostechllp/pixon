@@ -289,7 +289,7 @@
 
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        Outdoor Unique Pole Screens in UAE
+        Outdoor Unique Pole Screens in UAE | PIXON Technologies
       </h1>
 
       <!-- Exact Content From Document (Reviewed & Fixed) -->

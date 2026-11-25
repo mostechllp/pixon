@@ -279,7 +279,7 @@
 
       <!-- Main Heading / H1 Title -->
       <h2 class="blog-h1-title">
-        Corporate LED Screen in UAE
+        Corporate LED Screen in UAE | PIXON Technologies
       </h2>
 
       <!-- Article Content -->
