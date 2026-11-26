@@ -67,34 +67,7 @@
   }
   </script>
 
-  <!-- Structured Data: Article / WebPage -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/outdoor-led-display-in-uae"
-    },
-    "headline": "Outdoor LED Display in UAE",
-    "description": "Discover outdoor LED display solutions in UAE with Pixon Global. Explore durable, high-brightness LED screens for advertising, businesses and public spaces.",
-    "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.pixonglobal.com/assets/pixon-logo.webp"
-      }
-    },
-    "datePublished": "2026-11-23",
-    "dateModified": "2026-11-23"
-  }
-  </script>
+ 
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Discover outdoor LED display solutions in UAE with Pixon Global. Explore durable, high-brightness LED screens for advertising, businesses and public spaces." name="description" />
