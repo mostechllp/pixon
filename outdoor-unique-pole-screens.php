@@ -68,33 +68,7 @@
   </script>
 
   <!-- Structured Data: Article / WebPage -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/outdoor-unique-pole-screens"
-    },
-    "headline": "Outdoor Unique Pole Screens for Business Advertising",
-    "description": "Discover how outdoor unique pole screens improve brand visibility, promote products, and deliver engaging digital advertising in busy commercial locations.",
-    "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.pixonglobal.com/assets/pixon-logo.webp"
-      }
-    },
-    "datePublished": "2026-10-12",
-    "dateModified": "2026-10-12"
-  }
-  </script>
+ 
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Discover how outdoor unique pole screens improve brand visibility, promote products, and deliver engaging digital advertising in busy commercial locations." name="description" />

@@ -67,34 +67,7 @@
   }
   </script>
 
-  <!-- Structured Data: Article / WebPage -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/corporate-led-screen-in-uae"
-    },
-    "headline": "Corporate LED Screen in UAE",
-    "description": "Discover corporate LED screens in the UAE with Pixon Global. Explore advanced display solutions for offices, boardrooms, conference rooms and corporate events.",
-    "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
-    "author": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "PIXON TECHNOLOGIES",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.pixonglobal.com/assets/pixon-logo.webp"
-      }
-    },
-    "datePublished": "2026-10-14",
-    "dateModified": "2026-10-14"
-  }
-  </script>
+  
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Discover corporate LED screens in the UAE with Pixon Global. Explore advanced display solutions for offices, boardrooms, conference rooms and corporate events." name="description" />
