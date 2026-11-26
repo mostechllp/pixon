@@ -247,7 +247,7 @@
       
       <!-- Main Heading / H1 Title -->
       <h1 class="blog-h1-title">
-        Digital Signage Kiosk in UAE
+        Digital Signage Kiosk in UAE | PIXON Technologies
       </h1>
 
       <!-- Exact Content From PDF -->
