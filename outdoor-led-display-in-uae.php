@@ -46,7 +46,7 @@
   </script>
   <meta charset="utf-8" />
   <base href="/" />
-  <link rel="canonical" href="https://www.pixonglobal.com/outdoor-led-display-uae" />
+  <link rel="canonical" href="https://www.pixonglobal.com/outdoor-led-display-in-uae" />
   
   <!-- Structured Data: BreadcrumbList -->
   <script type="application/ld+json">
@@ -62,7 +62,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Outdoor LED Display in UAE",
-      "item": "https://www.pixonglobal.com/outdoor-led-display-uae"
+      "item": "https://www.pixonglobal.com/outdoor-led-display-in-uae"
     }]
   }
   </script>
@@ -74,7 +74,7 @@
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.pixonglobal.com/outdoor-led-display-uae"
+      "@id": "https://www.pixonglobal.com/outdoor-led-display-in-uae"
     },
     "headline": "Outdoor LED Display in UAE",
     "description": "Discover outdoor LED display solutions in UAE with Pixon Global. Explore durable, high-brightness LED screens for advertising, businesses and public spaces.",
@@ -105,7 +105,7 @@
   <meta content="Outdoor LED Display in UAE | Pixon Global" property="og:title" />
   <meta content="Discover outdoor LED display solutions in UAE with Pixon Global. Explore durable, high-brightness LED screens for advertising, businesses and public spaces." property="og:description" />
   <meta content="website" property="og:type" />
-  <meta content="https://www.pixonglobal.com/outdoor-led-display-uae" property="og:url" />
+  <meta content="https://www.pixonglobal.com/outdoor-led-display-in-uae" property="og:url" />
   <meta content="https://www.pixonglobal.com/assets/pixon-logo.webp" property="og:image" />
   
   <!-- Twitter Card -->
@@ -279,7 +279,7 @@
 
       <!-- Main Heading / H1 Title -->
       <h2 class="blog-h1-title">
-        Outdoor LED Display in UAE
+        Outdoor LED Display in UAE | PIXON Technologies
       </h2>
 
       <!-- Article Content -->
