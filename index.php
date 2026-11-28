@@ -8,6 +8,7 @@ $og_base_url = 'https://www.pixonglobal.com';
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
     <!-- Google Tag Manager & Analytics (Optimized Deferred Loading) -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -50,50 +51,49 @@ $og_base_url = 'https://www.pixonglobal.com';
       }
     })();
   </script>
-  <meta charset="utf-8" />
-  <link rel="canonical" href="https://www.pixonglobal.com/" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta name="google-site-verification" content="VEnfiFGWSLn_FEkppFRdk3APHzhlh6IqBdAKGGfYptQ" />
+  <link rel="canonical" href="https://www.pixonglobal.com/">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="google-site-verification" content="VEnfiFGWSLn_FEkppFRdk3APHzhlh6IqBdAKGGfYptQ">
   <meta
     content="Custom LED digital displays &amp; advanced AV solutions by Pixon Technologies LLC. Full design, installation, &amp; service across the Middle East &amp; Africa. Get a Quote."
-    name="description" />
+    name="description">
   <meta
     content="PIXON TECHNOLOGIES, LED screen Middle East &amp; Africa, AV Solutions Dubai, outdoor LED screen Riyadh, digital signage Middle East &amp; Africa, kinetic displays"
-    name="keywords" />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="LED Screen &amp; AV Display Company - Pixon Technologies" />
-  <meta property="og:url" content="https://www.pixonglobal.com/" />
-  <meta property="og:image" content="https://www.pixonglobal.com/assets/ogcard.webp" />
-  <meta property="og:image:secure_url" content="https://www.pixonglobal.com/assets/ogcard.webp" />
-  <meta property="og:image:type" content="image/webp" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Pixon Technologies LLC" />
-  <meta property="og:description" content="Custom LED digital displays &amp; advanced AV solutions by Pixon Technologies LLC. Full design, installation, &amp; service across the Middle East &amp; Africa. Get a Quote." />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LED Screen &amp; AV Display Company - Pixon Technologies" />
-  <meta name="twitter:description" content="Custom LED digital displays &amp; advanced AV solutions by Pixon Technologies LLC. Full design, installation, &amp; service across the Middle East &amp; Africa. Get a Quote." />
-  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/ogcard.webp" />
-  <meta name="twitter:image:alt" content="Pixon Technologies LLC" />
-  <link rel="image_src" href="https://www.pixonglobal.com/assets/ogcard.webp" />
-  <meta content="#18315B" name="theme-color" />
+    name="keywords">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LED Screen &amp; AV Display Company - Pixon Technologies">
+  <meta property="og:url" content="https://www.pixonglobal.com/">
+  <meta property="og:image" content="https://www.pixonglobal.com/assets/ogcard.webp">
+  <meta property="og:image:secure_url" content="https://www.pixonglobal.com/assets/ogcard.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pixon Technologies LLC">
+  <meta property="og:description" content="Custom LED digital displays &amp; advanced AV solutions by Pixon Technologies LLC. Full design, installation, &amp; service across the Middle East &amp; Africa. Get a Quote.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LED Screen &amp; AV Display Company - Pixon Technologies">
+  <meta name="twitter:description" content="Custom LED digital displays &amp; advanced AV solutions by Pixon Technologies LLC. Full design, installation, &amp; service across the Middle East &amp; Africa. Get a Quote.">
+  <meta name="twitter:image" content="https://www.pixonglobal.com/assets/ogcard.webp">
+  <meta name="twitter:image:alt" content="Pixon Technologies LLC">
+  <link rel="image_src" href="https://www.pixonglobal.com/assets/ogcard.webp">
+  <meta content="#18315B" name="theme-color">
   <!-- Favicon -->
-  <link href="assets/favicon.png" rel="icon" type="image/png" />
-  <link href="assets/favicon.png" rel="apple-touch-icon" />
+  <link href="assets/favicon.png" rel="icon" type="image/png">
+  <link href="assets/favicon.png" rel="apple-touch-icon">
   <title>LED Screen &amp; AV Display Company - Pixon Technologies</title>
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap">
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
-    rel="stylesheet" media="print" onload="this.media='all'" />
+    rel="stylesheet" media="print" onload="this.media='all'">
   <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap">
   </noscript>
-  <link rel="preload" href="style.css?v=2" as="style" />
-  <link href="style.css?v=2" rel="stylesheet" />
+  <link rel="preload" href="style.css?v=2" as="style">
+  <link href="style.css?v=2" rel="stylesheet">
   <!-- Hero video: avoid GPU translate layers that soften clarity -->
   <style>
     #hero-bg-video {
@@ -549,7 +549,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             <!-- Headline -->
             <h1 class="hero-title animate-fade-in-up delay-1"
               style="font-size: clamp(32px, 4.5vw, 52px); margin-bottom: 16px;">
-              ILLUMINATE IN EVERY<br /><span class="hero-title-accent"
+              ILLUMINATE IN EVERY<br><span class="hero-title-accent"
                 style="color: white !important; -webkit-text-fill-color: white !important; background: none !important; text-shadow: 0px 4px 20px rgba(0,0,0,0.8), 0px 0px 40px rgba(0,0,0,0.6), 0px 0px 10px rgba(0,0,0,0.9) !important;">DIMENSION</span>
             </h1>
             <!-- CTAs -->
@@ -579,24 +579,24 @@ $og_base_url = 'https://www.pixonglobal.com';
           <div class="marquee-wrap">
             <div class="marquee-track" role="list">
               <div class="marquee-group">
-                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police" src="assets/logo-dubai-police.webp" width="185" height="64" loading="lazy" decoding="async" /></div>
-                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2" src="assets/partner2.webp" width="235" height="120" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 3" src="assets/partner3.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 4" src="assets/partner4.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 5" src="assets/partner5.webp" width="82" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 6" src="assets/partner6.webp" width="95" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 7" src="assets/partner7.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 8" src="assets/partner8.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police" src="assets/logo-dubai-police.webp" width="185" height="64" loading="lazy" decoding="async"></div>
+                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2" src="assets/partner2.webp" width="235" height="120" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 3" src="assets/partner3.webp" width="76" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 4" src="assets/partner4.webp" width="76" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 5" src="assets/partner5.webp" width="82" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 6" src="assets/partner6.webp" width="95" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 7" src="assets/partner7.webp" width="68" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 8" src="assets/partner8.webp" width="68" height="38" loading="lazy" decoding="async"></div>
               </div>
               <div class="marquee-group" aria-hidden="true">
-                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police Logo" src="assets/logo-dubai-police.webp" width="185" height="64" loading="lazy" decoding="async" /></div>
-                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2 Logo" src="assets/partner2.webp" width="235" height="120" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 3 Logo" src="assets/partner3.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 4 Logo" src="assets/partner4.webp" width="76" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 5 Logo" src="assets/partner5.webp" width="82" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 6 Logo" src="assets/partner6.webp" width="95" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 7 Logo" src="assets/partner7.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
-                <div class="brand-item" role="listitem"><img alt="Partner 8 Logo" src="assets/partner8.webp" width="68" height="38" loading="lazy" decoding="async" /></div>
+                <div class="brand-item brand-item-dubai" role="listitem"><img alt="Dubai Police Logo" src="assets/logo-dubai-police.webp" width="185" height="64" loading="lazy" decoding="async"></div>
+                <div class="brand-item brand-item-partner2" role="listitem"><img alt="Partner 2 Logo" src="assets/partner2.webp" width="235" height="120" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 3 Logo" src="assets/partner3.webp" width="76" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 4 Logo" src="assets/partner4.webp" width="76" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 5 Logo" src="assets/partner5.webp" width="82" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 6 Logo" src="assets/partner6.webp" width="95" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 7 Logo" src="assets/partner7.webp" width="68" height="38" loading="lazy" decoding="async"></div>
+                <div class="brand-item" role="listitem"><img alt="Partner 8 Logo" src="assets/partner8.webp" width="68" height="38" loading="lazy" decoding="async"></div>
               </div>
             </div>
           </div>
@@ -613,7 +613,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             <div class="about-visual-showcase reveal" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Display Calibration Laboratory Preview" class="about-showcase-img"
-                  src="assetss/home/indoor_ledscreen.webp" width="700" height="700" loading="lazy" decoding="async" style="height: 100%; object-fit: cover;" />
+                  src="assetss/home/indoor_ledscreen.webp" width="700" height="700" loading="lazy" decoding="async" style="height: 100%; object-fit: cover;">
                 <div class="about-visual-overlay"></div>
                 <!-- <div class="about-float-badge badge-top parallax-card" data-speed="1.0" style="top: 16px; left: 16px;">
                 <span class="pulse-dot-orange"></span> Calibration HQ
@@ -626,7 +626,7 @@ $og_base_url = 'https://www.pixonglobal.com';
                 <div class="section-label">About PIXON TECHNOLOGIES</div>
                 <h2 class="section-title" id="about-heading"
                   style="margin-bottom: 20px; font-size: clamp(26px, 4vw, 39px);">
-                  <span>We Build Next Generation LED &</span><br /><span class="hero-title-accent">AV Tech
+                  <span>We Build Next Generation LED &</span><br><span class="hero-title-accent">AV Tech
                     Experiences</span>
                 </h2>
                 <p class="about-story-text">
@@ -665,7 +665,7 @@ $og_base_url = 'https://www.pixonglobal.com';
           <div class="services-grid">
             <article class="service-card reveal">
               <div class="service-img-wrapper">
-                <img alt="Indoor LED Screens" class="service-img" src="assetss/home/indoor_led_screen.webp" width="800" height="500" loading="lazy" decoding="async" />
+                <img alt="Indoor LED Screens" class="service-img" src="assetss/home/indoor_led_screen.webp" width="800" height="500" loading="lazy" decoding="async">
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -687,7 +687,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             </article>
             <article class="service-card reveal reveal-delay-1">
               <div class="service-img-wrapper">
-                <img alt="Outdoor LED Screens" class="service-img" src="assetss/home/outdoor_led_screen.webp" width="700" height="700" loading="lazy" decoding="async" />
+                <img alt="Outdoor LED Screens" class="service-img" src="assetss/home/outdoor_led_screen.webp" width="700" height="700" loading="lazy" decoding="async">
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -710,7 +710,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             <article class="service-card reveal reveal-delay-2">
               <div class="service-img-wrapper">
                 <img alt="Innovative &amp; Custom Displays" class="service-img"
-                  src="assetss/home/innovative-custom-displays.webp" width="700" height="700" loading="lazy" decoding="async" />
+                  src="assetss/home/innovative-custom-displays.webp" width="700" height="700" loading="lazy" decoding="async">
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -731,7 +731,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             </article>
             <article class="service-card reveal reveal-delay-1">
               <div class="service-img-wrapper">
-                <img alt="LCD &amp; Kiosks" class="service-img" src="assetss/home/lcd-kiosks.webp" width="637" height="850" loading="lazy" decoding="async" />
+                <img alt="LCD &amp; Kiosks" class="service-img" src="assetss/home/lcd-kiosks.webp" width="637" height="850" loading="lazy" decoding="async">
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -753,7 +753,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             <article class="service-card reveal reveal-delay-2">
               <div class="service-img-wrapper">
                 <img alt="Corporate &amp; Government AV" class="service-img"
-                  src="assetss/home/corporate-av-solutions-1.webp" width="756" height="600" loading="lazy" decoding="async" />
+                  src="assetss/home/corporate-av-solutions-1.webp" width="756" height="600" loading="lazy" decoding="async">
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -774,7 +774,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             </article>
             <article class="service-card reveal reveal-delay-3">
               <div class="service-img-wrapper">
-                <img alt="Commercial &amp; Public AV" class="service-img" src="assetss/home/public-av1-1.webp" width="650" height="789" loading="lazy" decoding="async" />
+                <img alt="Commercial &amp; Public AV" class="service-img" src="assetss/home/public-av1-1.webp" width="650" height="789" loading="lazy" decoding="async">
               </div>
               <div class="service-content">
                 <div class="service-icon">
@@ -809,7 +809,7 @@ $og_base_url = 'https://www.pixonglobal.com';
               <div>
                 <div class="section-label">Display Hardware</div>
                 <h2 class="section-title" id="products-heading" style="margin-bottom: 20px;">
-                  <span style="white-space: nowrap;">Advanced Display</span> <br /><span class="hero-title-accent"
+                  <span style="white-space: nowrap;">Advanced Display</span> <br><span class="hero-title-accent"
                     style="white-space: nowrap;">Solutions &amp; Hardware</span>
                 </h2>
                 <p class="about-story-text">
@@ -860,7 +860,7 @@ $og_base_url = 'https://www.pixonglobal.com';
             <div class="about-visual-showcase reveal reveal-delay-2" style="align-items: stretch;">
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Premium Indoor OLED Display Array" class="about-showcase-img"
-                  src="assetss/home/corporate-av-solutions-2.webp" width="800" height="600" loading="lazy" decoding="async" style="height: 100%; object-fit: cover;" />
+                  src="assetss/home/corporate-av-solutions-2.webp" width="800" height="600" loading="lazy" decoding="async" style="height: 100%; object-fit: cover;">
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
                 </div>
@@ -885,7 +885,7 @@ $og_base_url = 'https://www.pixonglobal.com';
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Display Solutions Engineering Preview" class="about-showcase-img"
                   src="assetss/home/Unmatched_Expertise_Reliable_Support.webp" width="960" height="960" loading="lazy" decoding="async"
-                  style="height: 100%; object-fit: cover;" />
+                  style="height: 100%; object-fit: cover;">
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
                 </div>
@@ -900,7 +900,7 @@ $og_base_url = 'https://www.pixonglobal.com';
               <div>
                 <div class="section-label">Why Choose Us</div>
                 <h2 class="section-title" id="solutions-heading" style="margin-bottom: 20px;">
-                  Unmatched Expertise &amp; <br /><span class="hero-title-accent">Reliable Support</span>
+                  Unmatched Expertise &amp; <br><span class="hero-title-accent">Reliable Support</span>
                 </h2>
                 <p class="about-story-text" style="color: var(--text-secondary);">
                   We are committed to delivering premium visual experiences through cutting-edge technology, meticulous
@@ -961,7 +961,7 @@ $og_base_url = 'https://www.pixonglobal.com';
               <div>
                 <div class="section-label">Our Projects</div>
                 <h2 class="section-title" id="projects-heading" style="margin-bottom: 20px;">
-                  Transforming Spaces <br /><span class="hero-title-accent">Through Visual
+                  Transforming Spaces <br><span class="hero-title-accent">Through Visual
                     Innovation</span>
                 </h2>
                 <p class="about-story-text">
@@ -1013,7 +1013,7 @@ $og_base_url = 'https://www.pixonglobal.com';
               <div class="about-showcase-frame" style="height: 100%;">
                 <img alt="PIXON TECHNOLOGIES Grand Mall Digital Video Wall" class="about-showcase-img"
                   src="assetss/home/Transforming_Spaces_Through_Visual_Innovation.webp" width="1280" height="717" loading="lazy" decoding="async"
-                  style="height: 100%; object-fit: cover;" />
+                  style="height: 100%; object-fit: cover;">
                 <div class="about-visual-overlay"
                   style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(3, 7, 18, 0.6) 0%, rgba(3, 7, 18, 0) 100%);">
                 </div>

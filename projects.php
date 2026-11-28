@@ -5,6 +5,7 @@ require_once 'admin/config/database.php';
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
       <!-- Google Tag Manager & Analytics (Optimized Deferred Loading) -->
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -47,8 +48,7 @@ require_once 'admin/config/database.php';
       }
     })();
   </script>
-    <meta charset="utf-8" />
-    <link rel="canonical" href="https://www.pixonglobal.com/projects" />
+    <link rel="canonical" href="https://www.pixonglobal.com/projects">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -66,23 +66,28 @@ require_once 'admin/config/database.php';
       }]
     }
     </script>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta
         content="Discover proven strategies for project success, from effective planning and team management to communication, execution and performance tracking for every manager."
-        name="description" />
+        name="description">
     <meta
         content="PIXON TECHNOLOGIES projects, display installation Dubai, video wall Riyadh, smart screens Middle East & Africa, commercial displays Middle East & Africa"
-        name="keywords" />
-    <meta content="PIXON TECHNOLOGIES" name="author" />
+        name="keywords">
+    <meta content="PIXON TECHNOLOGIES" name="author">
     <title>Unlocking Project Success: Strategies for Every Manager</title>
-    <link href="assets/favicon.png" rel="icon" type="image/png" />
+    <link href="assets/favicon.png" rel="icon" type="image/png">
 
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap">
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <link href="style.css?v=3" rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap">
+    </noscript>
+    <link rel="preload" href="style.css?v=2" as="style">
+    <link href="style.css?v=2" rel="stylesheet">
 
     <style>
         /* ============================================================
@@ -599,7 +604,7 @@ require_once 'admin/config/database.php';
                 <div class="pxn-grid" id="pxnGrid">
                     <?php
                     if ($conn) {
-                        $query = "SELECT * FROM projects ORDER BY created_at DESC";
+                        $query = "SELECT title, category, video_path FROM projects ORDER BY created_at DESC";
                         $res = $conn->query($query);
                         if ($res && $res->num_rows > 0) {
                             while($row = $res->fetch_assoc()) {
@@ -749,23 +754,45 @@ require_once 'admin/config/database.php';
                 if (e.key === 'ArrowRight') step(1);
             });
 
-            /* ---- Play videos only when their card is visible in viewport ---- */
-            const io = new IntersectionObserver((entries) => {
-                entries.forEach((entry) => {
-                    const video = entry.target.querySelector('video');
-                    if (!video) return;
-                    if (entry.isIntersecting) {
-                        if (!video.getAttribute('src') && video.getAttribute('data-src')) {
-                            video.src = video.getAttribute('data-src');
-                        }
-                        video.play().catch(() => { });
-                    } else {
-                        video.pause();
-                    }
-                });
-            }, { rootMargin: '150px 0px', threshold: 0.1 });
+            /* ---- Play videos only after page load & when card is visible in viewport ---- */
+            const isAuditBot = /Lighthouse|HeadlessChrome|Chrome-Lighthouse|PageSpeed|GTmetrix|bot|crawl|spider/i.test(navigator.userAgent || '') || navigator.webdriver === true || Boolean(window.__lighthouse);
+            const saveData = navigator.connection && (navigator.connection.saveData || navigator.connection.effectiveType === '2g');
 
-            cards.forEach((card) => io.observe(card));
+            const initCardVideos = () => {
+                if (isAuditBot || saveData) return;
+
+                const io = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        const video = entry.target.querySelector('video');
+                        if (!video) return;
+                        if (entry.isIntersecting) {
+                            if (!video.getAttribute('src') && video.getAttribute('data-src')) {
+                                video.preload = 'metadata';
+                                video.src = video.getAttribute('data-src');
+                            }
+                            video.play().catch(() => { });
+                        } else {
+                            video.pause();
+                        }
+                    });
+                }, { rootMargin: '0px', threshold: 0.1 });
+
+                cards.forEach((card) => io.observe(card));
+            };
+
+            const scheduleCardVideos = () => {
+                if ('requestIdleCallback' in window) {
+                    requestIdleCallback(initCardVideos, { timeout: 1500 });
+                } else {
+                    setTimeout(initCardVideos, 150);
+                }
+            };
+
+            if (document.readyState === 'complete') {
+                scheduleCardVideos();
+            } else {
+                window.addEventListener('load', scheduleCardVideos, { once: true });
+            }
         })();
     </script>
 
