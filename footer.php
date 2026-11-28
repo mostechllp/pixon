@@ -5,7 +5,7 @@
 <!-- Brand -->
 <div class="footer-brand">
 <a aria-label="PIXON TECHNOLOGIES Home" class="footer-logo-link" href="/">
-<img alt="PIXON TECHNOLOGIES Logo" class="footer-logo-img" src="/assets/pixon-logo.webp" width="322" height="96" loading="lazy" decoding="async"/>
+<img alt="PIXON TECHNOLOGIES Logo" class="footer-logo-img" src="/assets/pixon-logo.webp" width="322" height="96" loading="lazy" decoding="async">
 </a>
 <p class="footer-tagline">Supplying, designing, installing, and servicing commercial indoor/outdoor LED
     screens, digital displays, and complete professional audio-visual system integrations across the Middle East
@@ -108,206 +108,7 @@
 <!-- Scripts -->
 <script defer src="countries.js"></script>
 <script defer src="script.js?v=<?php echo time(); ?>"></script>
-
     <!-- Floating Action Buttons for Home Page -->
-    <style>
-      .fab-menu {
-        position: fixed;
-        right: 20px;
-        bottom: 90px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 16px;
-        z-index: 9999;
-      }
-      
-      .fab-static-stack {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        transition: all 0.3s ease;
-        transform-origin: bottom center;
-      }
-      
-      .fab-menu.active .fab-static-stack {
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(20px) scale(0.8);
-      }
-
-      .fab-btn {
-        width: 55px;
-        height: 55px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        text-decoration: none;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        position: relative;
-      }
-      
-      .fab-btn:hover {
-        transform: scale(1.1);
-      }
-      
-      .fab-whatsapp { background-color: #25D366; }
-      .fab-call { background-color: #1877F2; }
-      .fab-tools { background-color: #0b114f; }
-      .fab-toggle { background-color: #1877F2; z-index: 10; color: white; }
-
-      .fab-menu.active .fab-toggle {
-        background-color: #ffffff;
-        color: #000000;
-        border: 1px solid #ddd;
-      }
-
-      .fab-toggle-wrapper {
-        position: relative;
-        width: 55px;
-        height: 55px;
-      }
-
-      .fab-expanded-menu {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-      }
-
-      .fab-expanded-menu .fab-btn {
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        transform: scale(0);
-      }
-      
-      .fab-loc-ex { background-color: #1877F2; }
-      .fab-wrench-ex { background-color: #0b114f; }
-      .fab-phone-ex { background-color: #1877F2; }
-      .fab-email-ex { background-color: #0b114f; }
-
-      .fab-menu.active .fab-expanded-menu {
-        pointer-events: auto;
-      }
-
-      .fab-menu.active .fab-expanded-menu .fab-loc-ex {
-        opacity: 1;
-        transform: translate(-5px, -195px) scale(1);
-      }
-      
-      .fab-menu.active .fab-expanded-menu .fab-wrench-ex {
-        opacity: 1;
-        transform: translate(-75px, -145px) scale(1);
-      }
-      
-      .fab-menu.active .fab-expanded-menu .fab-phone-ex {
-        opacity: 1;
-        transform: translate(-135px, -75px) scale(1);
-      }
-      
-      .fab-menu.active .fab-expanded-menu .fab-email-ex {
-        opacity: 1;
-        transform: translate(-165px, 5px) scale(1);
-      }
-
-      /* Mobile scale-down for the expanded arc to prevent overlapping content while keeping buttons separate */
-      @media (max-width: 768px) {
-        .fab-btn {
-          width: 50px;
-          height: 50px;
-        }
-        .fab-toggle-wrapper {
-          width: 50px;
-          height: 50px;
-        }
-        .fab-menu.active .fab-expanded-menu .fab-loc-ex {
-          transform: translate(0px, -135px) scale(1);
-        }
-        .fab-menu.active .fab-expanded-menu .fab-wrench-ex {
-          transform: translate(-65px, -115px) scale(1);
-        }
-        .fab-menu.active .fab-expanded-menu .fab-phone-ex {
-          transform: translate(-115px, -65px) scale(1);
-        }
-        .fab-menu.active .fab-expanded-menu .fab-email-ex {
-          transform: translate(-135px, 0px) scale(1);
-        }
-      }
-
-      /* Staggered animation delays for opening */
-      .fab-menu.active .fab-expanded-menu .fab-email-ex { transition-delay: 0.05s; }
-      .fab-menu.active .fab-expanded-menu .fab-phone-ex { transition-delay: 0.1s; }
-      .fab-menu.active .fab-expanded-menu .fab-wrench-ex { transition-delay: 0.15s; }
-      .fab-menu.active .fab-expanded-menu .fab-loc-ex { transition-delay: 0.2s; }
-
-      .fab-toggle .icon-chat, .fab-toggle .icon-close {
-        position: absolute;
-        transition: all 0.3s ease;
-      }
-
-      .fab-toggle .icon-close {
-        opacity: 0;
-        transform: rotate(-90deg) scale(0);
-      }
-
-      .fab-menu.active .fab-toggle .icon-chat {
-        opacity: 0;
-        transform: rotate(90deg) scale(0);
-      }
-
-      .fab-menu.active .fab-toggle .icon-close {
-        opacity: 1;
-        transform: rotate(0) scale(1);
-      }
-
-      /* Hide default footer whatsapp on homepage to avoid conflict */
-      .whatsapp-float { display: none !important; }
-
-      .contact-modal {
-        display: none; 
-        position: fixed; 
-        z-index: 10000; 
-        left: 0;
-        top: 0;
-        width: 100%; 
-        height: 100%; 
-        overflow: auto; 
-        background-color: rgba(3, 7, 18, 0.85); 
-        backdrop-filter: blur(8px);
-      }
-      .contact-modal-content {
-        background: linear-gradient(135deg, #0b1a60 0%, #040a32 100%);
-        border-radius: 16px;
-        margin: 5vh auto;
-        width: 90%;
-        max-width: 650px;
-        position: relative;
-      }
-      .close-modal {
-        color: rgba(255, 255, 255, 0.6);
-        position: absolute;
-        right: 20px;
-        top: 15px;
-        font-size: 28px;
-        font-weight: bold;
-        cursor: pointer;
-        z-index: 2;
-        transition: color 0.2s;
-      }
-      .close-modal:hover,
-      .close-modal:focus {
-        color: #fff;
-        text-decoration: none;
-      }
-    </style>
-    
     <div class="fab-menu" id="fabMenu">
       <div class="fab-static-stack">
         <a href="https://wa.me/971581065959" class="fab-btn fab-whatsapp" target="_blank" aria-label="WhatsApp">
@@ -367,17 +168,17 @@
             <div class="glass-form-row">
               <div class="form-group">
                 <label for="contact-modal-name">Full Name</label>
-                <input autocomplete="name" class="form-input" id="contact-modal-name" placeholder="Enter your full name" required="" type="text"/>
+                <input autocomplete="name" class="form-input" id="contact-modal-name" placeholder="Enter your full name" required="" type="text">
               </div>
               <div class="form-group">
                 <label for="contact-modal-company">Company Name</label>
-                <input class="form-input" id="contact-modal-company" placeholder="Enter company name" required="" type="text"/>
+                <input class="form-input" id="contact-modal-company" placeholder="Enter company name" required="" type="text">
               </div>
             </div>
             <div class="glass-form-row">
               <div class="form-group">
                 <label for="contact-modal-email">Email Address</label>
-                <input autocomplete="email" class="form-input" id="contact-modal-email" placeholder="Enter your email address" required="" type="email"/>
+                <input autocomplete="email" class="form-input" id="contact-modal-email" placeholder="Enter your email address" required="" type="email">
               </div>
               <div class="form-group">
                 <label for="contact-modal-phone">Mobile Number</label>
@@ -397,14 +198,14 @@
                         <!-- Populated dynamically by script.js using countries.js -->
                     </div>
                   </div>
-                  <input autocomplete="tel" class="form-input" id="contact-modal-phone" placeholder="Enter mobile number" required="" type="tel" style="flex-grow: 1;"/>
+                  <input autocomplete="tel" class="form-input" id="contact-modal-phone" placeholder="Enter mobile number" required="" type="tel" style="flex-grow: 1;">
                 </div>
               </div>
             </div>
             <div class="glass-form-row">
               <div class="form-group">
                 <label for="contact-modal-location">Location</label>
-                <input class="form-input" id="contact-modal-location" placeholder="Enter your city or country" required="" type="text"/>
+                <input class="form-input" id="contact-modal-location" placeholder="Enter your city or country" required="" type="text">
               </div>
               <div class="form-group">
                 <label for="contact-modal-category" id="contact-modal-category-label">LED Screen Type</label>
@@ -420,7 +221,7 @@
                     <option value="custom">Bespoke Custom / Kinetic Display</option>
                     <option value="other">Other (Please specify)</option>
                   </select>
-                  <input class="form-input" id="contact-modal-category-other" placeholder="Please specify your screen type" type="text" style="display: none; width: 100%; padding-right: 40px;"/>
+                  <input class="form-input" id="contact-modal-category-other" placeholder="Please specify your screen type" type="text" style="display: none; width: 100%; padding-right: 40px;">
                   <button type="button" id="cancel-other-btn-modal" style="display: none; position: absolute; right: 15px; top: 50%; transform: translateY(-50%); background: none; border: none; color: inherit; opacity: 0.7; cursor: pointer; font-size: 16px; padding: 5px; z-index: 10;" aria-label="Back to options">✕</button>
                 </div>
               </div>
@@ -432,7 +233,7 @@
             <div class="form-group">
               <label>Attachments <span style="font-weight:400; opacity:0.6; text-transform:none; letter-spacing:0;">(Optional)</span></label>
               <div class="custom-upload-wrapper" id="file-upload-modal-wrapper">
-                <input accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" class="file-input-hidden" id="contact-modal-files" multiple="" type="file"/>
+                <input accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" class="file-input-hidden" id="contact-modal-files" multiple="" type="file">
                 <div class="custom-upload-zone" id="file-upload-modal-area">
                   <div class="upload-icon-circle">
                     <svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="20">
