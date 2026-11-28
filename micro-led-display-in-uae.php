@@ -81,34 +81,6 @@
     }
   </script>
 
-  <!-- Structured Data: Article / WebPage -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.pixonglobal.com/micro-led-display-in-uae"
-      },
-      "headline": "Micro LED Display in UAE | Premium Display Solutions",
-      "description": "Discover Micro LED display technology in UAE with Pixon Global. Explore advanced screens for offices, retail, showrooms and commercial spaces. Enquire today!",
-      "image": "https://www.pixonglobal.com/assets/pixon-logo.webp",
-      "author": {
-        "@type": "Organization",
-        "name": "PIXON TECHNOLOGIES"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "PIXON TECHNOLOGIES",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.pixonglobal.com/assets/pixon-logo.webp"
-        }
-      },
-      "datePublished": "2026-10-12",
-      "dateModified": "2026-10-12"
-    }
-  </script>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="Discover Micro LED display technology in UAE with Pixon Global. Explore advanced screens for offices, retail, showrooms and commercial spaces. Enquire today!" name="description" />
